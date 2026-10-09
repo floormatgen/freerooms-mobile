@@ -33,6 +33,6 @@ xcodebuild \
     $derived_data_flag \
     -workspace 'FreeroomsApple.xcworkspace' \
     -scheme 'Freerooms' \
-    -destination 'generic/platform=iOS' \
+    -destination 'generic/platform=iOS Simulator' \
     OTHER_DOCC_FLAGS="${docc_flags}"
 
