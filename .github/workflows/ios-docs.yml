@@ -1,0 +1,86 @@
+name: iOS Docs
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+defaults:
+  run:
+    working-directory: ios
+
+permissions:
+  # Not ideal, would want fine grained control over branches
+  contents: write
+
+jobs:
+  ios-docs:
+    name: iOS Docs
+    runs-on: macos-26
+    timeout-minutes: 20
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Restore build cache
+        id: restore-build
+        uses: actions/cache/restore@v6
+        with:
+          key: 
+            docc-deriveddata-${{ runner.os }}-${{ github.workflow }}-${{ github.sha }}
+          restore-keys:
+            docc-deriveddata-${{ runner.os }}-${{ github.workflow }}-
+          path:
+            .build
+
+      - name: Generate documentation
+        id: generate-documentation
+        run: |
+          ./scripts/generate-docs ./.build
+
+      - name: Save build cache
+        id: save-build
+        uses: actions/cache/save@v6
+        with:
+          key: 
+            docc-deriveddata-${{ runner.os }}-${{ github.workflow }}-${{ github.sha }}
+          path:
+            .build
+
+      - name: Configure actions git info
+        id: configure-git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      
+      - name: Clone gh-pages branch
+        id: clone-gh-pages-branch
+        run: |
+          git fetch
+          git worktree add --checkout gh-pages origin/gh-pages
+
+      - name: Combine documentation
+        id: combine-documentation
+        run: |
+          python3 ./scripts/combine-docs.py --derived-data-path ./.build --output-path ./gh-pages/docs/ios
+
+      - name: Update pages if needed
+        id: update-pages
+        run: |
+          # Get current commit hash for current branch
+          current_commit_hash=$(git rev-parse HEAD)
+
+          # Commit changes on pages branch
+          cd gh-pages
+          git add docs
+
+          # Check if there are any documentation updates
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "Documentation updates detected. Committing new documentation"
+            git commit -m "Update Pages documentation to '${current_commit_hash}'"
+            git push origin HEAD:gh-pages
+          else
+            echo "No documentation changes found"
+          fi
