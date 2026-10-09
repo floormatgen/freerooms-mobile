@@ -1,0 +1,165 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "FreeroomsWidgetsExtension",
+    "modules" : [
+      {
+        "name" : "FreeroomsWidgetsExtension"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Application Extension",
+    "symbolKind" : "module",
+    "title" : "FreeroomsWidgetsExtension"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider",
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/FreeroomsWidgetsBundle",
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/OpenTabWidget"
+      ],
+      "title" : "Structures"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freeroomswidgetsextension"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FreeroomsWidgetsExtension",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension"
+},
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension/EmptyTimelineProvider": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "EmptyTimelineProvider"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EmptyTimelineProvider"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EmptyTimelineProvider",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension\/emptytimelineprovider"
+},
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension/FreeroomsWidgetsBundle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsWidgetsBundle"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/FreeroomsWidgetsBundle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsWidgetsBundle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FreeroomsWidgetsBundle",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension\/freeroomswidgetsbundle"
+},
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension/OpenTabWidget": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OpenTabWidget"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/OpenTabWidget",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OpenTabWidget"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OpenTabWidget",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension\/opentabwidget"
+}
+}
+}

@@ -1,0 +1,465 @@
+{
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use LiveGraphQLRoomLoader instead",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomLoader"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12RoomServices04LiveA6LoaderC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LiveRoomLoader"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomServices"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LiveRoomLoader"
+      }
+    ],
+    "platforms" : [
+
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "LiveRoomLoader"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LiveRoomLoader"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoader"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomLoader\/init(JSONRoomLoader:roomStatusLoader:swiftDataRoomLoader:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomLoader\/fetch()",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomLoader\/fetch(buildingId:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomLoader\/Result"
+      ],
+      "title" : "Type Aliases"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomservices\/liveroomloader"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomServices/documentation/RoomServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomServices",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveRoomLoader": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveRoomLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveroomloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveRoomLoader/Result": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Result"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomLoader\/Result",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Result"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveRoomLoader.Result",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveroomloader\/result"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveRoomLoader/fetch()": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetch"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices04LiveA6LoaderC6Resulta",
+      "text" : "Result"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomLoader\/fetch()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetch()",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveroomloader\/fetch()"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveRoomLoader/fetch(buildingId:)": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetch"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "buildingId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices04LiveA6LoaderC6Resulta",
+      "text" : "Result"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomLoader\/fetch(buildingId:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetch(buildingId:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveroomloader\/fetch(buildingid:)"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveRoomLoader/init(JSONRoomLoader:roomStatusLoader:swiftDataRoomLoader:)": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "JSONRoomLoader"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices14JSONRoomLoaderP",
+      "text" : "JSONRoomLoader"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "roomStatusLoader"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices0A12StatusLoaderP",
+      "text" : "RoomStatusLoader"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "swiftDataRoomLoader"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices09SwiftDataA6LoaderP",
+      "text" : "SwiftDataRoomLoader"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomLoader\/init(JSONRoomLoader:roomStatusLoader:swiftDataRoomLoader:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(JSONRoomLoader:roomStatusLoader:swiftDataRoomLoader:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveroomloader\/init(jsonroomloader:roomstatusloader:swiftdataroomloader:)"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloader"
+}
+}
+}

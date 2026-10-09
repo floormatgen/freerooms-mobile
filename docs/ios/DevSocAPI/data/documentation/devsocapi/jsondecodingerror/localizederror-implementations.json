@@ -1,0 +1,216 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodingError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodingError\/LocalizedError-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "DevSocAPI"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "LocalizedError Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodingError\/failureReason",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodingError\/helpAnchor",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodingError\/recoverySuggestion"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/devsocapi\/jsondecodingerror\/localizederror-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DevSocAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/JSONDecodingError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JSONDecodingError"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodingError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JSONDecodingError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JSONDecodingError",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/jsondecodingerror"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/JSONDecodingError/failureReason": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "failureReason"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodingError\/failureReason",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "failureReason",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/jsondecodingerror\/failurereason"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/JSONDecodingError/helpAnchor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "helpAnchor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodingError\/helpAnchor",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "helpAnchor",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/jsondecodingerror\/helpanchor"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/JSONDecodingError/recoverySuggestion": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "recoverySuggestion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodingError\/recoverySuggestion",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "recoverySuggestion",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/jsondecodingerror\/recoverysuggestion"
+}
+}
+}

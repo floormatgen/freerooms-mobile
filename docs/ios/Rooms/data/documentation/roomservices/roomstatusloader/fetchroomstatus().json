@@ -1,0 +1,313 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomStatusLoader"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomStatusLoader\/fetchRoomStatus()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12RoomServices0A12StatusLoaderP05fetchaC0s6ResultOySDySS0A6Models08BuildingaC0VGAA0acD5ErrorOGyYaF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "fetchRoomStatus"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s6ResultO",
+        "text" : "Result"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10RoomModels06RemoteA6Statusa",
+        "text" : "RemoteRoomStatus"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12RoomServices0A17StatusLoaderErrorO",
+        "text" : "RoomStatusLoaderError"
+      },
+      {
+        "kind" : "text",
+        "text" : ">"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomServices"
+      }
+    ],
+    "required" : true,
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "fetchRoomStatus()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "fetchRoomStatus"
+            },
+            {
+              "kind" : "text",
+              "text" : "() "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "async"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s6ResultO",
+              "text" : "Result"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10RoomModels06RemoteA6Statusa",
+              "text" : "RemoteRoomStatus"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomStatusLoaderError",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12RoomServices0A17StatusLoaderErrorO",
+              "text" : "RoomStatusLoaderError"
+            },
+            {
+              "kind" : "text",
+              "text" : ">"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomservices\/roomstatusloader\/fetchroomstatus()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomServices/documentation/RoomServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomServices",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomStatusLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomStatusLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomStatusLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomStatusLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomStatusLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomstatusloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomStatusLoader/fetchRoomStatus()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchRoomStatus"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels06RemoteA6Statusa",
+      "text" : "RemoteRoomStatus"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices0A17StatusLoaderErrorO",
+      "text" : "RoomStatusLoaderError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomStatusLoader\/fetchRoomStatus()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "fetchRoomStatus()",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomstatusloader\/fetchroomstatus()"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomStatusLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomStatusLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomStatusLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomStatusLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomStatusLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomstatusloadererror"
+}
+}
+}

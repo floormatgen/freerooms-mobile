@@ -1,0 +1,291 @@
+{
+  "abstract" : [
+    {
+      "text" : "The “BackgroundPrimary” asset catalog color resource.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport\/ColorResource"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport\/ColorResource\/backgroundPrimary"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "DeveloperToolsSupport",
+    "externalID" : "s:21DeveloperToolsSupport13ColorResourceV9FreeroomsE17backgroundPrimaryACvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "backgroundPrimary"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:21DeveloperToolsSupport13ColorResourceV",
+        "text" : "ColorResource"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Freerooms",
+        "relatedModules" : [
+          "DeveloperToolsSupport"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "backgroundPrimary"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "backgroundPrimary"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:21DeveloperToolsSupport13ColorResourceV",
+              "text" : "ColorResource"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freerooms\/developertoolssupport\/colorresource\/backgroundprimary"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://app.devsoc.Freerooms/documentation/Freerooms": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Freerooms",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/DeveloperToolsSupport": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DeveloperToolsSupport",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/developertoolssupport"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/DeveloperToolsSupport/ColorResource": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DeveloperToolsSupport"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:21DeveloperToolsSupport13ColorResourceV",
+      "text" : "ColorResource"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport\/ColorResource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ColorResource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ColorResource",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/developertoolssupport\/colorresource"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/DeveloperToolsSupport/ColorResource/backgroundPrimary": {
+  "abstract" : [
+    {
+      "text" : "The “BackgroundPrimary” asset catalog color resource.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "backgroundPrimary"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:21DeveloperToolsSupport13ColorResourceV",
+      "text" : "ColorResource"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport\/ColorResource\/backgroundPrimary",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "backgroundPrimary",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/developertoolssupport\/colorresource\/backgroundprimary"
+}
+}
+}

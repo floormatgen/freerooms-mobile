@@ -1,0 +1,307 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "SchemaMetadata.configuration",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaMetadata-swift.enum"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaMetadata-swift.enum\/configuration"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9DevSocAPI14SchemaMetadataO13configuration06ApolloC00D13Configuration_pXpvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "configuration"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "any"
+      },
+      {
+        "kind" : "text",
+        "text" : " ApolloAPI"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:9ApolloAPI19SchemaConfigurationP",
+        "text" : "SchemaConfiguration"
+      },
+      {
+        "kind" : "text",
+        "text" : ".Type"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "DevSocAPI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "configuration"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "configuration"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "any"
+            },
+            {
+              "kind" : "text",
+              "text" : " ApolloAPI"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaConfiguration-swift.protocol",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:9ApolloAPI19SchemaConfigurationP",
+              "text" : "SchemaConfiguration"
+            },
+            {
+              "kind" : "text",
+              "text" : ".Type"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/devsocapi\/schemametadata-swift.enum\/configuration"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DevSocAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SchemaConfiguration-swift.protocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SchemaConfiguration"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaConfiguration-swift.protocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SchemaConfiguration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SchemaConfiguration",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/schemaconfiguration-swift.protocol"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SchemaMetadata-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SchemaMetadata"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaMetadata-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SchemaMetadata"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SchemaMetadata",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/schemametadata-swift.enum"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SchemaMetadata-swift.enum/configuration": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "configuration"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " ApolloAPI"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9ApolloAPI19SchemaConfigurationP",
+      "text" : "SchemaConfiguration"
+    },
+    {
+      "kind" : "text",
+      "text" : ".Type"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaMetadata-swift.enum\/configuration",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "configuration",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/schemametadata-swift.enum\/configuration"
+}
+}
+}

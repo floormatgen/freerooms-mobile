@@ -1,0 +1,228 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "TypeDisplayRepresentable.typeDisplayRepresentation",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/typeDisplayRepresentation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "CommonUI",
+    "externalID" : "s:8CommonUI12FreeroomsTabO25typeDisplayRepresentation10AppIntents04TypefG0VvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "typeDisplayRepresentation"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10AppIntents25TypeDisplayRepresentationV",
+        "text" : "TypeDisplayRepresentation"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CommonUI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "typeDisplayRepresentation"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "typeDisplayRepresentation"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10AppIntents25TypeDisplayRepresentationV",
+              "text" : "TypeDisplayRepresentation"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/commonui\/freeroomstab\/typedisplayrepresentation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://commonui.CommonUI/documentation/CommonUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CommonUI",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsTab"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsTab"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FreeroomsTab",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab/typeDisplayRepresentation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "typeDisplayRepresentation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10AppIntents25TypeDisplayRepresentationV",
+      "text" : "TypeDisplayRepresentation"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/typeDisplayRepresentation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "typeDisplayRepresentation",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab\/typedisplayrepresentation"
+}
+}
+}

@@ -1,0 +1,169 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery\/Data"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery\/Data\/RootSelectionSet-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "DevSocAPI"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "RootSelectionSet Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery\/Data\/init(_:)"
+      ],
+      "title" : "Initializers"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/devsocapi\/allroomsquery\/data\/rootselectionset-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DevSocAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/AllRoomsQuery": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AllRoomsQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AllRoomsQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AllRoomsQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/allroomsquery"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/AllRoomsQuery/Data": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery\/Data",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Data"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AllRoomsQuery.Data",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/allroomsquery\/data"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/AllRoomsQuery/Data/init(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery\/Data\/init(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/allroomsquery\/data\/init(_:)"
+}
+}
+}

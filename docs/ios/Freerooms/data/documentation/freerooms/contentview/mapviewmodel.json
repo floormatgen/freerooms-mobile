@@ -1,0 +1,230 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/ContentView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/ContentView\/mapViewModel"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Freerooms11ContentViewV03mapC5Model08BuildingC6Models07LiveMapcE0Cvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "mapViewModel"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:18BuildingViewModels07LiveMapB5ModelC",
+        "text" : "LiveMapViewModel"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Freerooms"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "mapViewModel"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:7SwiftUI11EnvironmentV",
+              "text" : "Environment"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "mapViewModel"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:18BuildingViewModels07LiveMapB5ModelC",
+              "text" : "LiveMapViewModel"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freerooms\/contentview\/mapviewmodel"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://app.devsoc.Freerooms/documentation/Freerooms": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Freerooms",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/ContentView": {
+  "abstract" : [
+    {
+      "text" : "No logic, only UI",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/ContentView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentView",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/contentview"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/ContentView/mapViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mapViewModel"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18BuildingViewModels07LiveMapB5ModelC",
+      "text" : "LiveMapViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/ContentView\/mapViewModel",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mapViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/contentview\/mapviewmodel"
+}
+}
+}

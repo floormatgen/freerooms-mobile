@@ -1,0 +1,239 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking\/Room-swift.struct"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking\/Room-swift.struct\/RootSelectionSet-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "DevSocAPI"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "RootSelectionSet Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking\/Room-swift.struct\/init(_:)"
+      ],
+      "title" : "Initializers"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/devsocapi\/weeklybookingsquery\/data\/booking\/room-swift.struct\/rootselectionset-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DevSocAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/WeeklyBookingsQuery": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBookingsQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBookingsQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingsQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/weeklybookingsquery"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/WeeklyBookingsQuery/Data": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Data"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingsQuery.Data",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/weeklybookingsquery\/data"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/WeeklyBookingsQuery/Data/Booking": {
+  "abstract" : [
+    {
+      "text" : "Booking",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Booking"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Booking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingsQuery.Data.Booking",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/weeklybookingsquery\/data\/booking"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/WeeklyBookingsQuery/Data/Booking/Room-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Booking.Room",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Room"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking\/Room-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Room"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingsQuery.Data.Booking.Room",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/weeklybookingsquery\/data\/booking\/room-swift.struct"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/WeeklyBookingsQuery/Data/Booking/Room-swift.struct/init(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking\/Room-swift.struct\/init(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/weeklybookingsquery\/data\/booking\/room-swift.struct\/init(_:)"
+}
+}
+}

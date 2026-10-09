@@ -1,0 +1,224 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/searchText"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18BuildingViewModels0aB5ModelP10searchTextSSvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "searchText"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingViewModels"
+      }
+    ],
+    "required" : true,
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "searchText"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "searchText"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingviewmodels\/buildingviewmodel\/searchtext"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/searchText": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchText"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/searchText",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "searchText",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/searchtext"
+}
+}
+}

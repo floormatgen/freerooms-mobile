@@ -1,0 +1,113 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/RoomViewModels"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:m:s:e:s:14RoomViewModels04LiveaB5ModelC9FreeroomsE7previewAA07PreviewabE0CvpZ",
+    "modules" : [
+      {
+        "name" : "Freerooms"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Extended Module",
+    "symbolKind" : "extension",
+    "title" : "RoomViewModels"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Extended-Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/RoomViewModels\/LiveRoomViewModel"
+      ],
+      "title" : "Extended Classes"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freerooms\/roomviewmodels"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://app.devsoc.Freerooms/documentation/Freerooms": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Freerooms",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/RoomViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/RoomViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/roomviewmodels"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/RoomViewModels/LiveRoomViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:14RoomViewModels04LiveaB5ModelC",
+      "text" : "LiveRoomViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/RoomViewModels\/LiveRoomViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveRoomViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/roomviewmodels\/liveroomviewmodel"
+}
+}
+}

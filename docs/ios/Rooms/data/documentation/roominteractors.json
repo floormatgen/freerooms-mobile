@@ -1,0 +1,101 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "RoomInteractors",
+    "modules" : [
+      {
+        "name" : "RoomInteractors"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "RoomInteractors"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor"
+      ],
+      "title" : "Classes"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roominteractors"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomInteractors/documentation/RoomInteractors": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomInteractors",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomInteractor"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomInteractor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomInteractor",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor"
+}
+}
+}

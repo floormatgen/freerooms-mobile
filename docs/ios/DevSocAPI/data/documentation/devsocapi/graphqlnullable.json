@@ -1,0 +1,834 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9ApolloAPI15GraphQLNullableO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "GraphQLNullable"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "DevSocAPI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "GraphQLNullable"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "GraphQLNullable"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@dynamicMemberLookup"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "GraphQLNullable"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "Wrapped"
+            },
+            {
+              "kind" : "text",
+              "text" : "> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Wrapped"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s8SendableP",
+              "text" : "Sendable"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLOperationVariableValue",
+        "doc:\/\/devsocapi.DevSocAPI\/s8CopyableP",
+        "doc:\/\/devsocapi.DevSocAPI\/SQ",
+        "doc:\/\/devsocapi.DevSocAPI\/s9EscapableP",
+        "doc:\/\/devsocapi.DevSocAPI\/s25ExpressibleByArrayLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s27ExpressibleByBooleanLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s30ExpressibleByDictionaryLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s43ExpressibleByExtendedGraphemeClusterLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s25ExpressibleByFloatLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s27ExpressibleByIntegerLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s23ExpressibleByNilLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s26ExpressibleByStringLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s33ExpressibleByUnicodeScalarLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/SH",
+        "doc:\/\/devsocapi.DevSocAPI\/s8SendableP",
+        "doc:\/\/devsocapi.DevSocAPI\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/none",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/null",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/some(_:)"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/init(_:)-11vj4",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/init(_:)-7pg3j"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/unwrapped"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Subscripts",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/subscript(dynamicMember:)"
+      ],
+      "title" : "Subscripts"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/Equatable-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByArrayLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByBooleanLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByDictionaryLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByExtendedGraphemeClusterLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByFloatLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByIntegerLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByNilLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByStringLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByUnicodeScalarLiteral-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/devsocapi\/graphqlnullable"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://devsocapi.DevSocAPI/SH": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/SQ": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DevSocAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLNullable"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLNullable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLNullable",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/equatable-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/ExpressibleByArrayLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByArrayLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByArrayLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/expressiblebyarrayliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/ExpressibleByBooleanLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByBooleanLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByBooleanLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/expressiblebybooleanliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/ExpressibleByDictionaryLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByDictionaryLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByDictionaryLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/expressiblebydictionaryliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/ExpressibleByExtendedGraphemeClusterLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByExtendedGraphemeClusterLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByExtendedGraphemeClusterLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/expressiblebyextendedgraphemeclusterliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/ExpressibleByFloatLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByFloatLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByFloatLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/expressiblebyfloatliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/ExpressibleByIntegerLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByIntegerLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByIntegerLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/expressiblebyintegerliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/ExpressibleByNilLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByNilLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByNilLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/expressiblebynilliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/ExpressibleByStringLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByStringLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByStringLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/expressiblebystringliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/ExpressibleByUnicodeScalarLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/ExpressibleByUnicodeScalarLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByUnicodeScalarLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/expressiblebyunicodescalarliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/init(_:)-11vj4": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Wrapped",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Sendable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Wrapped"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/init(_:)-11vj4",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/init(_:)-11vj4"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/init(_:)-7pg3j": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Wrapped",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Sendable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/init(_:)-7pg3j",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/init(_:)-7pg3j"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/none": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "none"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/none",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLNullable.none",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/none"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/null": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "null"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/null",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLNullable.null",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/null"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/some(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Wrapped"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/some(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLNullable.some(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/some(_:)"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/subscript(dynamicMember:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "subscript"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "dynamicMember"
+    },
+    {
+      "kind" : "text",
+      "text" : " _: "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7KeyPathC",
+      "text" : "KeyPath"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Wrapped"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/subscript(dynamicMember:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "subscript(dynamicMember:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/subscript(dynamicmember:)"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable/unwrapped": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unwrapped"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Wrapped"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable\/unwrapped",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unwrapped",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable\/unwrapped"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLOperationVariableValue": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Wrapped",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "GraphQLOperationVariableValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLOperationVariableValue"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLOperationVariableValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLOperationVariableValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLOperationVariableValue",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqloperationvariablevalue"
+},
+"doc://devsocapi.DevSocAPI/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s23ExpressibleByNilLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s23ExpressibleByNilLiteralP",
+  "title" : "Swift.ExpressibleByNilLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s25ExpressibleByArrayLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s25ExpressibleByArrayLiteralP",
+  "title" : "Swift.ExpressibleByArrayLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s25ExpressibleByFloatLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s25ExpressibleByFloatLiteralP",
+  "title" : "Swift.ExpressibleByFloatLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s26ExpressibleByStringLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s26ExpressibleByStringLiteralP",
+  "title" : "Swift.ExpressibleByStringLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s27ExpressibleByBooleanLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s27ExpressibleByBooleanLiteralP",
+  "title" : "Swift.ExpressibleByBooleanLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s27ExpressibleByIntegerLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s27ExpressibleByIntegerLiteralP",
+  "title" : "Swift.ExpressibleByIntegerLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s30ExpressibleByDictionaryLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s30ExpressibleByDictionaryLiteralP",
+  "title" : "Swift.ExpressibleByDictionaryLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s33ExpressibleByUnicodeScalarLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s33ExpressibleByUnicodeScalarLiteralP",
+  "title" : "Swift.ExpressibleByUnicodeScalarLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s43ExpressibleByExtendedGraphemeClusterLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s43ExpressibleByExtendedGraphemeClusterLiteralP",
+  "title" : "Swift.ExpressibleByExtendedGraphemeClusterLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s8CopyableP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s8CopyableP",
+  "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s8SendableP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s9EscapableP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s9EscapableP",
+  "title" : "Swift.Escapable",
+  "type" : "unresolvable"
+}
+}
+}

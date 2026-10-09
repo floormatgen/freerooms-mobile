@@ -1,0 +1,284 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomViews\/documentation\/RoomViews",
+        "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomImage"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomImage\/subscript(_:_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9RoomViews0A5ImageOy8CommonUI06CachedC0VSS_AD0C4SizeOtcipZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "subscript"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:8CommonUI9ImageSizeO",
+        "text" : "ImageSize"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:8CommonUI11CachedImageV",
+        "text" : "CachedImage"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomViews"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Subscript",
+    "symbolKind" : "subscript",
+    "title" : "subscript(_:_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "subscript"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "roomID"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "size"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:8CommonUI9ImageSizeO",
+              "text" : "ImageSize"
+            },
+            {
+              "kind" : "text",
+              "text" : " = .medium) -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:8CommonUI11CachedImageV",
+              "text" : "CachedImage"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomviews\/roomimage\/subscript(_:_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomViews/documentation/RoomViews": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomViews",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviews"
+},
+"doc://rooms.RoomViews/documentation/RoomViews/RoomImage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomImage"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomImage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomImage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomImage",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviews\/roomimage"
+},
+"doc://rooms.RoomViews/documentation/RoomViews/RoomImage/subscript(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "subscript"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8CommonUI9ImageSizeO",
+      "text" : "ImageSize"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8CommonUI11CachedImageV",
+      "text" : "CachedImage"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomImage\/subscript(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "subscript(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviews\/roomimage\/subscript(_:_:)"
+}
+}
+}

@@ -1,0 +1,164 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "WidgetBundle.init()",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension",
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/FreeroomsWidgetsBundle"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/FreeroomsWidgetsBundle\/init()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:25FreeroomsWidgetsExtension0aB6BundleVACycfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FreeroomsWidgetsExtension"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freeroomswidgetsextension\/freeroomswidgetsbundle\/init()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FreeroomsWidgetsExtension",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension"
+},
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension/FreeroomsWidgetsBundle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsWidgetsBundle"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/FreeroomsWidgetsBundle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsWidgetsBundle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FreeroomsWidgetsBundle",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension\/freeroomswidgetsbundle"
+},
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension/FreeroomsWidgetsBundle/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/FreeroomsWidgetsBundle\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension\/freeroomswidgetsbundle\/init()"
+}
+}
+}

@@ -1,0 +1,189 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels",
+        "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels\/RoomViewModel"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels\/RoomViewModel\/clearDurationFilter()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14RoomViewModels0aB5ModelP19clearDurationFilteryyF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "clearDurationFilter"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomViewModels"
+      }
+    ],
+    "required" : true,
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "clearDurationFilter()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "clearDurationFilter"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomviewmodels\/roomviewmodel\/cleardurationfilter()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomViewModels/documentation/RoomViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviewmodels"
+},
+"doc://rooms.RoomViewModels/documentation/RoomViewModels/RoomViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels\/RoomViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviewmodels\/roomviewmodel"
+},
+"doc://rooms.RoomViewModels/documentation/RoomViewModels/RoomViewModel/clearDurationFilter()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearDurationFilter"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels\/RoomViewModel\/clearDurationFilter()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "clearDurationFilter()",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviewmodels\/roomviewmodel\/cleardurationfilter()"
+}
+}
+}

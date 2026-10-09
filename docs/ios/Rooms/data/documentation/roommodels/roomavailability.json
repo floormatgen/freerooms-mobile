@@ -1,0 +1,422 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10RoomModels0A12AvailabilityO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "RoomAvailability"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomModels"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "RoomAvailability"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "RoomAvailability"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "RoomAvailability"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/Se",
+        "doc:\/\/rooms.RoomModels\/SE",
+        "doc:\/\/rooms.RoomModels\/SQ",
+        "doc:\/\/rooms.RoomModels\/SH",
+        "doc:\/\/rooms.RoomModels\/SY",
+        "doc:\/\/rooms.RoomModels\/s8SendableP",
+        "doc:\/\/rooms.RoomModels\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/available",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/availableSoon",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/unavailable",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/unknown"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/init(from:)",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/Equatable-Implementations",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roommodels\/roomavailability"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomModels/SE": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomModels/SH": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomModels/SQ": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomModels/SY": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomModels/Se": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomModels/documentation/RoomModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomModels",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomAvailability": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomAvailability"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomAvailability"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomAvailability",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomavailability"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomAvailability/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomavailability\/equatable-implementations"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomAvailability/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomavailability\/rawrepresentable-implementations"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomAvailability/available": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "available"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/available",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomAvailability.available",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomavailability\/available"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomAvailability/availableSoon": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "availableSoon"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/availableSoon",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomAvailability.availableSoon",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomavailability\/availablesoon"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomAvailability/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A6StatusV",
+      "text" : "RoomStatus"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomavailability\/init(from:)"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomAvailability/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomavailability\/init(rawvalue:)"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomAvailability/unavailable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unavailable"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/unavailable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomAvailability.unavailable",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomavailability\/unavailable"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomAvailability/unknown": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknown"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability\/unknown",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomAvailability.unknown",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomavailability\/unknown"
+},
+"doc://rooms.RoomModels/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomModels/s8SendableP": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

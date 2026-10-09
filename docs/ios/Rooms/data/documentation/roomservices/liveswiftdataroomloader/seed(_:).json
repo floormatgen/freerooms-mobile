@@ -1,0 +1,344 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "SwiftDataRoomLoader.seed(_:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveSwiftDataRoomLoader"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveSwiftDataRoomLoader\/seed(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12RoomServices013LiveSwiftDataA6LoaderC4seedys6ResultOyytAA0aF5ErrorOGSay0A6Models0A0VGF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "seed"
+      },
+      {
+        "kind" : "text",
+        "text" : "(["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10RoomModels0A0V",
+        "text" : "Room"
+      },
+      {
+        "kind" : "text",
+        "text" : "]) -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s6ResultO",
+        "text" : "Result"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4Voida",
+        "text" : "Void"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12RoomServices0A11LoaderErrorO",
+        "text" : "RoomLoaderError"
+      },
+      {
+        "kind" : "text",
+        "text" : ">"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomServices"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "seed(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "seed"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "rooms"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10RoomModels0A0V",
+              "text" : "Room"
+            },
+            {
+              "kind" : "text",
+              "text" : "]) -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s6ResultO",
+              "text" : "Result"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s4Voida",
+              "text" : "Void"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12RoomServices0A11LoaderErrorO",
+              "text" : "RoomLoaderError"
+            },
+            {
+              "kind" : "text",
+              "text" : ">"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomservices\/liveswiftdataroomloader\/seed(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomServices/documentation/RoomServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomServices",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveSwiftDataRoomLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveSwiftDataRoomLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveSwiftDataRoomLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveSwiftDataRoomLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveSwiftDataRoomLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveswiftdataroomloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveSwiftDataRoomLoader/seed(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "seed"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "]) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices0A11LoaderErrorO",
+      "text" : "RoomLoaderError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveSwiftDataRoomLoader\/seed(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "seed(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveswiftdataroomloader\/seed(_:)"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloadererror"
+}
+}
+}

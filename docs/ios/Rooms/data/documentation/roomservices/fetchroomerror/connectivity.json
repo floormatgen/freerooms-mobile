@@ -1,0 +1,162 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/connectivity"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12RoomServices05FetchA5ErrorO12connectivityyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "connectivity"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomServices"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "FetchRoomError.connectivity"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "connectivity"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomservices\/fetchroomerror\/connectivity"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomServices/documentation/RoomServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomServices",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FetchRoomError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FetchRoomError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FetchRoomError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FetchRoomError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/fetchroomerror"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FetchRoomError/connectivity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "connectivity"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/connectivity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FetchRoomError.connectivity",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/fetchroomerror\/connectivity"
+}
+}
+}

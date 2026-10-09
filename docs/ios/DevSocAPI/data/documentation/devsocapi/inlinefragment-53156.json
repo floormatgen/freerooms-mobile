@@ -1,0 +1,397 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InlineFragment-53156"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9DevSocAPI14InlineFragmentP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "InlineFragment"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "DevSocAPI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "InlineFragment"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "InlineFragment"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "InlineFragment"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InlineFragment-qg9",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:9ApolloAPI14InlineFragmentP",
+              "text" : "InlineFragment"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSet-brmx\/Schema",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:9ApolloAPI12SelectionSetP6SchemaQa",
+              "text" : "Schema"
+            },
+            {
+              "kind" : "text",
+              "text" : " == "
+            },
+            {
+              "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaMetadata-swift.enum",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:9DevSocAPI14SchemaMetadataO",
+              "text" : "SchemaMetadata"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Deferrable",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InlineFragment-qg9",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSet-brmx",
+        "doc:\/\/devsocapi.DevSocAPI\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/devsocapi.DevSocAPI\/SQ",
+        "doc:\/\/devsocapi.DevSocAPI\/SH",
+        "doc:\/\/devsocapi.DevSocAPI\/s8SendableP",
+        "doc:\/\/devsocapi.DevSocAPI\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/devsocapi\/inlinefragment-53156"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://devsocapi.DevSocAPI/SH": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/SQ": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DevSocAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Deferrable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Deferrable"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Deferrable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Deferrable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Deferrable",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/deferrable"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InlineFragment-53156": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InlineFragment"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InlineFragment-53156",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InlineFragment"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InlineFragment",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inlinefragment-53156"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InlineFragment-qg9": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InlineFragment"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InlineFragment-qg9",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InlineFragment"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InlineFragment",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inlinefragment-qg9"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SchemaMetadata-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SchemaMetadata"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaMetadata-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SchemaMetadata"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SchemaMetadata",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/schemametadata-swift.enum"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SelectionSet-brmx": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SelectionSet"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSet-brmx",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SelectionSet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SelectionSet",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/selectionset-brmx"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SelectionSet-brmx/Schema": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Schema"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9ApolloAPI14SchemaMetadataP",
+      "text" : "SchemaMetadata"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSet-brmx\/Schema",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "Schema",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/selectionset-brmx\/schema"
+},
+"doc://devsocapi.DevSocAPI/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s8SendableP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

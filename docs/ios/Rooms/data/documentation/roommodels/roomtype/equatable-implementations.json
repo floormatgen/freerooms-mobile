@@ -1,0 +1,165 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/Equatable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "RoomModels"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Equatable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Operators",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roommodels\/roomtype\/equatable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomModels/documentation/RoomModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomModels",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType": {
+  "abstract" : [
+    {
+      "text" : "Represents different types of rooms with their display names and usage codes",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomType"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomType",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/!=(_:_:)"
+}
+}
+}

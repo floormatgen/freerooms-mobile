@@ -1,0 +1,422 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/BuildingsTabView"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:13BuildingViews16BuildingsTabViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "BuildingsTabView"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingViews"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "BuildingsTabView"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "BuildingsTabView"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "BuildingsTabView"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "BuildingDestination"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "RoomDestination"
+            },
+            {
+              "kind" : "text",
+              "text" : "> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "BuildingDestination"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "RoomDestination"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViews\/s8SendableP",
+        "doc:\/\/buildings.BuildingViews\/7SwiftUI4ViewP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/BuildingsTabView\/init(path:selectedView:_:_:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/BuildingsTabView\/body"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/BuildingsTabView\/View-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingviews\/buildingstabview"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingViews/7SwiftUI4ViewP": {
+  "identifier" : "doc:\/\/buildings.BuildingViews\/7SwiftUI4ViewP",
+  "title" : "SwiftUICore.View",
+  "type" : "unresolvable"
+},
+"doc://buildings.BuildingViews/documentation/BuildingViews": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingViews",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviews"
+},
+"doc://buildings.BuildingViews/documentation/BuildingViews/BuildingsTabView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingsTabView"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/BuildingsTabView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingsTabView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingsTabView",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviews\/buildingstabview"
+},
+"doc://buildings.BuildingViews/documentation/BuildingViews/BuildingsTabView/View-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/BuildingsTabView\/View-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "View Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviews\/buildingstabview\/view-implementations"
+},
+"doc://buildings.BuildingViews/documentation/BuildingViews/BuildingsTabView/body": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "body"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/BuildingsTabView\/body",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "body",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviews\/buildingstabview\/body"
+},
+"doc://buildings.BuildingViews/documentation/BuildingViews/BuildingsTabView/init(path:selectedView:_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "path"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI14NavigationPathV",
+      "text" : "NavigationPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "selectedView"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels15ViewOrientationO",
+      "text" : "ViewOrientation"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels0A0V",
+      "text" : "Building"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13BuildingViews16BuildingsTabViewV0A11Destinationxmfp",
+      "text" : "BuildingDestination"
+    },
+    {
+      "kind" : "text",
+      "text" : ", ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13BuildingViews16BuildingsTabViewV15RoomDestinationq_mfp",
+      "text" : "RoomDestination"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/BuildingsTabView\/init(path:selectedView:_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(path:selectedView:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviews\/buildingstabview\/init(path:selectedview:_:_:)"
+},
+"doc://buildings.BuildingViews/s8SendableP": {
+  "identifier" : "doc:\/\/buildings.BuildingViews\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

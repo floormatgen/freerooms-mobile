@@ -1,0 +1,162 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/SheetPosition"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/SheetPosition\/short"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18BuildingViewModels13SheetPositionO5shortyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "short"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingViewModels"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "SheetPosition.short"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "short"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingviewmodels\/sheetposition\/short"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/SheetPosition": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SheetPosition"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/SheetPosition",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SheetPosition"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SheetPosition",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/sheetposition"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/SheetPosition/short": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "short"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/SheetPosition\/short",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SheetPosition.short",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/sheetposition\/short"
+}
+}
+}

@@ -1,0 +1,146 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/BuildingViewModels"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:m:s:e:s:18BuildingViewModels04LiveaB5ModelC9FreeroomsE7previewAA07PreviewabE0CvpZ",
+    "modules" : [
+      {
+        "name" : "Freerooms"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Extended Module",
+    "symbolKind" : "extension",
+    "title" : "BuildingViewModels"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Extended-Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/BuildingViewModels\/LiveBuildingViewModel",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/BuildingViewModels\/LiveMapViewModel"
+      ],
+      "title" : "Extended Classes"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freerooms\/buildingviewmodels"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://app.devsoc.Freerooms/documentation/Freerooms": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Freerooms",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/BuildingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/BuildingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/buildingviewmodels"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/BuildingViewModels/LiveBuildingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:18BuildingViewModels04LiveaB5ModelC",
+      "text" : "LiveBuildingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/BuildingViewModels\/LiveBuildingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveBuildingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveBuildingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/buildingviewmodels\/livebuildingviewmodel"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/BuildingViewModels/LiveMapViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:18BuildingViewModels07LiveMapB5ModelC",
+      "text" : "LiveMapViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/BuildingViewModels\/LiveMapViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveMapViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveMapViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/buildingviewmodels\/livemapviewmodel"
+}
+}
+}

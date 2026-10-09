@@ -1,0 +1,292 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/PreviewBookingViewModel"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:17BookingViewModels07PreviewaB5ModelC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "PreviewBookingViewModel"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingViewModels"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "PreviewBookingViewModel"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "PreviewBookingViewModel"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "PreviewBookingViewModel"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel",
+        "doc:\/\/bookings.BookingViewModels\/11Observation10ObservableP",
+        "doc:\/\/bookings.BookingViewModels\/s8SendableP",
+        "doc:\/\/bookings.BookingViewModels\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/PreviewBookingViewModel\/init()"
+      ],
+      "title" : "Initializers"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingviewmodels\/previewbookingviewmodel"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingViewModels/11Observation10ObservableP": {
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/11Observation10ObservableP",
+  "title" : "Observation.Observable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/BookingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/bookingviewmodel"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/LiveBookingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveBookingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveBookingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveBookingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/livebookingviewmodel"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/PreviewBookingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBookingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/PreviewBookingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBookingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewBookingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/previewbookingviewmodel"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/PreviewBookingViewModel/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/PreviewBookingViewModel\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/previewbookingviewmodel\/init()"
+},
+"doc://bookings.BookingViewModels/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingViewModels/s8SendableP": {
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

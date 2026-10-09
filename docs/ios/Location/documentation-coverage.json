@@ -1,0 +1,241 @@
+[
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.initializer",
+      "isSymbol" : true,
+      "name" : "Initializer"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/init(locationService:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "init(locationService:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.class",
+      "isSymbol" : true,
+      "name" : "Class"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 5
+        },
+        "method",
+        {
+          "documented" : 0,
+          "total" : 4
+        }
+      ],
+      "discriminant" : "class"
+    },
+    "referencePath" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "LocationInteractor"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 0
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/requestLocationPermission()",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "requestLocationPermission()"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/setHeadingUpdateCallback(_:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "setHeadingUpdateCallback(_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 0
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/getUserLocation()",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "getUserLocation()"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.module",
+      "isSymbol" : true,
+      "name" : "Module"
+    },
+    "referencePath" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "LocationInteractors"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/setLocationUpdateCallback(_:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "setLocationUpdateCallback(_:)"
+  }
+]

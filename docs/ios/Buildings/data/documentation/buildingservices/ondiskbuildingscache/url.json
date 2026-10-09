@@ -1,0 +1,216 @@
+{
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use FileBackedCodable instead",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/url"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:16BuildingServices20OnDiskBuildingsCacheC3url10Foundation3URLVvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "url"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingServices"
+      }
+    ],
+    "platforms" : [
+
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "url"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "url"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation3URLV",
+              "text" : "URL"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingservices\/ondiskbuildingscache\/url"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingServices/documentation/BuildingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache": {
+  "abstract" : [
+    {
+      "text" : "Represents an on-disk buildings cache",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "actor"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OnDiskBuildingsCache"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OnDiskBuildingsCache"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OnDiskBuildingsCache",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/url": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "url"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/url",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "url",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/url"
+}
+}
+}

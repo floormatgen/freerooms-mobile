@@ -1,0 +1,162 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingLoaderError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingLoaderError\/connectivity"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:16BuildingServices0A11LoaderErrorO12connectivityyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "connectivity"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingServices"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "BuildingLoaderError.connectivity"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "connectivity"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingservices\/buildingloadererror\/connectivity"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingServices/documentation/BuildingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/BuildingLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/buildingloadererror"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/BuildingLoaderError/connectivity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "connectivity"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingLoaderError\/connectivity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "BuildingLoaderError.connectivity",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/buildingloadererror\/connectivity"
+}
+}
+}

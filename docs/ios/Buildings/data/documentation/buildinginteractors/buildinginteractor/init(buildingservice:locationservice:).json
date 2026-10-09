@@ -1,0 +1,353 @@
+{
+  "abstract" : [
+    {
+      "text" : "Creates a new BuildingInteractor with the required services.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors",
+        "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors\/BuildingInteractor"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors\/BuildingInteractor\/init(buildingService:locationService:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:19BuildingInteractors0A10InteractorC15buildingService08locationE0AC0A8Services0aE0_p_8Location0hE0_ptcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "buildingService"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "any"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:16BuildingServices0A7ServiceP",
+        "text" : "BuildingService"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "locationService"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "any"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:8Location0A7ServiceP",
+        "text" : "LocationService"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingInteractors"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(buildingService:locationService:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "buildingService"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "any"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:16BuildingServices0A7ServiceP",
+              "text" : "BuildingService"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "locationService"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "any"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:8Location0A7ServiceP",
+              "text" : "LocationService"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Service for building data operations",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "buildingService"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Service for location-based operations",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "locationService"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildinginteractors\/buildinginteractor\/init(buildingservice:locationservice:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingInteractors/documentation/BuildingInteractors": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingInteractors",
+  "type" : "topic",
+  "url" : "\/documentation\/buildinginteractors"
+},
+"doc://buildings.BuildingInteractors/documentation/BuildingInteractors/BuildingInteractor": {
+  "abstract" : [
+    {
+      "text" : "Coordinates building-related operations including filtering, sorting, and room status integration.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Acts as the main interface between the presentation layer and building services.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingInteractor"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors\/BuildingInteractor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingInteractor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingInteractor",
+  "type" : "topic",
+  "url" : "\/documentation\/buildinginteractors\/buildinginteractor"
+},
+"doc://buildings.BuildingInteractors/documentation/BuildingInteractors/BuildingInteractor/init(buildingService:locationService:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a new BuildingInteractor with the required services.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "buildingService"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16BuildingServices0A7ServiceP",
+      "text" : "BuildingService"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "locationService"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8Location0A7ServiceP",
+      "text" : "LocationService"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors\/BuildingInteractor\/init(buildingService:locationService:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(buildingService:locationService:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildinginteractors\/buildinginteractor\/init(buildingservice:locationservice:)"
+}
+}
+}

@@ -1,0 +1,192 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/AverageRating"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/AverageRating\/quietness"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10RoomModels13AverageRatingV9quietnessSdvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "quietness"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sd",
+        "text" : "Double"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomModels"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "quietness"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "quietness"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sd",
+              "text" : "Double"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roommodels\/averagerating\/quietness"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomModels/documentation/RoomModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomModels",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/AverageRating": {
+  "abstract" : [
+    {
+      "text" : "Represents the rating details for:",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AverageRating"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/AverageRating",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AverageRating"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AverageRating",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/averagerating"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/AverageRating/quietness": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "quietness"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/AverageRating\/quietness",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "quietness",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/averagerating\/quietness"
+}
+}
+}

@@ -1,0 +1,868 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "RoomModels",
+    "modules" : [
+      {
+        "name" : "RoomModels"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "RoomModels"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/SwiftDataFavoriteRoom",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/SwiftDataRoom"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "anchor" : "Protocols",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/AlertError",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/AverageRating",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/BuildingRoomStatus",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/DecodableRoom",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/FilterRoomOptions",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RemoteFilterRoomValue",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RemoteRoomBooking",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RemoteRoomBookingResponse",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/Room",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomBooking",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomRating",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomStatus"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RemoteFilterRoomMap",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RemoteRoomStatus"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/CampusLocation",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/DateDefaults",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/Duration",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/ViewOrientation"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roommodels"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomModels/documentation/RoomModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomModels",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/AlertError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AlertError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/AlertError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AlertError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AlertError",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/alerterror"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/AverageRating": {
+  "abstract" : [
+    {
+      "text" : "Represents the rating details for:",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AverageRating"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/AverageRating",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AverageRating"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AverageRating",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/averagerating"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/BuildingRoomStatus": {
+  "abstract" : [
+    {
+      "text" : "Represents room status data for a specific building",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingRoomStatus"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/BuildingRoomStatus",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingRoomStatus"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingRoomStatus",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/buildingroomstatus"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/CampusLocation": {
+  "abstract" : [
+    {
+      "text" : "Represents campus location sections",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CampusLocation"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/CampusLocation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CampusLocation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CampusLocation",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/campuslocation"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/DateDefaults": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DateDefaults"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/DateDefaults",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DateDefaults"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DateDefaults",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/datedefaults"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/DecodableRoom": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DecodableRoom"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/DecodableRoom",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DecodableRoom"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DecodableRoom",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/decodableroom"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/Duration": {
+  "abstract" : [
+    {
+      "text" : "Represents available duration options for room filtering",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Duration"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/Duration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Duration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Duration",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/duration"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/FilterRoomOptions": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FilterRoomOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/FilterRoomOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FilterRoomOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FilterRoomOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/filterroomoptions"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLRoomProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLRoomProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLRoomProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RemoteFilterRoomMap": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteFilterRoomMap"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RemoteFilterRoomMap",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteFilterRoomMap"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteFilterRoomMap",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/remotefilterroommap"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RemoteFilterRoomValue": {
+  "abstract" : [
+    {
+      "text" : "Represents the details of a room returned from the remote API when fetching filtered rooms.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteFilterRoomValue"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RemoteFilterRoomValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteFilterRoomValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteFilterRoomValue",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/remotefilterroomvalue"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RemoteRoomBooking": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteRoomBooking"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RemoteRoomBooking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteRoomBooking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteRoomBooking",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/remoteroombooking"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RemoteRoomBookingResponse": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteRoomBookingResponse"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RemoteRoomBookingResponse",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteRoomBookingResponse"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteRoomBookingResponse",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/remoteroombookingresponse"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RemoteRoomStatus": {
+  "abstract" : [
+    {
+      "text" : "Response model for the \/api\/rooms\/status endpoint",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteRoomStatus"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RemoteRoomStatus",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteRoomStatus"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteRoomStatus",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/remoteroomstatus"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/Room": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Room"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/Room",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Room"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Room",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/room"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomAvailability": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomAvailability"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomAvailability",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomAvailability"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomAvailability",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomavailability"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomBooking": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomBooking"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomBooking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomBooking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomBooking",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roombooking"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomRating": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomRating"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomRating",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomRating"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomRating",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomrating"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomStatus": {
+  "abstract" : [
+    {
+      "text" : "Represents the status of an individual room",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomStatus"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomStatus",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomStatus"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomStatus",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomstatus"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType": {
+  "abstract" : [
+    {
+      "text" : "Represents different types of rooms with their display names and usage codes",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomType"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomType",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/SwiftDataFavoriteRoom": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataFavoriteRoom"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/SwiftDataFavoriteRoom",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataFavoriteRoom"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SwiftDataFavoriteRoom",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/swiftdatafavoriteroom"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/SwiftDataRoom": {
+  "abstract" : [
+    {
+      "text" : "A SwiftData model representing a room, linked to a building and used for persistence.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Stores detailed room information including facilities, capacity, and location.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataRoom"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/SwiftDataRoom",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataRoom"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SwiftDataRoom",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/swiftdataroom"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/ViewOrientation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewOrientation"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/ViewOrientation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewOrientation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewOrientation",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/vieworientation"
+}
+}
+}

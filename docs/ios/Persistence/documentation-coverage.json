@@ -1,0 +1,1759 @@
+[
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/save(_:)-5s7hp",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "save(_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.initializer",
+      "isSymbol" : true,
+      "name" : "Initializer"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/init(modelContext:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "init(modelContext:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 0
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/size()",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "size()"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumerationCase",
+      "isSymbol" : true,
+      "name" : "Enumeration Case"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError\/malformedJSON",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "JSONLoaderError.malformedJSON"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/delete(_:)-4vhdh",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "delete(_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/fetch(id:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "fetch(id:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/delete(_:)-7sqk2",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "delete(_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.protocol",
+      "isSymbol" : true,
+      "name" : "Protocol"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 2
+        },
+        "method",
+        {
+          "documented" : 0,
+          "total" : 1
+        }
+      ],
+      "discriminant" : "protocol"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoader",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "JSONLoader"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumeration",
+      "isSymbol" : true,
+      "name" : "Enumeration"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 1
+        }
+      ],
+      "discriminant" : "enumeration"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/UserDefaultsKeys",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "UserDefaultsKeys"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.typeAlias",
+      "isSymbol" : true,
+      "name" : "Type Alias"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveJSONLoader\/Result",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "LiveJSONLoader.Result"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.class",
+      "isSymbol" : true,
+      "name" : "Class"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 9
+        },
+        "method",
+        {
+          "documented" : 0,
+          "total" : 8
+        }
+      ],
+      "discriminant" : "class"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "SwiftDataStore"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/delete(_:)-65qh6",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "delete(_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveJSONLoader\/load(from:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "load(from:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.protocol",
+      "isSymbol" : true,
+      "name" : "Protocol"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 1
+        },
+        "method",
+        {
+          "documented" : 0,
+          "total" : 1
+        }
+      ],
+      "discriminant" : "protocol"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoader",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "FileLoader"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.structure",
+      "isSymbol" : true,
+      "name" : "Structure"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "method",
+        {
+          "documented" : 0,
+          "total" : 1
+        },
+        "typeAlias",
+        {
+          "documented" : 0,
+          "total" : 1
+        },
+        "all",
+        {
+          "documented" : 0,
+          "total" : 3
+        }
+      ],
+      "discriminant" : "structure"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveJSONLoader",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "LiveJSONLoader"
+  },
+  {
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.collectionGroup",
+      "isSymbol" : false,
+      "name" : "CollectionGroup"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError\/Equatable-Implementations",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Equatable Implementations"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/save(_:)-840p7",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "save(_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/save(_:)-3o06k",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "save(_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumerationCase",
+      "isSymbol" : true,
+      "name" : "Enumeration Case"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/fileNotFound",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "FileLoaderError.fileNotFound"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoader\/load(at:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "load(at:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.associatedType",
+      "isSymbol" : true,
+      "name" : "Associated Type"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoader\/T",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "T"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.module",
+      "isSymbol" : true,
+      "name" : "Module"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Persistence"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumeration",
+      "isSymbol" : true,
+      "name" : "Enumeration"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 3
+        },
+        "enumCase",
+        {
+          "documented" : 0,
+          "total" : 1
+        }
+      ],
+      "discriminant" : "enumeration"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "FileLoaderError"
+  },
+  {
+    "availability" : [
+      {
+        "domain" : "macOS",
+        "introduced" : {
+          "major" : 10,
+          "minor" : 10,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "watchOS",
+        "introduced" : {
+          "major" : 2,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "tvOS",
+        "introduced" : {
+          "major" : 9,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iPadOS",
+        "introduced" : {
+          "major" : 8,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "macCatalyst",
+        "introduced" : {
+          "major" : 8,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iOS",
+        "introduced" : {
+          "major" : 8,
+          "minor" : 0,
+          "patch" : 0
+        }
+      }
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError\/localizedDescription",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "localizedDescription"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/IdentifiableModel\/stringID",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "stringID"
+  },
+  {
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.collectionGroup",
+      "isSymbol" : false,
+      "name" : "CollectionGroup"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/Equatable-Implementations",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Equatable Implementations"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/fetch(id:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "fetch(id:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 0
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/deleteAll()",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "deleteAll()"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/delete(_:)-7xbnz",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "delete(_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 0
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/fetchAll()",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "fetchAll()"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.initializer",
+      "isSymbol" : true,
+      "name" : "Initializer"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveJSONLoader\/init(using:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "init(using:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.protocol",
+      "isSymbol" : true,
+      "name" : "Protocol"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 1
+        },
+        "property",
+        {
+          "documented" : 0,
+          "total" : 1
+        }
+      ],
+      "discriminant" : "protocol"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/IdentifiableModel",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "IdentifiableModel"
+  },
+  {
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.collectionGroup",
+      "isSymbol" : false,
+      "name" : "CollectionGroup"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/Error-Implementations",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Error Implementations"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.operator",
+      "isSymbol" : true,
+      "name" : "Operator"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 2
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/!=(_:_:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "!=(_:_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 0
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/fetchAll()",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "fetchAll()"
+  },
+  {
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.collectionGroup",
+      "isSymbol" : false,
+      "name" : "CollectionGroup"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError\/Error-Implementations",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Error Implementations"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.operator",
+      "isSymbol" : true,
+      "name" : "Operator"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 2
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError\/!=(_:_:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "!=(_:_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoader\/load(from:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "load(from:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.protocol",
+      "isSymbol" : true,
+      "name" : "Protocol"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 9
+        },
+        "method",
+        {
+          "documented" : 0,
+          "total" : 8
+        }
+      ],
+      "discriminant" : "protocol"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "PersistentStore"
+  },
+  {
+    "availability" : [
+      {
+        "domain" : "macOS",
+        "introduced" : {
+          "major" : 10,
+          "minor" : 10,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "watchOS",
+        "introduced" : {
+          "major" : 2,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "tvOS",
+        "introduced" : {
+          "major" : 9,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iPadOS",
+        "introduced" : {
+          "major" : 8,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "macCatalyst",
+        "introduced" : {
+          "major" : 8,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iOS",
+        "introduced" : {
+          "major" : 8,
+          "minor" : 0,
+          "patch" : 0
+        }
+      }
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/localizedDescription",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "localizedDescription"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumeration",
+      "isSymbol" : true,
+      "name" : "Enumeration"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 4
+        },
+        "enumCase",
+        {
+          "documented" : 0,
+          "total" : 2
+        }
+      ],
+      "discriminant" : "enumeration"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "JSONLoaderError"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveFileLoader\/load(at:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "load(at:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.typeProperty",
+      "isSymbol" : true,
+      "name" : "Type Property"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/UserDefaultsKeys\/hasSavedRoomsData",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "hasSavedRoomsData"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 0
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/size()",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "size()"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 0
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/deleteAll()",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "deleteAll()"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.associatedType",
+      "isSymbol" : true,
+      "name" : "Associated Type"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/Model",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Model"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.initializer",
+      "isSymbol" : true,
+      "name" : "Initializer"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 0
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveFileLoader\/init()",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "init()"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/save(_:)-4zj7z",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "save(_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.structure",
+      "isSymbol" : true,
+      "name" : "Structure"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 2
+        },
+        "method",
+        {
+          "documented" : 0,
+          "total" : 1
+        }
+      ],
+      "discriminant" : "structure"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveFileLoader",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "LiveFileLoader"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumerationCase",
+      "isSymbol" : true,
+      "name" : "Enumeration Case"
+    },
+    "referencePath" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError\/fileNotFound",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "JSONLoaderError.fileNotFound"
+  }
+]

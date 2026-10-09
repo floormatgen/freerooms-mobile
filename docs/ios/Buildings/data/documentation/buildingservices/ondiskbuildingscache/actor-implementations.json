@@ -1,0 +1,603 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/Actor-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "BuildingServices"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Actor Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/assertIsolated(_:file:line:)",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/assumeIsolated(_:file:line:)",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/preconditionIsolated(_:file:line:)",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/withSerialExecutor(_:)-2u43j",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/withSerialExecutor(_:)-36zqx"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingservices\/ondiskbuildingscache\/actor-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingServices/documentation/BuildingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache": {
+  "abstract" : [
+    {
+      "text" : "Represents an on-disk buildings cache",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "actor"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OnDiskBuildingsCache"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OnDiskBuildingsCache"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OnDiskBuildingsCache",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/assertIsolated(_:file:line:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "assertIsolated"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "attribute",
+      "text" : "@autoclosure "
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "file"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s12StaticStringV",
+      "text" : "StaticString"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "line"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Su",
+      "text" : "UInt"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/assertIsolated(_:file:line:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "assertIsolated(_:file:line:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/assertisolated(_:file:line:)"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/assumeIsolated(_:file:line:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "assumeIsolated"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">(("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "isolated"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "file"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s12StaticStringV",
+      "text" : "StaticString"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "line"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Su",
+      "text" : "UInt"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "rethrows"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/assumeIsolated(_:file:line:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "assumeIsolated(_:file:line:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/assumeisolated(_:file:line:)"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/preconditionIsolated(_:file:line:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "preconditionIsolated"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "attribute",
+      "text" : "@autoclosure "
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "file"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s12StaticStringV",
+      "text" : "StaticString"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "line"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Su",
+      "text" : "UInt"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/preconditionIsolated(_:file:line:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "preconditionIsolated(_:file:line:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/preconditionisolated(_:file:line:)"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/withSerialExecutor(_:)-2u43j": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "withSerialExecutor"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "nonisolated(nonsending)"
+    },
+    {
+      "kind" : "text",
+      "text" : " (any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Scf",
+      "text" : "SerialExecutor"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/withSerialExecutor(_:)-2u43j",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "withSerialExecutor(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/withserialexecutor(_:)-2u43j"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/withSerialExecutor(_:)-36zqx": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "withSerialExecutor"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ">((any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Scf",
+      "text" : "SerialExecutor"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "E"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/withSerialExecutor(_:)-36zqx",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "withSerialExecutor(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/withserialexecutor(_:)-36zqx"
+}
+}
+}

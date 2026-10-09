@@ -1,0 +1,253 @@
+{
+  "abstract" : [
+    {
+      "text" : "Fetches all items of the model type.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/fetchAll()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11Persistence14SwiftDataStoreC8fetchAllSayxGyKF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "fetchAll"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : "]"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Persistence"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "fetchAll()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "fetchAll"
+            },
+            {
+              "kind" : "text",
+              "text" : "() "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+              "text" : "Model"
+            },
+            {
+              "kind" : "text",
+              "text" : "]"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/persistence\/swiftdatastore\/fetchall()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://persistence.Persistence/documentation/Persistence": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Persistence",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore": {
+  "abstract" : [
+    {
+      "text" : "A concrete implementation of the PersistentStore protocol using SwiftData.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Manages the model container and handles all persistence operations.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Generic over a single model type that conforms to PersistentModel and IdentifiableModel.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataStore"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SwiftDataStore",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore/fetchAll()": {
+  "abstract" : [
+    {
+      "text" : "Fetches all items of the model type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchAll"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+      "text" : "Model"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/fetchAll()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchAll()",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore\/fetchall()"
+}
+}
+}

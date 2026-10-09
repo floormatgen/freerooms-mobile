@@ -1,0 +1,340 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "TimelineProvider.Entry",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension",
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider\/Entry"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:25FreeroomsWidgetsExtension21EmptyTimelineProviderV5EntryV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Entry"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FreeroomsWidgetsExtension"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Entry"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "EmptyTimelineProvider.Entry"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Entry"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/s8SendableP",
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/9WidgetKit13TimelineEntryP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider\/Entry\/init()",
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider\/Entry\/init(date:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider\/Entry\/date"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider\/Entry\/TimelineEntry-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freeroomswidgetsextension\/emptytimelineprovider\/entry"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://app.devsoc.Freerooms.Widgets/9WidgetKit13TimelineEntryP": {
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/9WidgetKit13TimelineEntryP",
+  "title" : "WidgetKit.TimelineEntry",
+  "type" : "unresolvable"
+},
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FreeroomsWidgetsExtension",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension"
+},
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension/EmptyTimelineProvider": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "EmptyTimelineProvider"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EmptyTimelineProvider"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EmptyTimelineProvider",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension\/emptytimelineprovider"
+},
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension/EmptyTimelineProvider/Entry": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Entry"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider\/Entry",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Entry"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EmptyTimelineProvider.Entry",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension\/emptytimelineprovider\/entry"
+},
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension/EmptyTimelineProvider/Entry/TimelineEntry-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider\/Entry\/TimelineEntry-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "TimelineEntry Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension\/emptytimelineprovider\/entry\/timelineentry-implementations"
+},
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension/EmptyTimelineProvider/Entry/date": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "date"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider\/Entry\/date",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "date",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension\/emptytimelineprovider\/entry\/date"
+},
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension/EmptyTimelineProvider/Entry/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider\/Entry\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension\/emptytimelineprovider\/entry\/init()"
+},
+"doc://app.devsoc.Freerooms.Widgets/documentation/FreeroomsWidgetsExtension/EmptyTimelineProvider/Entry/init(date:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "date"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/documentation\/FreeroomsWidgetsExtension\/EmptyTimelineProvider\/Entry\/init(date:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(date:)",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomswidgetsextension\/emptytimelineprovider\/entry\/init(date:)"
+},
+"doc://app.devsoc.Freerooms.Widgets/s8SendableP": {
+  "identifier" : "doc:\/\/app.devsoc.Freerooms.Widgets\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

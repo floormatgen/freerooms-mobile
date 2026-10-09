@@ -1,0 +1,448 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/location.Location\/documentation\/Location"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "Location",
+    "modules" : [
+      {
+        "name" : "Location"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "Location"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.Location\/documentation\/Location\/LiveLocationManager",
+        "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService",
+        "doc:\/\/location.Location\/documentation\/Location\/PreviewLocationService"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "anchor" : "Protocols",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.Location\/documentation\/Location\/LocationManager",
+        "doc:\/\/location.Location\/documentation\/Location\/LocationManagerDelegate",
+        "doc:\/\/location.Location\/documentation\/Location\/LocationService"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.Location\/documentation\/Location\/GridReference",
+        "doc:\/\/location.Location\/documentation\/Location\/Location"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.Location\/documentation\/Location\/CampusSection",
+        "doc:\/\/location.Location\/documentation\/Location\/LocationPermission",
+        "doc:\/\/location.Location\/documentation\/Location\/LocationServiceError"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/location"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://location.Location/documentation/Location": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Location",
+  "type" : "topic",
+  "url" : "\/documentation\/location"
+},
+"doc://location.Location/documentation/Location/CampusSection": {
+  "abstract" : [
+    {
+      "text" : "Represents the vertical campus section based on building numbers.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CampusSection"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/CampusSection",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CampusSection"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CampusSection",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/campussection"
+},
+"doc://location.Location/documentation/Location/GridReference": {
+  "abstract" : [
+    {
+      "text" : "Represents the campus grid location of a building based on its ID.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GridReference"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/GridReference",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GridReference"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GridReference",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/gridreference"
+},
+"doc://location.Location/documentation/Location/LiveLocationManager": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveLocationManager"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LiveLocationManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveLocationManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveLocationManager",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/livelocationmanager"
+},
+"doc://location.Location/documentation/Location/LiveLocationService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveLocationService"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveLocationService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveLocationService",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/livelocationservice"
+},
+"doc://location.Location/documentation/Location/Location": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Location"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/Location",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Location"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Location",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/location"
+},
+"doc://location.Location/documentation/Location/LocationManager": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationManager"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LocationManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationManager",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/locationmanager"
+},
+"doc://location.Location/documentation/Location/LocationManagerDelegate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationManagerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LocationManagerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationManagerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationManagerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/locationmanagerdelegate"
+},
+"doc://location.Location/documentation/Location/LocationPermission": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationPermission"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LocationPermission",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationPermission"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationPermission",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/locationpermission"
+},
+"doc://location.Location/documentation/Location/LocationService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationService"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LocationService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationService",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/locationservice"
+},
+"doc://location.Location/documentation/Location/LocationServiceError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationServiceError"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LocationServiceError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationServiceError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationServiceError",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/locationserviceerror"
+},
+"doc://location.Location/documentation/Location/PreviewLocationService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewLocationService"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/PreviewLocationService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewLocationService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewLocationService",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/previewlocationservice"
+}
+}
+}

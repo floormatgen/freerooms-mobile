@@ -1,0 +1,104 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingViews\/documentation\/BookingViews"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "BookingViews",
+    "modules" : [
+      {
+        "name" : "BookingViews"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "BookingViews"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingViews\/documentation\/BookingViews\/BookingsTabView"
+      ],
+      "title" : "Structures"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingviews"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingViews/documentation/BookingViews": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViews\/documentation\/BookingViews",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingViews",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviews"
+},
+"doc://bookings.BookingViews/documentation/BookingViews/BookingsTabView": {
+  "abstract" : [
+    {
+      "text" : "Root tab for discovering bookings that overlap the current device-calendar week.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingsTabView"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViews\/documentation\/BookingViews\/BookingsTabView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingsTabView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingsTabView",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviews\/bookingstabview"
+}
+}
+}

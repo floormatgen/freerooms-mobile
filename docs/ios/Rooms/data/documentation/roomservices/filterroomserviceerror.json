@@ -1,0 +1,299 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12RoomServices06FilterA12ServiceErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FilterRoomServiceError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomServices"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "FilterRoomServiceError"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "FilterRoomServiceError"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "FilterRoomServiceError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/SQ",
+        "doc:\/\/rooms.RoomServices\/s5ErrorP",
+        "doc:\/\/rooms.RoomServices\/SH",
+        "doc:\/\/rooms.RoomServices\/s8SendableP",
+        "doc:\/\/rooms.RoomServices\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError\/connectivity",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError\/invalidData",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError\/invalidURL"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError\/Equatable-Implementations",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError\/Error-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomservices\/filterroomserviceerror"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomServices/SH": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/SQ": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/documentation/RoomServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomServices",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FilterRoomServiceError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FilterRoomServiceError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FilterRoomServiceError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FilterRoomServiceError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/filterroomserviceerror"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FilterRoomServiceError/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/filterroomserviceerror\/equatable-implementations"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FilterRoomServiceError/Error-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError\/Error-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Error Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/filterroomserviceerror\/error-implementations"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FilterRoomServiceError/connectivity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "connectivity"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError\/connectivity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FilterRoomServiceError.connectivity",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/filterroomserviceerror\/connectivity"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FilterRoomServiceError/invalidData": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidData"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError\/invalidData",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FilterRoomServiceError.invalidData",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/filterroomserviceerror\/invaliddata"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FilterRoomServiceError/invalidURL": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidURL"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError\/invalidURL",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FilterRoomServiceError.invalidURL",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/filterroomserviceerror\/invalidurl"
+},
+"doc://rooms.RoomServices/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/s5ErrorP": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/s8SendableP": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

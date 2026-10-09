@@ -1,0 +1,134 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/Error-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "Persistence"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Error Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/localizedDescription"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/persistence\/fileloadererror\/error-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://persistence.Persistence/documentation/Persistence": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Persistence",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence"
+},
+"doc://persistence.Persistence/documentation/Persistence/FileLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FileLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FileLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FileLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/fileloadererror"
+},
+"doc://persistence.Persistence/documentation/Persistence/FileLoaderError/localizedDescription": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "localizedDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/localizedDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "localizedDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/fileloadererror\/localizeddescription"
+}
+}
+}

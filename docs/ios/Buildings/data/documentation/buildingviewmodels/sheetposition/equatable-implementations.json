@@ -1,0 +1,162 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/SheetPosition"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/SheetPosition\/Equatable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "BuildingViewModels"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Equatable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Operators",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/SheetPosition\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingviewmodels\/sheetposition\/equatable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/SheetPosition": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SheetPosition"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/SheetPosition",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SheetPosition"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SheetPosition",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/sheetposition"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/SheetPosition/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/SheetPosition\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/sheetposition\/!=(_:_:)"
+}
+}
+}

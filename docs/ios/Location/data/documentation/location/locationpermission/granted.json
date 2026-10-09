@@ -1,0 +1,162 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/location.Location\/documentation\/Location",
+        "doc:\/\/location.Location\/documentation\/Location\/LocationPermission"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/location.Location\/documentation\/Location\/LocationPermission\/granted"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:8Location0A10PermissionO7grantedyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "granted"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Location"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "LocationPermission.granted"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "granted"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/location\/locationpermission\/granted"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://location.Location/documentation/Location": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Location",
+  "type" : "topic",
+  "url" : "\/documentation\/location"
+},
+"doc://location.Location/documentation/Location/LocationPermission": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationPermission"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LocationPermission",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationPermission"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationPermission",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/locationpermission"
+},
+"doc://location.Location/documentation/Location/LocationPermission/granted": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "granted"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LocationPermission\/granted",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "LocationPermission.granted",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/locationpermission\/granted"
+}
+}
+}

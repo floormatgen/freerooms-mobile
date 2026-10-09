@@ -1,0 +1,241 @@
+{
+  "abstract" : [
+    {
+      "text" : "Initializes the SwiftData stack with model schema and configuration.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/init(modelContext:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11Persistence14SwiftDataStoreC12modelContextACyxG0bC005ModelF0C_tKcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "modelContext"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:9SwiftData12ModelContextC",
+        "text" : "ModelContext"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Persistence"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(modelContext:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "modelContext"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:9SwiftData12ModelContextC",
+              "text" : "ModelContext"
+            },
+            {
+              "kind" : "text",
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/persistence\/swiftdatastore\/init(modelcontext:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://persistence.Persistence/documentation/Persistence": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Persistence",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore": {
+  "abstract" : [
+    {
+      "text" : "A concrete implementation of the PersistentStore protocol using SwiftData.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Manages the model container and handles all persistence operations.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Generic over a single model type that conforms to PersistentModel and IdentifiableModel.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataStore"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SwiftDataStore",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore/init(modelContext:)": {
+  "abstract" : [
+    {
+      "text" : "Initializes the SwiftData stack with model schema and configuration.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "modelContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9SwiftData12ModelContextC",
+      "text" : "ModelContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/init(modelContext:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(modelContext:)",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore\/init(modelcontext:)"
+}
+}
+}

@@ -1,0 +1,84 @@
+{
+  "bundleID" : "freeroomsintents.FreeroomsIntents",
+  "nonSymbolPaths" : {
+    "0" : "\/tutorials\/FreeroomsIntents",
+    "1" : "\/tutorials",
+    "2" : "\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage\/AppIntentsPackage-Implementations"
+  },
+  "pathHierarchy" : {
+    "articlesContainer" : 6,
+    "modules" : [
+      6
+    ],
+    "nodes" : [
+      {
+        "name" : "FreeroomsIntents"
+      },
+      {
+        "name" : "tutorials"
+      },
+      {
+        "name" : "AppIntentsPackage-Implementations"
+      },
+      {
+        "children" : [
+          {
+            "hash" : "9okyp",
+            "kind" : "type.property",
+            "nodeID" : 5
+          },
+          {
+            "kind" : "taskGroup",
+            "nodeID" : 2
+          }
+        ],
+        "name" : "FreeroomsIntentsPackage",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:16FreeroomsIntents0aB7PackageV"
+        }
+      },
+      {
+        "name" : "TabIntents",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:16FreeroomsIntents03TabB0O"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "includedPackages",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10AppIntents0aB7PackagePAAE16includedPackagesSayAaB_pXpGvpZ::SYNTHESIZED::s:16FreeroomsIntents0aB7PackageV"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "73z0e",
+            "kind" : "enum",
+            "nodeID" : 4
+          },
+          {
+            "hash" : "1g6xn",
+            "kind" : "struct",
+            "nodeID" : 3
+          }
+        ],
+        "name" : "FreeroomsIntents",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "FreeroomsIntents"
+        }
+      }
+    ],
+    "tutorialContainer" : 0,
+    "tutorialOverviewContainer" : 1
+  },
+  "version" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}

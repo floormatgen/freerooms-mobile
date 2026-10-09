@@ -1,0 +1,251 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingsCache"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingsCache\/getBuildings()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:16BuildingServices14BuildingsCacheP03getC0Say0A6Models0A0VGSgyYaKF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "getBuildings"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14BuildingModels0A0V",
+        "text" : "Building"
+      },
+      {
+        "kind" : "text",
+        "text" : "]?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingServices"
+      }
+    ],
+    "required" : true,
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "getBuildings()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "getBuildings"
+            },
+            {
+              "kind" : "text",
+              "text" : "() "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "async"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14BuildingModels0A0V",
+              "text" : "Building"
+            },
+            {
+              "kind" : "text",
+              "text" : "]?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingservices\/buildingscache\/getbuildings()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingServices/documentation/BuildingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/BuildingsCache": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingsCache"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingsCache",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingsCache"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingsCache",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/buildingscache"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/BuildingsCache/getBuildings()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getBuildings"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels0A0V",
+      "text" : "Building"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingsCache\/getBuildings()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "getBuildings()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/buildingscache\/getbuildings()"
+}
+}
+}

@@ -1,0 +1,387 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:19LocationInteractors0A10InteractorC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LocationInteractor"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationInteractors"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LocationInteractor"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "LocationInteractor"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LocationInteractor"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/init(locationService:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/getUserLocation()",
+        "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/requestLocationPermission()",
+        "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/setHeadingUpdateCallback(_:)",
+        "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/setLocationUpdateCallback(_:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationinteractors\/locationinteractor"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://location.LocationInteractors/documentation/LocationInteractors": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationInteractors",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors"
+},
+"doc://location.LocationInteractors/documentation/LocationInteractors/LocationInteractor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationInteractor"
+    }
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationInteractor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationInteractor",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors\/locationinteractor"
+},
+"doc://location.LocationInteractors/documentation/LocationInteractors/LocationInteractor/getUserLocation()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getUserLocation"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8LocationAAV",
+      "text" : "Location"
+    }
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/getUserLocation()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getUserLocation()",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors\/locationinteractor\/getuserlocation()"
+},
+"doc://location.LocationInteractors/documentation/LocationInteractors/LocationInteractor/init(locationService:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "locationService"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8Location0A7ServiceP",
+      "text" : "LocationService"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/init(locationService:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(locationService:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors\/locationinteractor\/init(locationservice:)"
+},
+"doc://location.LocationInteractors/documentation/LocationInteractors/LocationInteractor/requestLocationPermission()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "requestLocationPermission"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/requestLocationPermission()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "requestLocationPermission()",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors\/locationinteractor\/requestlocationpermission()"
+},
+"doc://location.LocationInteractors/documentation/LocationInteractors/LocationInteractor/setHeadingUpdateCallback(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setHeadingUpdateCallback"
+    },
+    {
+      "kind" : "text",
+      "text" : "(("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)CLHeading",
+      "text" : "CLHeading"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/setHeadingUpdateCallback(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setHeadingUpdateCallback(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors\/locationinteractor\/setheadingupdatecallback(_:)"
+},
+"doc://location.LocationInteractors/documentation/LocationInteractors/LocationInteractor/setLocationUpdateCallback(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setLocationUpdateCallback"
+    },
+    {
+      "kind" : "text",
+      "text" : "(("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8LocationAAV",
+      "text" : "Location"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/setLocationUpdateCallback(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setLocationUpdateCallback(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors\/locationinteractor\/setlocationupdatecallback(_:)"
+}
+}
+}

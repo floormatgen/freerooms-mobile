@@ -1,0 +1,274 @@
+[
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "locationService"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "any"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:8Location0A7ServiceP",
+        "text" : "LocationService"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.initializer",
+    "language" : "swift",
+    "path" : "\/documentation\/locationinteractors\/locationinteractor\/init(locationservice:)",
+    "plainTextDeclaration" : "init(locationService: any LocationService)",
+    "referenceURL" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/init(locationService:)",
+    "title" : "init(locationService:)",
+    "usr" : "s:19LocationInteractors0A10InteractorC15locationServiceAC0A00aE0_p_tcfc"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LocationInteractor"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.class",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "LocationInteractor"
+      }
+    ],
+    "path" : "\/documentation\/locationinteractors\/locationinteractor",
+    "plainTextDeclaration" : "class LocationInteractor",
+    "referenceURL" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor",
+    "title" : "LocationInteractor",
+    "usr" : "s:19LocationInteractors0A10InteractorC"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "requestLocationPermission"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/locationinteractors\/locationinteractor\/requestlocationpermission()",
+    "plainTextDeclaration" : "func requestLocationPermission() throws -> Bool",
+    "referenceURL" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/requestLocationPermission()",
+    "title" : "requestLocationPermission()",
+    "usr" : "s:19LocationInteractors0A10InteractorC07requestA10PermissionSbyKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "setHeadingUpdateCallback"
+      },
+      {
+        "kind" : "text",
+        "text" : "(("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)CLHeading",
+        "text" : "CLHeading"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4Voida",
+        "text" : "Void"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/locationinteractors\/locationinteractor\/setheadingupdatecallback(_:)",
+    "plainTextDeclaration" : "func setHeadingUpdateCallback(_ callback: @escaping (CLHeading) -> Void)",
+    "referenceURL" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/setHeadingUpdateCallback(_:)",
+    "title" : "setHeadingUpdateCallback(_:)",
+    "usr" : "s:19LocationInteractors0A10InteractorC24setHeadingUpdateCallbackyyySo9CLHeadingCcF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "getUserLocation"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:8LocationAAV",
+        "text" : "Location"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/locationinteractors\/locationinteractor\/getuserlocation()",
+    "plainTextDeclaration" : "func getUserLocation() throws -> Location",
+    "referenceURL" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/getUserLocation()",
+    "title" : "getUserLocation()",
+    "usr" : "s:19LocationInteractors0A10InteractorC07getUserA00A0AEVyKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.module",
+    "language" : "swift",
+    "path" : "\/documentation\/locationinteractors",
+    "referenceURL" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors",
+    "title" : "LocationInteractors",
+    "usr" : "LocationInteractors"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "setLocationUpdateCallback"
+      },
+      {
+        "kind" : "text",
+        "text" : "(("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:8LocationAAV",
+        "text" : "Location"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4Voida",
+        "text" : "Void"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/locationinteractors\/locationinteractor\/setlocationupdatecallback(_:)",
+    "plainTextDeclaration" : "func setLocationUpdateCallback(_ callback: @escaping (Location) -> Void)",
+    "referenceURL" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/setLocationUpdateCallback(_:)",
+    "title" : "setLocationUpdateCallback(_:)",
+    "usr" : "s:19LocationInteractors0A10InteractorC03setA14UpdateCallbackyyy0A0AEVcF"
+  }
+]

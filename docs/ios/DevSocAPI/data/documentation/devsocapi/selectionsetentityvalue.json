@@ -1,0 +1,685 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSetEntityValue"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9ApolloAPI23SelectionSetEntityValueP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SelectionSetEntityValue"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "DevSocAPI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "SelectionSetEntityValue"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "SelectionSetEntityValue"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SelectionSetEntityValue"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SH",
+              "text" : "Hashable"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s8SendableP",
+              "text" : "Sendable"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/SQ",
+        "doc:\/\/devsocapi.DevSocAPI\/SH",
+        "doc:\/\/devsocapi.DevSocAPI\/s8SendableP",
+        "doc:\/\/devsocapi.DevSocAPI\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/MutableRootSelectionSet",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/MutableSelectionSet-7an7l",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/RootSelectionSet",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSet-3938j"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherited By",
+      "type" : "inheritedBy"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllBuildingsQuery\/Data",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllBuildingsQuery\/Data\/Building",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery\/Data",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery\/Data\/Room",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Swift\/Array",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/BuildingRoomsQuery\/Data",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/BuildingRoomsQuery\/Data\/Room",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Swift\/Optional",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking\/Room-swift.struct",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking\/Room-swift.struct\/Building-swift.struct"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/devsocapi\/selectionsetentityvalue"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://devsocapi.DevSocAPI/SH": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/SQ": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DevSocAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/AllBuildingsQuery/Data": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllBuildingsQuery\/Data",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Data"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AllBuildingsQuery.Data",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/allbuildingsquery\/data"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/AllBuildingsQuery/Data/Building": {
+  "abstract" : [
+    {
+      "text" : "Building",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Building"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllBuildingsQuery\/Data\/Building",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Building"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AllBuildingsQuery.Data.Building",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/allbuildingsquery\/data\/building"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/AllRoomsQuery/Data": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery\/Data",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Data"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AllRoomsQuery.Data",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/allroomsquery\/data"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/AllRoomsQuery/Data/Room": {
+  "abstract" : [
+    {
+      "text" : "Room",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Room"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery\/Data\/Room",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Room"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AllRoomsQuery.Data.Room",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/allroomsquery\/data\/room"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/BuildingRoomsQuery/Data": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/BuildingRoomsQuery\/Data",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Data"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingRoomsQuery.Data",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/buildingroomsquery\/data"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/BuildingRoomsQuery/Data/Room": {
+  "abstract" : [
+    {
+      "text" : "Room",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Room"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/BuildingRoomsQuery\/Data\/Room",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Room"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingRoomsQuery.Data.Room",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/buildingroomsquery\/data\/room"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/MutableRootSelectionSet": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MutableRootSelectionSet"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/MutableRootSelectionSet",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MutableRootSelectionSet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MutableRootSelectionSet",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/mutablerootselectionset"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/MutableSelectionSet-7an7l": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MutableSelectionSet"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/MutableSelectionSet-7an7l",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MutableSelectionSet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MutableSelectionSet",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/mutableselectionset-7an7l"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/RootSelectionSet": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RootSelectionSet"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/RootSelectionSet",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RootSelectionSet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RootSelectionSet",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/rootselectionset"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SelectionSet-3938j": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SelectionSet"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSet-3938j",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SelectionSet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SelectionSet",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/selectionset-3938j"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SelectionSetEntityValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SelectionSetEntityValue"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSetEntityValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SelectionSetEntityValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SelectionSetEntityValue",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/selectionsetentityvalue"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Swift/Array": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Swift\/Array",
+  "title" : "Array",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Swift/Optional": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Swift\/Optional",
+  "title" : "Optional",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/WeeklyBookingsQuery/Data": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Data"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingsQuery.Data",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/weeklybookingsquery\/data"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/WeeklyBookingsQuery/Data/Booking": {
+  "abstract" : [
+    {
+      "text" : "Booking",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Booking"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Booking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingsQuery.Data.Booking",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/weeklybookingsquery\/data\/booking"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/WeeklyBookingsQuery/Data/Booking/Room-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Booking.Room",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Room"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking\/Room-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Room"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingsQuery.Data.Booking.Room",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/weeklybookingsquery\/data\/booking\/room-swift.struct"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/WeeklyBookingsQuery/Data/Booking/Room-swift.struct/Building-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Booking.Room.Building",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Building"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery\/Data\/Booking\/Room-swift.struct\/Building-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Building"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingsQuery.Data.Booking.Room.Building",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/weeklybookingsquery\/data\/booking\/room-swift.struct\/building-swift.struct"
+},
+"doc://devsocapi.DevSocAPI/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s8SendableP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

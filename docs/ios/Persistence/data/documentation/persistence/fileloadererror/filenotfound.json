@@ -1,0 +1,162 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/fileNotFound"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11Persistence15FileLoaderErrorO12fileNotFoundyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "fileNotFound"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Persistence"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "FileLoaderError.fileNotFound"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "fileNotFound"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/persistence\/fileloadererror\/filenotfound"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://persistence.Persistence/documentation/Persistence": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Persistence",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence"
+},
+"doc://persistence.Persistence/documentation/Persistence/FileLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FileLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FileLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FileLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/fileloadererror"
+},
+"doc://persistence.Persistence/documentation/Persistence/FileLoaderError/fileNotFound": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fileNotFound"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/fileNotFound",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FileLoaderError.fileNotFound",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/fileloadererror\/filenotfound"
+}
+}
+}

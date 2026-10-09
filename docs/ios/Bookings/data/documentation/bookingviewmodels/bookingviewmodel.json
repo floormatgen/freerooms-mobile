@@ -1,0 +1,490 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:17BookingViewModels0aB5ModelP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "BookingViewModel"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingViewModels"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "BookingViewModel"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "BookingViewModel"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "BookingViewModel"
+            },
+            {
+              "kind" : "text",
+              "text" : " : AnyObject"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel",
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/PreviewBookingViewModel"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel\/bookings",
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel\/errorMessage",
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel\/isLoading",
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel\/loadedWeekInterval"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel\/loadCurrentWeekBookings(referenceDate:calendar:forceRefresh:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingviewmodels\/bookingviewmodel"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingViewModels/documentation/BookingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/BookingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/bookingviewmodel"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/BookingViewModel/bookings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bookings"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13BookingModels06WeeklyA0V",
+      "text" : "WeeklyBooking"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel\/bookings",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "bookings",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/bookingviewmodel\/bookings"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/BookingViewModel/errorMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17BookingViewModels0A17PresentationErrorV",
+      "text" : "BookingPresentationError"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel\/errorMessage",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "errorMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/bookingviewmodel\/errormessage"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/BookingViewModel/isLoading": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isLoading"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel\/isLoading",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "isLoading",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/bookingviewmodel\/isloading"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/BookingViewModel/loadCurrentWeekBookings(referenceDate:calendar:forceRefresh:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "loadCurrentWeekBookings"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "referenceDate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "calendar"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation8CalendarV",
+      "text" : "Calendar"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "forceRefresh"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel\/loadCurrentWeekBookings(referenceDate:calendar:forceRefresh:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "loadCurrentWeekBookings(referenceDate:calendar:forceRefresh:)",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/bookingviewmodel\/loadcurrentweekbookings(referencedate:calendar:forcerefresh:)"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/BookingViewModel/loadedWeekInterval": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "loadedWeekInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation12DateIntervalV",
+      "text" : "DateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel\/loadedWeekInterval",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "loadedWeekInterval",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/bookingviewmodel\/loadedweekinterval"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/LiveBookingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveBookingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveBookingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveBookingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/livebookingviewmodel"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/PreviewBookingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBookingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/PreviewBookingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBookingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewBookingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/previewbookingviewmodel"
+}
+}
+}

@@ -1,0 +1,336 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveBuildingService"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:16BuildingServices04LiveA7ServiceC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LiveBuildingService"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingServices"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LiveBuildingService"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "LiveBuildingService"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LiveBuildingService"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingService"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveBuildingService\/init(buildingLoader:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveBuildingService\/getBuildings()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveBuildingService\/GetBuildingsResult"
+      ],
+      "title" : "Type Aliases"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingservices\/livebuildingservice"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingServices/documentation/BuildingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/BuildingService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingService"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingService",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/buildingservice"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/LiveBuildingService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveBuildingService"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveBuildingService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveBuildingService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveBuildingService",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/livebuildingservice"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/LiveBuildingService/GetBuildingsResult": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GetBuildingsResult"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveBuildingService\/GetBuildingsResult",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GetBuildingsResult"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveBuildingService.GetBuildingsResult",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/livebuildingservice\/getbuildingsresult"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/LiveBuildingService/getBuildings()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getBuildings"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16BuildingServices04LiveA7ServiceC18GetBuildingsResulta",
+      "text" : "GetBuildingsResult"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveBuildingService\/getBuildings()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getBuildings()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/livebuildingservice\/getbuildings()"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/LiveBuildingService/init(buildingLoader:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "buildingLoader"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16BuildingServices0A6LoaderP",
+      "text" : "BuildingLoader"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveBuildingService\/init(buildingLoader:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(buildingLoader:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/livebuildingservice\/init(buildingloader:)"
+}
+}
+}

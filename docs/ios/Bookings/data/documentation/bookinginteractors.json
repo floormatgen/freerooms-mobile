@@ -1,0 +1,143 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "BookingInteractors",
+    "modules" : [
+      {
+        "name" : "BookingInteractors"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "BookingInteractors"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteractor"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "anchor" : "Protocols",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteracting"
+      ],
+      "title" : "Protocols"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookinginteractors"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingInteractors/documentation/BookingInteractors": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingInteractors",
+  "type" : "topic",
+  "url" : "\/documentation\/bookinginteractors"
+},
+"doc://bookings.BookingInteractors/documentation/BookingInteractors/BookingInteracting": {
+  "abstract" : [
+    {
+      "text" : "Defines the calendar and service policies needed by the weekly Bookings view model.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingInteracting"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteracting",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingInteracting"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingInteracting",
+  "type" : "topic",
+  "url" : "\/documentation\/bookinginteractors\/bookinginteracting"
+},
+"doc://bookings.BookingInteractors/documentation/BookingInteractors/BookingInteractor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingInteractor"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteractor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingInteractor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingInteractor",
+  "type" : "topic",
+  "url" : "\/documentation\/bookinginteractors\/bookinginteractor"
+}
+}
+}

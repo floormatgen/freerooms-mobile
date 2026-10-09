@@ -1,0 +1,558 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9ApolloAPI10InputValueO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "InputValue"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "DevSocAPI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "InputValue"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "InputValue"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "indirect"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "InputValue"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/s8CopyableP",
+        "doc:\/\/devsocapi.DevSocAPI\/SQ",
+        "doc:\/\/devsocapi.DevSocAPI\/s9EscapableP",
+        "doc:\/\/devsocapi.DevSocAPI\/s25ExpressibleByArrayLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s27ExpressibleByBooleanLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s30ExpressibleByDictionaryLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s43ExpressibleByExtendedGraphemeClusterLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s25ExpressibleByFloatLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s27ExpressibleByIntegerLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s26ExpressibleByStringLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/s33ExpressibleByUnicodeScalarLiteralP",
+        "doc:\/\/devsocapi.DevSocAPI\/SH",
+        "doc:\/\/devsocapi.DevSocAPI\/s8SendableP",
+        "doc:\/\/devsocapi.DevSocAPI\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/list(_:)",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/null",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/object(_:)",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/scalar(_:)",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/variable(_:)"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/Equatable-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByArrayLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByBooleanLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByDictionaryLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByExtendedGraphemeClusterLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByFloatLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByIntegerLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByStringLiteral-Implementations",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/Hashable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/devsocapi\/inputvalue"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://devsocapi.DevSocAPI/SH": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/SQ": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DevSocAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InputValue"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InputValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InputValue",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/equatable-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/ExpressibleByArrayLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByArrayLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByArrayLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/expressiblebyarrayliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/ExpressibleByBooleanLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByBooleanLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByBooleanLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/expressiblebybooleanliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/ExpressibleByDictionaryLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByDictionaryLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByDictionaryLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/expressiblebydictionaryliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/ExpressibleByExtendedGraphemeClusterLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByExtendedGraphemeClusterLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByExtendedGraphemeClusterLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/expressiblebyextendedgraphemeclusterliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/ExpressibleByFloatLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByFloatLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByFloatLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/expressiblebyfloatliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/ExpressibleByIntegerLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByIntegerLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByIntegerLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/expressiblebyintegerliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/ExpressibleByStringLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/ExpressibleByStringLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByStringLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/expressiblebystringliteral-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/Hashable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/Hashable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Hashable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/hashable-implementations"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/list(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "list"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9ApolloAPI10InputValueO",
+      "text" : "InputValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/list(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "InputValue.list(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/list(_:)"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/null": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "null"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/null",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "InputValue.null",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/null"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/object(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "object"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9ApolloAPI10InputValueO",
+      "text" : "InputValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/object(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "InputValue.object(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/object(_:)"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/scalar(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scalar"
+    },
+    {
+      "kind" : "text",
+      "text" : "(any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9ApolloAPI10ScalarTypeP",
+      "text" : "ScalarType"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/scalar(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "InputValue.scalar(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/scalar(_:)"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue/variable(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "variable"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue\/variable(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "InputValue.variable(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue\/variable(_:)"
+},
+"doc://devsocapi.DevSocAPI/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s25ExpressibleByArrayLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s25ExpressibleByArrayLiteralP",
+  "title" : "Swift.ExpressibleByArrayLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s25ExpressibleByFloatLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s25ExpressibleByFloatLiteralP",
+  "title" : "Swift.ExpressibleByFloatLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s26ExpressibleByStringLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s26ExpressibleByStringLiteralP",
+  "title" : "Swift.ExpressibleByStringLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s27ExpressibleByBooleanLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s27ExpressibleByBooleanLiteralP",
+  "title" : "Swift.ExpressibleByBooleanLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s27ExpressibleByIntegerLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s27ExpressibleByIntegerLiteralP",
+  "title" : "Swift.ExpressibleByIntegerLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s30ExpressibleByDictionaryLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s30ExpressibleByDictionaryLiteralP",
+  "title" : "Swift.ExpressibleByDictionaryLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s33ExpressibleByUnicodeScalarLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s33ExpressibleByUnicodeScalarLiteralP",
+  "title" : "Swift.ExpressibleByUnicodeScalarLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s43ExpressibleByExtendedGraphemeClusterLiteralP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s43ExpressibleByExtendedGraphemeClusterLiteralP",
+  "title" : "Swift.ExpressibleByExtendedGraphemeClusterLiteral",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s8CopyableP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s8CopyableP",
+  "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s8SendableP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+},
+"doc://devsocapi.DevSocAPI/s9EscapableP": {
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/s9EscapableP",
+  "title" : "Swift.Escapable",
+  "type" : "unresolvable"
+}
+}
+}

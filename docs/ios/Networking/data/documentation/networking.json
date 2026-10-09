@@ -1,0 +1,439 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/networking.Networking\/documentation\/Networking"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "Networking",
+    "modules" : [
+      {
+        "name" : "Networking"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "Networking"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable",
+        "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "anchor" : "Protocols",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/networking.Networking\/documentation\/Networking\/CodableLoader",
+        "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClient",
+        "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPSession"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/networking.Networking\/documentation\/Networking\/URLSessionHTTPClient"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientResult"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/networking.Networking\/documentation\/Networking\/DevSoc",
+        "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError",
+        "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/networking"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://networking.Networking/documentation/Networking": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Networking",
+  "type" : "topic",
+  "url" : "\/documentation\/networking"
+},
+"doc://networking.Networking/documentation/Networking/CodableLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CodableLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/CodableLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CodableLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CodableLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/codableloader"
+},
+"doc://networking.Networking/documentation/Networking/DevSoc": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "namespace",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " for DevSoc",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DevSoc"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/DevSoc",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DevSoc"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DevSoc",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/devsoc"
+},
+"doc://networking.Networking/documentation/Networking/FileBackedCodable": {
+  "abstract" : [
+    {
+      "text" : "A type that manages access to a file storing ",
+      "type" : "text"
+    },
+    {
+      "code" : "Codable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " data",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "actor"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FileBackedCodable"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FileBackedCodable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FileBackedCodable",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/filebackedcodable"
+},
+"doc://networking.Networking/documentation/Networking/HTTPClient": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HTTPClient"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClient",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HTTPClient"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HTTPClient",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/httpclient"
+},
+"doc://networking.Networking/documentation/Networking/HTTPClientError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HTTPClientError"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HTTPClientError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HTTPClientError",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/httpclienterror"
+},
+"doc://networking.Networking/documentation/Networking/HTTPClientResult": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HTTPClientResult"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientResult",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HTTPClientResult"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HTTPClientResult",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/httpclientresult"
+},
+"doc://networking.Networking/documentation/Networking/HTTPSession": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HTTPSession"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPSession",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HTTPSession"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HTTPSession",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/httpsession"
+},
+"doc://networking.Networking/documentation/Networking/NetworkCodableLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NetworkCodableLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NetworkCodableLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NetworkCodableLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/networkcodableloader"
+},
+"doc://networking.Networking/documentation/Networking/StatusCode": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StatusCode"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StatusCode"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StatusCode",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/statuscode"
+},
+"doc://networking.Networking/documentation/Networking/URLSessionHTTPClient": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "URLSessionHTTPClient"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/URLSessionHTTPClient",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "URLSessionHTTPClient"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "URLSessionHTTPClient",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/urlsessionhttpclient"
+}
+}
+}

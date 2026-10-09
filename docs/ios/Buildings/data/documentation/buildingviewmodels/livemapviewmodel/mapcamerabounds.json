@@ -1,0 +1,236 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "MapViewModel.mapCameraBounds",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveMapViewModel"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveMapViewModel\/mapCameraBounds"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18BuildingViewModels07LiveMapB5ModelC15mapCameraBounds01_E11Kit_SwiftUI0ehI0Vvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "mapCameraBounds"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:15_MapKit_SwiftUI0A12CameraBoundsV",
+        "text" : "MapCameraBounds"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingViewModels"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "mapCameraBounds"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "mapCameraBounds"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15_MapKit_SwiftUI0A12CameraBoundsV",
+              "text" : "MapCameraBounds"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingviewmodels\/livemapviewmodel\/mapcamerabounds"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/LiveMapViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveMapViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveMapViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveMapViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveMapViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/livemapviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/LiveMapViewModel/mapCameraBounds": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mapCameraBounds"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15_MapKit_SwiftUI0A12CameraBoundsV",
+      "text" : "MapCameraBounds"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveMapViewModel\/mapCameraBounds",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mapCameraBounds",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/livemapviewmodel\/mapcamerabounds"
+}
+}
+}

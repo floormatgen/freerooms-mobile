@@ -1,0 +1,247 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11Persistence15FileLoaderErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FileLoaderError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Persistence"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "FileLoaderError"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "FileLoaderError"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "FileLoaderError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/persistence.Persistence\/SQ",
+        "doc:\/\/persistence.Persistence\/s5ErrorP",
+        "doc:\/\/persistence.Persistence\/SH",
+        "doc:\/\/persistence.Persistence\/s8SendableP",
+        "doc:\/\/persistence.Persistence\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/fileNotFound"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/Equatable-Implementations",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/Error-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/persistence\/fileloadererror"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://persistence.Persistence/SH": {
+  "identifier" : "doc:\/\/persistence.Persistence\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://persistence.Persistence/SQ": {
+  "identifier" : "doc:\/\/persistence.Persistence\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://persistence.Persistence/documentation/Persistence": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Persistence",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence"
+},
+"doc://persistence.Persistence/documentation/Persistence/FileLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FileLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FileLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FileLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/fileloadererror"
+},
+"doc://persistence.Persistence/documentation/Persistence/FileLoaderError/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/fileloadererror\/equatable-implementations"
+},
+"doc://persistence.Persistence/documentation/Persistence/FileLoaderError/Error-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/Error-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Error Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/fileloadererror\/error-implementations"
+},
+"doc://persistence.Persistence/documentation/Persistence/FileLoaderError/fileNotFound": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fileNotFound"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/fileNotFound",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FileLoaderError.fileNotFound",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/fileloadererror\/filenotfound"
+},
+"doc://persistence.Persistence/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/persistence.Persistence\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://persistence.Persistence/s5ErrorP": {
+  "identifier" : "doc:\/\/persistence.Persistence\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://persistence.Persistence/s8SendableP": {
+  "identifier" : "doc:\/\/persistence.Persistence\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

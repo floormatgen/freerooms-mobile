@@ -1,0 +1,225 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors",
+        "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/init(locationService:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:19LocationInteractors0A10InteractorC15locationServiceAC0A00aE0_p_tcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "locationService"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "any"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:8Location0A7ServiceP",
+        "text" : "LocationService"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationInteractors"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(locationService:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "locationService"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "any"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:8Location0A7ServiceP",
+              "text" : "LocationService"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationinteractors\/locationinteractor\/init(locationservice:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://location.LocationInteractors/documentation/LocationInteractors": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationInteractors",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors"
+},
+"doc://location.LocationInteractors/documentation/LocationInteractors/LocationInteractor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationInteractor"
+    }
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationInteractor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationInteractor",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors\/locationinteractor"
+},
+"doc://location.LocationInteractors/documentation/LocationInteractors/LocationInteractor/init(locationService:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "locationService"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8Location0A7ServiceP",
+      "text" : "LocationService"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/init(locationService:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(locationService:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors\/locationinteractor\/init(locationservice:)"
+}
+}
+}

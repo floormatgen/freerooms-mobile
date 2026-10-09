@@ -1,0 +1,281 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/networking.Networking\/documentation\/Networking"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClient"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10Networking10HTTPClientP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HTTPClient"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Networking"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "HTTPClient"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "HTTPClient"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "HTTPClient"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s8SendableP",
+              "text" : "Sendable"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/networking.Networking\/s8SendableP",
+        "doc:\/\/networking.Networking\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/networking.Networking\/documentation\/Networking\/URLSessionHTTPClient"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClient\/get(from:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/networking\/httpclient"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://networking.Networking/documentation/Networking": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Networking",
+  "type" : "topic",
+  "url" : "\/documentation\/networking"
+},
+"doc://networking.Networking/documentation/Networking/HTTPClient": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HTTPClient"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClient",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HTTPClient"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HTTPClient",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/httpclient"
+},
+"doc://networking.Networking/documentation/Networking/HTTPClient/get(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "get"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Networking16HTTPClientResulta",
+      "text" : "HTTPClientResult"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClient\/get(from:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "get(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/httpclient\/get(from:)"
+},
+"doc://networking.Networking/documentation/Networking/URLSessionHTTPClient": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "URLSessionHTTPClient"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/URLSessionHTTPClient",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "URLSessionHTTPClient"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "URLSessionHTTPClient",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/urlsessionhttpclient"
+},
+"doc://networking.Networking/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/networking.Networking\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://networking.Networking/s8SendableP": {
+  "identifier" : "doc:\/\/networking.Networking\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

@@ -1,0 +1,2681 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "DevSocAPI",
+    "modules" : [
+      {
+        "name" : "DevSocAPI"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "DevSocAPI"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Protocols",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AnyScalarType",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/CompositeInlineFragment",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/CompositeSelectionSet",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/CustomScalarType",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Deferrable",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/EnumType",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Fragment",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/FragmentContainer",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLMutation",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLOperation",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLOperationVariableListElement",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLOperationVariableValue",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLQuery",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLSubscription",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InlineFragment-53156",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InlineFragment-qg9",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputObject",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodable",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONEncodable",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/LocalCacheMutation",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/MutableInlineFragment",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/MutableRootSelectionSet",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/MutableSelectionSet-2h4tr",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/MutableSelectionSet-7an7l",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/OneOfInputObject",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/OperationResponseFormat",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/OutputTypeConvertible",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/RootSelectionSet",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/ScalarType",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaConfiguration-swift.protocol",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaMetadata-swift.protocol",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSet-3938j",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSet-brmx",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSetEntityValue"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllBuildingsQuery",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/BuildingRoomsQuery",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/CacheKeyInfo",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Deferred",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/IncrementalDeferredResponseFormat",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Interface",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/ListData",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Object",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/ObjectData",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/OperationDefinition",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/OperationDocument",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/ResponsePath",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SingleResponseFormat",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SubscriptionResponseFormat",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Union",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Operators",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/!=(_:_:)",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/==(_:_:)",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/__(_:_:)"
+      ],
+      "title" : "Operators"
+    },
+    {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Bookingtypeenum",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Float8",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Floortypeenum",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONEncodableDictionary",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONObject",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONValue",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Seatingtypeenum",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Timestamptz"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/DocumentType",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/FieldPolicy",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLEnum",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLOperationType",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Interfaces",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodingError",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/NoFragments",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Objects",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaConfiguration-swift.enum",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaMetadata-swift.enum",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Selection",
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Unions"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "anchor" : "Extended-Modules",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Swift"
+      ],
+      "title" : "Extended Modules"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/devsocapi"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DevSocAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9ApolloAPI11GraphQLEnumO",
+      "text" : "GraphQLEnum"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">?, "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/!=(_:_:)"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/==(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "=="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9ApolloAPI11GraphQLEnumO",
+      "text" : "GraphQLEnum"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">?, "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/==(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "==(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/==(_:_:)"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/AllBuildingsQuery": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AllBuildingsQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllBuildingsQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AllBuildingsQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AllBuildingsQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/allbuildingsquery"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/AllRoomsQuery": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AllRoomsQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AllRoomsQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AllRoomsQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AllRoomsQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/allroomsquery"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/AnyScalarType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AnyScalarType"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/AnyScalarType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AnyScalarType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AnyScalarType",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/anyscalartype"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Bookingtypeenum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Bookingtypeenum"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Bookingtypeenum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Bookingtypeenum"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Bookingtypeenum",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/bookingtypeenum"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/BuildingRoomsQuery": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingRoomsQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/BuildingRoomsQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingRoomsQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingRoomsQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/buildingroomsquery"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/CacheKeyInfo": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CacheKeyInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/CacheKeyInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CacheKeyInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CacheKeyInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/cachekeyinfo"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/CompositeInlineFragment": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CompositeInlineFragment"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/CompositeInlineFragment",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CompositeInlineFragment"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CompositeInlineFragment",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/compositeinlinefragment"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/CompositeSelectionSet": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CompositeSelectionSet"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/CompositeSelectionSet",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CompositeSelectionSet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CompositeSelectionSet",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/compositeselectionset"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/CustomScalarType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CustomScalarType"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/CustomScalarType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CustomScalarType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CustomScalarType",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/customscalartype"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Deferrable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Deferrable"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Deferrable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Deferrable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Deferrable",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/deferrable"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Deferred": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Deferred"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Deferred",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Deferred"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Deferred",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/deferred"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/DocumentType": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DocumentType"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/DocumentType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DocumentType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DocumentType",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/documenttype"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/EnumType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "EnumType"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/EnumType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EnumType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EnumType",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/enumtype"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/FieldPolicy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FieldPolicy"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/FieldPolicy",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FieldPolicy"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FieldPolicy",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/fieldpolicy"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Float8": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Float8"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Float8",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Float8"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Float8",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/float8"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Floortypeenum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Floortypeenum"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Floortypeenum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Floortypeenum"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Floortypeenum",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/floortypeenum"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Fragment": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Fragment"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Fragment",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Fragment"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Fragment",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/fragment"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/FragmentContainer": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FragmentContainer"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/FragmentContainer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FragmentContainer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FragmentContainer",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/fragmentcontainer"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLEnum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLEnum"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLEnum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLEnum"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLEnum",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlenum"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLMutation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLMutation"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLMutation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLMutation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLMutation",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlmutation"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLNullable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLNullable"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLNullable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLNullable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLNullable",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlnullable"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLOperation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLOperation"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLOperation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLOperation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLOperation",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqloperation"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLOperationType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLOperationType"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLOperationType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLOperationType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLOperationType",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqloperationtype"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLOperationVariableListElement": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLOperationVariableListElement"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLOperationVariableListElement",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLOperationVariableListElement"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLOperationVariableListElement",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqloperationvariablelistelement"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLOperationVariableValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLOperationVariableValue"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLOperationVariableValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLOperationVariableValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLOperationVariableValue",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqloperationvariablevalue"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLQuery": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlquery"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/GraphQLSubscription": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLSubscription"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/GraphQLSubscription",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLSubscription"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLSubscription",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/graphqlsubscription"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/IncrementalDeferredResponseFormat": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "IncrementalDeferredResponseFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/IncrementalDeferredResponseFormat",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "IncrementalDeferredResponseFormat"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "IncrementalDeferredResponseFormat",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/incrementaldeferredresponseformat"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InlineFragment-53156": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InlineFragment"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InlineFragment-53156",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InlineFragment"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InlineFragment",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inlinefragment-53156"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InlineFragment-qg9": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InlineFragment"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InlineFragment-qg9",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InlineFragment"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InlineFragment",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inlinefragment-qg9"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputObject": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InputObject"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputObject",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InputObject"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InputObject",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputobject"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/InputValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InputValue"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/InputValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InputValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InputValue",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/inputvalue"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Interface": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Interface"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Interface",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Interface"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Interface",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/interface"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Interfaces": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Interfaces"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Interfaces",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Interfaces"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Interfaces",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/interfaces"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/JSONDecodable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JSONDecodable"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JSONDecodable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JSONDecodable",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/jsondecodable"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/JSONDecodingError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JSONDecodingError"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONDecodingError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JSONDecodingError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JSONDecodingError",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/jsondecodingerror"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/JSONEncodable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JSONEncodable"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONEncodable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JSONEncodable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JSONEncodable",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/jsonencodable"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/JSONEncodableDictionary": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JSONEncodableDictionary"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONEncodableDictionary",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JSONEncodableDictionary"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JSONEncodableDictionary",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/jsonencodabledictionary"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/JSONObject": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JSONObject"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONObject",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JSONObject"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JSONObject",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/jsonobject"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/JSONValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JSONValue"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/JSONValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JSONValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JSONValue",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/jsonvalue"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/ListData": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ListData"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/ListData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ListData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ListData",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/listdata"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/LocalCacheMutation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocalCacheMutation"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/LocalCacheMutation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocalCacheMutation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocalCacheMutation",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/localcachemutation"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/MutableInlineFragment": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MutableInlineFragment"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/MutableInlineFragment",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MutableInlineFragment"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MutableInlineFragment",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/mutableinlinefragment"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/MutableRootSelectionSet": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MutableRootSelectionSet"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/MutableRootSelectionSet",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MutableRootSelectionSet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MutableRootSelectionSet",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/mutablerootselectionset"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/MutableSelectionSet-2h4tr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MutableSelectionSet"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/MutableSelectionSet-2h4tr",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MutableSelectionSet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MutableSelectionSet",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/mutableselectionset-2h4tr"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/MutableSelectionSet-7an7l": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MutableSelectionSet"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/MutableSelectionSet-7an7l",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MutableSelectionSet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MutableSelectionSet",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/mutableselectionset-7an7l"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/NoFragments": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NoFragments"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/NoFragments",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NoFragments"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NoFragments",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/nofragments"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Object": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Object"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Object",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Object"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Object",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/object"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/ObjectData": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ObjectData"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/ObjectData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ObjectData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ObjectData",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/objectdata"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Objects": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Objects"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Objects",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Objects"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Objects",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/objects"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/OneOfInputObject": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOfInputObject"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/OneOfInputObject",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOfInputObject"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OneOfInputObject",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/oneofinputobject"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/OperationDefinition": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OperationDefinition"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/OperationDefinition",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OperationDefinition"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OperationDefinition",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/operationdefinition"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/OperationDocument": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OperationDocument"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/OperationDocument",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OperationDocument"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OperationDocument",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/operationdocument"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/OperationResponseFormat": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OperationResponseFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/OperationResponseFormat",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OperationResponseFormat"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OperationResponseFormat",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/operationresponseformat"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/OutputTypeConvertible": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OutputTypeConvertible"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/OutputTypeConvertible",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OutputTypeConvertible"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OutputTypeConvertible",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/outputtypeconvertible"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/ResponsePath": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ResponsePath"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/ResponsePath",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ResponsePath"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ResponsePath",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/responsepath"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/RootSelectionSet": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RootSelectionSet"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/RootSelectionSet",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RootSelectionSet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RootSelectionSet",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/rootselectionset"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/ScalarType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ScalarType"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/ScalarType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ScalarType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ScalarType",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/scalartype"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SchemaConfiguration-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SchemaConfiguration"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaConfiguration-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SchemaConfiguration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SchemaConfiguration",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/schemaconfiguration-swift.enum"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SchemaConfiguration-swift.protocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SchemaConfiguration"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaConfiguration-swift.protocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SchemaConfiguration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SchemaConfiguration",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/schemaconfiguration-swift.protocol"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SchemaMetadata-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SchemaMetadata"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaMetadata-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SchemaMetadata"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SchemaMetadata",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/schemametadata-swift.enum"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SchemaMetadata-swift.protocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SchemaMetadata"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SchemaMetadata-swift.protocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SchemaMetadata"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SchemaMetadata",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/schemametadata-swift.protocol"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Seatingtypeenum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Seatingtypeenum"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Seatingtypeenum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Seatingtypeenum"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Seatingtypeenum",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/seatingtypeenum"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Selection": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Selection"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Selection",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Selection"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Selection",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/selection"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SelectionSet-3938j": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SelectionSet"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSet-3938j",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SelectionSet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SelectionSet",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/selectionset-3938j"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SelectionSet-brmx": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SelectionSet"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSet-brmx",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SelectionSet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SelectionSet",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/selectionset-brmx"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SelectionSetEntityValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SelectionSetEntityValue"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SelectionSetEntityValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SelectionSetEntityValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SelectionSetEntityValue",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/selectionsetentityvalue"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SingleResponseFormat": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SingleResponseFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SingleResponseFormat",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SingleResponseFormat"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SingleResponseFormat",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/singleresponseformat"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/SubscriptionResponseFormat": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SubscriptionResponseFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/SubscriptionResponseFormat",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SubscriptionResponseFormat"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SubscriptionResponseFormat",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/subscriptionresponseformat"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Swift": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Swift",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Swift",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/swift"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Timestamptz": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Timestamptz"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Timestamptz",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Timestamptz"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Timestamptz",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/timestamptz"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Union": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Union"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Union",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Union"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Union",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/union"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/Unions": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Unions"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/Unions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Unions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Unions",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/unions"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/WeeklyBookingsQuery": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBookingsQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/WeeklyBookingsQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBookingsQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingsQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/weeklybookingsquery"
+},
+"doc://devsocapi.DevSocAPI/documentation/DevSocAPI/__(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "??"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9ApolloAPI15GraphQLNullableO",
+      "text" : "GraphQLNullable"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9ApolloAPI15GraphQLNullableO",
+      "text" : "GraphQLNullable"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/devsocapi.DevSocAPI\/documentation\/DevSocAPI\/__(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "??(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/devsocapi\/__(_:_:)"
+}
+}
+}

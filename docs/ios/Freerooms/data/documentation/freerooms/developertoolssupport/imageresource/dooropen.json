@@ -1,0 +1,291 @@
+{
+  "abstract" : [
+    {
+      "text" : "The “DoorOpen” asset catalog image resource.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport\/ImageResource"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport\/ImageResource\/doorOpen"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "DeveloperToolsSupport",
+    "externalID" : "s:21DeveloperToolsSupport13ImageResourceV9FreeroomsE8doorOpenACvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "doorOpen"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:21DeveloperToolsSupport13ImageResourceV",
+        "text" : "ImageResource"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Freerooms",
+        "relatedModules" : [
+          "DeveloperToolsSupport"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "doorOpen"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "doorOpen"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:21DeveloperToolsSupport13ImageResourceV",
+              "text" : "ImageResource"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freerooms\/developertoolssupport\/imageresource\/dooropen"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://app.devsoc.Freerooms/documentation/Freerooms": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Freerooms",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/DeveloperToolsSupport": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DeveloperToolsSupport",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/developertoolssupport"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/DeveloperToolsSupport/ImageResource": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DeveloperToolsSupport"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:21DeveloperToolsSupport13ImageResourceV",
+      "text" : "ImageResource"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport\/ImageResource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ImageResource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ImageResource",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/developertoolssupport\/imageresource"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/DeveloperToolsSupport/ImageResource/doorOpen": {
+  "abstract" : [
+    {
+      "text" : "The “DoorOpen” asset catalog image resource.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "doorOpen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:21DeveloperToolsSupport13ImageResourceV",
+      "text" : "ImageResource"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport\/ImageResource\/doorOpen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "doorOpen",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/developertoolssupport\/imageresource\/dooropen"
+}
+}
+}

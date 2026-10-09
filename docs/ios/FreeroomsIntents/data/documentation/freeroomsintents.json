@@ -1,0 +1,151 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "FreeroomsIntents",
+    "modules" : [
+      {
+        "name" : "FreeroomsIntents"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "FreeroomsIntents"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/TabIntents"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freeroomsintents"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://freeroomsintents.FreeroomsIntents/documentation/FreeroomsIntents": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FreeroomsIntents",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomsintents"
+},
+"doc://freeroomsintents.FreeroomsIntents/documentation/FreeroomsIntents/FreeroomsIntentsPackage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsIntentsPackage"
+    }
+  ],
+  "identifier" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsIntentsPackage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FreeroomsIntentsPackage",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomsintents\/freeroomsintentspackage"
+},
+"doc://freeroomsintents.FreeroomsIntents/documentation/FreeroomsIntents/TabIntents": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "namespace",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " for the open tab intents",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TabIntents"
+    }
+  ],
+  "identifier" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/TabIntents",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TabIntents"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TabIntents",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomsintents\/tabintents"
+}
+}
+}

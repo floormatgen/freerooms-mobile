@@ -1,0 +1,205 @@
+{
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "namespace",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " for the open tab intents",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/TabIntents"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:16FreeroomsIntents03TabB0O",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TabIntents"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FreeroomsIntents"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TabIntents"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "TabIntents"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TabIntents"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "This is necessary, as macros that generate arbitrary names at the global scope is not allowed.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Macros are used, as widget intents do not support static parameters being passed",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freeroomsintents\/tabintents"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://freeroomsintents.FreeroomsIntents/documentation/FreeroomsIntents": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FreeroomsIntents",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomsintents"
+},
+"doc://freeroomsintents.FreeroomsIntents/documentation/FreeroomsIntents/TabIntents": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "namespace",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " for the open tab intents",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TabIntents"
+    }
+  ],
+  "identifier" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/TabIntents",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TabIntents"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TabIntents",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomsintents\/tabintents"
+}
+}
+}

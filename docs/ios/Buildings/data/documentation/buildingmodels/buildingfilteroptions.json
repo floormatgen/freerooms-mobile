@@ -1,0 +1,281 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/BuildingFilterOptions"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14BuildingModels0A13FilterOptionsO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "BuildingFilterOptions"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingModels"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "BuildingFilterOptions"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "BuildingFilterOptions"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "BuildingFilterOptions"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingModels\/SQ",
+        "doc:\/\/buildings.BuildingModels\/SH",
+        "doc:\/\/buildings.BuildingModels\/s8SendableP",
+        "doc:\/\/buildings.BuildingModels\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/BuildingFilterOptions\/Alphabetical",
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/BuildingFilterOptions\/CampusSection",
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/BuildingFilterOptions\/Location"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/BuildingFilterOptions\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingmodels\/buildingfilteroptions"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingModels/SH": {
+  "identifier" : "doc:\/\/buildings.BuildingModels\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://buildings.BuildingModels/SQ": {
+  "identifier" : "doc:\/\/buildings.BuildingModels\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/BuildingFilterOptions": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingFilterOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/BuildingFilterOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingFilterOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingFilterOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/buildingfilteroptions"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/BuildingFilterOptions/Alphabetical": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Alphabetical"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/BuildingFilterOptions\/Alphabetical",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "BuildingFilterOptions.Alphabetical",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/buildingfilteroptions\/alphabetical"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/BuildingFilterOptions/CampusSection": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CampusSection"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/BuildingFilterOptions\/CampusSection",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "BuildingFilterOptions.CampusSection",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/buildingfilteroptions\/campussection"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/BuildingFilterOptions/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/BuildingFilterOptions\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/buildingfilteroptions\/equatable-implementations"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/BuildingFilterOptions/Location": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Location"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/BuildingFilterOptions\/Location",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "BuildingFilterOptions.Location",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/buildingfilteroptions\/location"
+},
+"doc://buildings.BuildingModels/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/buildings.BuildingModels\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://buildings.BuildingModels/s8SendableP": {
+  "identifier" : "doc:\/\/buildings.BuildingModels\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

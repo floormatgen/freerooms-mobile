@@ -1,0 +1,214 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomViews\/documentation\/RoomViews",
+        "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomDetailsView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomDetailsView\/init(room:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9RoomViews0A11DetailsViewV4roomAC0A6Models0A0V_tcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "room"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10RoomModels0A0V",
+        "text" : "Room"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomViews"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(room:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "room"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10RoomModels0A0V",
+              "text" : "Room"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomviews\/roomdetailsview\/init(room:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomViews/documentation/RoomViews": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomViews",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviews"
+},
+"doc://rooms.RoomViews/documentation/RoomViews/RoomDetailsView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomDetailsView"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomDetailsView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomDetailsView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomDetailsView",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviews\/roomdetailsview"
+},
+"doc://rooms.RoomViews/documentation/RoomViews/RoomDetailsView/init(room:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "room"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomDetailsView\/init(room:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(room:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviews\/roomdetailsview\/init(room:)"
+}
+}
+}

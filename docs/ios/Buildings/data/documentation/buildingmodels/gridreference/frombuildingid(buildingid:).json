@@ -1,0 +1,265 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels",
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/GridReference"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/GridReference\/fromBuildingID(buildingID:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14BuildingModels13GridReferenceV04fromA2ID08buildingF0ACSS_tFZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "fromBuildingID"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "buildingID"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14BuildingModels13GridReferenceV",
+        "text" : "GridReference"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingModels"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "fromBuildingID(buildingID:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "fromBuildingID"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "buildingID"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/GridReference",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14BuildingModels13GridReferenceV",
+              "text" : "GridReference"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingmodels\/gridreference\/frombuildingid(buildingid:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingModels/documentation/BuildingModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/GridReference": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GridReference"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/GridReference",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GridReference"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GridReference",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/gridreference"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/GridReference/fromBuildingID(buildingID:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fromBuildingID"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "buildingID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels13GridReferenceV",
+      "text" : "GridReference"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/GridReference\/fromBuildingID(buildingID:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fromBuildingID(buildingID:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/gridreference\/frombuildingid(buildingid:)"
+}
+}
+}

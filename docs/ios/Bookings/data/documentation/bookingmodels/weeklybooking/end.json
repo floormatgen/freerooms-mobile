@@ -1,0 +1,192 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/end"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:13BookingModels06WeeklyA0V3end10Foundation4DateVvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "end"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation4DateV",
+        "text" : "Date"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingModels"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "end"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "end"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation4DateV",
+              "text" : "Date"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingmodels\/weeklybooking\/end"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingModels/documentation/BookingModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingModels",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking": {
+  "abstract" : [
+    {
+      "text" : "A booking prepared for display in the cross-room weekly discovery feed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBooking"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBooking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBooking",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/end": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "end"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/end",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "end",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/end"
+}
+}
+}

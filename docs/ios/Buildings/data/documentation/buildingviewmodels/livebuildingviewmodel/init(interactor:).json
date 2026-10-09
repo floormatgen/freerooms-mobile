@@ -1,0 +1,214 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveBuildingViewModel"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveBuildingViewModel\/init(interactor:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18BuildingViewModels04LiveaB5ModelC10interactorAC0A11Interactors0A10InteractorC_tcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "interactor"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:19BuildingInteractors0A10InteractorC",
+        "text" : "BuildingInteractor"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingViewModels"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(interactor:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "interactor"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:19BuildingInteractors0A10InteractorC",
+              "text" : "BuildingInteractor"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingviewmodels\/livebuildingviewmodel\/init(interactor:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/LiveBuildingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveBuildingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveBuildingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveBuildingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveBuildingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/livebuildingviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/LiveBuildingViewModel/init(interactor:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "interactor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:19BuildingInteractors0A10InteractorC",
+      "text" : "BuildingInteractor"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveBuildingViewModel\/init(interactor:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(interactor:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/livebuildingviewmodel\/init(interactor:)"
+}
+}
+}

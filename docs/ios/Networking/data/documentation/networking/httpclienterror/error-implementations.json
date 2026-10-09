@@ -1,0 +1,134 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/networking.Networking\/documentation\/Networking",
+        "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/Error-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "Networking"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Error Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/localizedDescription"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/networking\/httpclienterror\/error-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://networking.Networking/documentation/Networking": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Networking",
+  "type" : "topic",
+  "url" : "\/documentation\/networking"
+},
+"doc://networking.Networking/documentation/Networking/HTTPClientError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HTTPClientError"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HTTPClientError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HTTPClientError",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/httpclienterror"
+},
+"doc://networking.Networking/documentation/Networking/HTTPClientError/localizedDescription": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "localizedDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/localizedDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "localizedDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/networking\/httpclienterror\/localizeddescription"
+}
+}
+}

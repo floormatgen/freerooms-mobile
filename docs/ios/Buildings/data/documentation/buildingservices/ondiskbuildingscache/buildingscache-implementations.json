@@ -1,0 +1,277 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/BuildingsCache-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "BuildingServices"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "BuildingsCache Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/lastUpdated"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/clear()",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/getBuildings()",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/setBuildings(_:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingservices\/ondiskbuildingscache\/buildingscache-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingServices/documentation/BuildingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache": {
+  "abstract" : [
+    {
+      "text" : "Represents an on-disk buildings cache",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "actor"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OnDiskBuildingsCache"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OnDiskBuildingsCache"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OnDiskBuildingsCache",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/clear()": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clear"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/clear()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clear()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/clear()"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/getBuildings()": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getBuildings"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels0A0V",
+      "text" : "Building"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/getBuildings()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getBuildings()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/getbuildings()"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/lastUpdated": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lastUpdated"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/lastUpdated",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lastUpdated",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/lastupdated"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/setBuildings(_:)": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setBuildings"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels0A0V",
+      "text" : "Building"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/setBuildings(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setBuildings(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/setbuildings(_:)"
+}
+}
+}

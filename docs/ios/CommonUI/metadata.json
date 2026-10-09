@@ -1,0 +1,9 @@
+{
+  "bundleDisplayName" : "CommonUI",
+  "bundleID" : "commonui.CommonUI",
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}

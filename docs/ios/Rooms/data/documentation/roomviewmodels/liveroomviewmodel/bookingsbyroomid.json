@@ -1,0 +1,282 @@
+{
+  "abstract" : [
+    {
+      "text" : "Cached bookings per ",
+      "type" : "text"
+    },
+    {
+      "code" : "Room.id",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " for duration filtering. Rooms without an entry are not filtered out by duration until their bookings are loaded.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels",
+        "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels\/LiveRoomViewModel"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels\/LiveRoomViewModel\/bookingsByRoomId"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14RoomViewModels04LiveaB5ModelC010bookingsByA2IdSDySSSay0aC00A7BookingVGGvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "bookingsByRoomId"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : " : ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10RoomModels0A7BookingV",
+        "text" : "RoomBooking"
+      },
+      {
+        "kind" : "text",
+        "text" : "]]"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomViewModels"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "bookingsByRoomId"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "bookingsByRoomId"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : " : ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10RoomModels0A7BookingV",
+              "text" : "RoomBooking"
+            },
+            {
+              "kind" : "text",
+              "text" : "]] { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomviewmodels\/liveroomviewmodel\/bookingsbyroomid"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomViewModels/documentation/RoomViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviewmodels"
+},
+"doc://rooms.RoomViewModels/documentation/RoomViewModels/LiveRoomViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels\/LiveRoomViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveRoomViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviewmodels\/liveroomviewmodel"
+},
+"doc://rooms.RoomViewModels/documentation/RoomViewModels/LiveRoomViewModel/bookingsByRoomId": {
+  "abstract" : [
+    {
+      "text" : "Cached bookings per ",
+      "type" : "text"
+    },
+    {
+      "code" : "Room.id",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " for duration filtering. Rooms without an entry are not filtered out by duration until their bookings are loaded.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bookingsByRoomId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A7BookingV",
+      "text" : "RoomBooking"
+    },
+    {
+      "kind" : "text",
+      "text" : "]]"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels\/LiveRoomViewModel\/bookingsByRoomId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "bookingsByRoomId",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviewmodels\/liveroomviewmodel\/bookingsbyroomid"
+}
+}
+}

@@ -1,0 +1,162 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:m:s:e:s:21DeveloperToolsSupport13ColorResourceV9FreeroomsE17backgroundPrimaryACvpZ",
+    "modules" : [
+      {
+        "name" : "Freerooms"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Extended Module",
+    "symbolKind" : "extension",
+    "title" : "DeveloperToolsSupport"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Extended-Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport\/ColorResource",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport\/ImageResource"
+      ],
+      "title" : "Extended Structures"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freerooms\/developertoolssupport"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://app.devsoc.Freerooms/documentation/Freerooms": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Freerooms",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/DeveloperToolsSupport": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DeveloperToolsSupport",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/developertoolssupport"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/DeveloperToolsSupport/ColorResource": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DeveloperToolsSupport"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:21DeveloperToolsSupport13ColorResourceV",
+      "text" : "ColorResource"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport\/ColorResource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ColorResource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ColorResource",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/developertoolssupport\/colorresource"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/DeveloperToolsSupport/ImageResource": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DeveloperToolsSupport"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:21DeveloperToolsSupport13ImageResourceV",
+      "text" : "ImageResource"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport\/ImageResource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ImageResource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ImageResource",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/developertoolssupport\/imageresource"
+}
+}
+}

@@ -1,0 +1,268 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "BuildingViews",
+    "modules" : [
+      {
+        "name" : "BuildingViews"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "BuildingViews"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/BuildingsTabView",
+        "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/MapSearchBarList",
+        "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/MapTabView",
+        "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/SheetBuildingDetails",
+        "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/SheetDirectionDetails"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/BuildingImage"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingviews"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingViews/documentation/BuildingViews": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingViews",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviews"
+},
+"doc://buildings.BuildingViews/documentation/BuildingViews/BuildingImage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingImage"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/BuildingImage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingImage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingImage",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviews\/buildingimage"
+},
+"doc://buildings.BuildingViews/documentation/BuildingViews/BuildingsTabView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingsTabView"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/BuildingsTabView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingsTabView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingsTabView",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviews\/buildingstabview"
+},
+"doc://buildings.BuildingViews/documentation/BuildingViews/MapSearchBarList": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MapSearchBarList"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/MapSearchBarList",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MapSearchBarList"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MapSearchBarList",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviews\/mapsearchbarlist"
+},
+"doc://buildings.BuildingViews/documentation/BuildingViews/MapTabView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MapTabView"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/MapTabView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MapTabView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MapTabView",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviews\/maptabview"
+},
+"doc://buildings.BuildingViews/documentation/BuildingViews/SheetBuildingDetails": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SheetBuildingDetails"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/SheetBuildingDetails",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SheetBuildingDetails"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SheetBuildingDetails",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviews\/sheetbuildingdetails"
+},
+"doc://buildings.BuildingViews/documentation/BuildingViews/SheetDirectionDetails": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SheetDirectionDetails"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViews\/documentation\/BuildingViews\/SheetDirectionDetails",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SheetDirectionDetails"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SheetDirectionDetails",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviews\/sheetdirectiondetails"
+}
+}
+}

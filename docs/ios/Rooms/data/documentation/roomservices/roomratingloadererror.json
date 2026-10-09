@@ -1,0 +1,341 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12RoomServices0A17RatingLoaderErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "RoomRatingLoaderError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomServices"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "RoomRatingLoaderError"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "RoomRatingLoaderError"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "RoomRatingLoaderError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/SQ",
+        "doc:\/\/rooms.RoomServices\/s5ErrorP",
+        "doc:\/\/rooms.RoomServices\/SH",
+        "doc:\/\/rooms.RoomServices\/s8SendableP",
+        "doc:\/\/rooms.RoomServices\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError\/connectivity",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError\/invalidRoomID",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError\/invalidURL"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError\/clientMessage"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError\/Equatable-Implementations",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError\/Error-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomservices\/roomratingloadererror"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomServices/SH": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/SQ": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/documentation/RoomServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomServices",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomRatingLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomRatingLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomRatingLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomRatingLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomratingloadererror"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomRatingLoaderError/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomratingloadererror\/equatable-implementations"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomRatingLoaderError/Error-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError\/Error-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Error Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomratingloadererror\/error-implementations"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomRatingLoaderError/clientMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clientMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError\/clientMessage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clientMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomratingloadererror\/clientmessage"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomRatingLoaderError/connectivity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "connectivity"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError\/connectivity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomRatingLoaderError.connectivity",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomratingloadererror\/connectivity"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomRatingLoaderError/invalidRoomID": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidRoomID"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError\/invalidRoomID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomRatingLoaderError.invalidRoomID",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomratingloadererror\/invalidroomid"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomRatingLoaderError/invalidURL": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidURL"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError\/invalidURL",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomRatingLoaderError.invalidURL",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomratingloadererror\/invalidurl"
+},
+"doc://rooms.RoomServices/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/s5ErrorP": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/s8SendableP": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

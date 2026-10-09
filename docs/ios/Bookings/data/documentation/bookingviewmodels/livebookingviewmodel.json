@@ -1,0 +1,566 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:17BookingViewModels04LiveaB5ModelC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LiveBookingViewModel"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingViewModels"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LiveBookingViewModel"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "LiveBookingViewModel"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LiveBookingViewModel"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/PreviewBookingViewModel"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherited By",
+      "type" : "inheritedBy"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel",
+        "doc:\/\/bookings.BookingViewModels\/11Observation10ObservableP",
+        "doc:\/\/bookings.BookingViewModels\/s8CopyableP",
+        "doc:\/\/bookings.BookingViewModels\/s9EscapableP",
+        "doc:\/\/bookings.BookingViewModels\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel\/init(interactor:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel\/bookings",
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel\/errorMessage",
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel\/isLoading",
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel\/loadedWeekInterval"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel\/loadCurrentWeekBookings(referenceDate:calendar:forceRefresh:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingviewmodels\/livebookingviewmodel"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingViewModels/11Observation10ObservableP": {
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/11Observation10ObservableP",
+  "title" : "Observation.Observable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/BookingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/BookingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/bookingviewmodel"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/LiveBookingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveBookingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveBookingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveBookingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/livebookingviewmodel"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/LiveBookingViewModel/bookings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bookings"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13BookingModels06WeeklyA0V",
+      "text" : "WeeklyBooking"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel\/bookings",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "bookings",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/livebookingviewmodel\/bookings"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/LiveBookingViewModel/errorMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17BookingViewModels0A17PresentationErrorV",
+      "text" : "BookingPresentationError"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel\/errorMessage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "errorMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/livebookingviewmodel\/errormessage"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/LiveBookingViewModel/init(interactor:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "interactor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18BookingInteractors0A11InteractingP",
+      "text" : "BookingInteracting"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel\/init(interactor:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(interactor:)",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/livebookingviewmodel\/init(interactor:)"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/LiveBookingViewModel/isLoading": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isLoading"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel\/isLoading",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isLoading",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/livebookingviewmodel\/isloading"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/LiveBookingViewModel/loadCurrentWeekBookings(referenceDate:calendar:forceRefresh:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "loadCurrentWeekBookings"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "referenceDate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "calendar"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation8CalendarV",
+      "text" : "Calendar"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "forceRefresh"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel\/loadCurrentWeekBookings(referenceDate:calendar:forceRefresh:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "loadCurrentWeekBookings(referenceDate:calendar:forceRefresh:)",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/livebookingviewmodel\/loadcurrentweekbookings(referencedate:calendar:forcerefresh:)"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/LiveBookingViewModel/loadedWeekInterval": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "loadedWeekInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation12DateIntervalV",
+      "text" : "DateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/LiveBookingViewModel\/loadedWeekInterval",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "loadedWeekInterval",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/livebookingviewmodel\/loadedweekinterval"
+},
+"doc://bookings.BookingViewModels/documentation/BookingViewModels/PreviewBookingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBookingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/documentation\/BookingViewModels\/PreviewBookingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBookingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewBookingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviewmodels\/previewbookingviewmodel"
+},
+"doc://bookings.BookingViewModels/s8CopyableP": {
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/s8CopyableP",
+  "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingViewModels/s8SendableP": {
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingViewModels/s9EscapableP": {
+  "identifier" : "doc:\/\/bookings.BookingViewModels\/s9EscapableP",
+  "title" : "Swift.Escapable",
+  "type" : "unresolvable"
+}
+}
+}

@@ -1,0 +1,1871 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18BuildingViewModels03MapB5ModelP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "MapViewModel"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingViewModels"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "MapViewModel"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "MapViewModel"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "MapViewModel"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveMapViewModel",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/PreviewMapViewModel"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/bottomSheetPosition",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/buildingDetailsErrorMessage",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/buildingDetailsViewState",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/buildings",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/currentRoute",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/currentRouteETA",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/currentRouteErrorMessage",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/filteredBuildings",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/isLoading",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/isLoadingCurrentRoute",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/isLoadingLookAround",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/isLoadingSelectedRoom",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/lookAroundScene",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/mapCameraBounds",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/mapHeading",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/position",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/searchText",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/selectedBuildingAvailabilityColour",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/selectedBuildingAvailableRooms",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/selectedBuildingID",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/selectedBuildingName",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/selectedRooms",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/userHeading"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/clearDirection()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/clearSearch()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/executeSearch()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/focusBuildingOnMap()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/getDirectionToSelectedBuilding()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/getUserLocation()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/handleHeadingUpdate(_:)",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/handleLocationUpdate(_:)",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/isSelectedBuilding(_:)",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/loadBuildings()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/loadLookAroundScene(coordinate:)",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/onClearBuildingSelection()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/onGetDirection()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/onSelectBuilding(_:)",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/performSearch()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/requestLocationPermission()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/selectBuilding(_:)",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/setupHeadingUpdates()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/setupLocationUpdates()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/unselectBuilding()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/updateMapHeading(_:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingviewmodels\/mapviewmodel"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/LiveMapViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveMapViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveMapViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveMapViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveMapViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/livemapviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MapViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MapViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MapViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/bottomSheetPosition": {
+  "abstract" : [
+    {
+      "text" : "Sheet fields",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bottomSheetPosition"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11BottomSheet0aB8PositionO",
+      "text" : "BottomSheetPosition"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/bottomSheetPosition",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "bottomSheetPosition",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/bottomsheetposition"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/buildingDetailsErrorMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildingDetailsErrorMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/buildingDetailsErrorMessage",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "buildingDetailsErrorMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/buildingdetailserrormessage"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/buildingDetailsViewState": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildingDetailsViewState"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18BuildingViewModels0a7DetailsB5StateO",
+      "text" : "BuildingDetailsViewState"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/buildingDetailsViewState",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "buildingDetailsViewState",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/buildingdetailsviewstate"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/buildings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildings"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels0A0V",
+      "text" : "Building"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/buildings",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "buildings",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/buildings"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/clearDirection()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearDirection"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/clearDirection()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "clearDirection()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/cleardirection()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/clearSearch()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearSearch"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/clearSearch()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "clearSearch()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/clearsearch()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/currentRoute": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "currentRoute"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)MKRoute",
+      "text" : "MKRoute"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/currentRoute",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "currentRoute",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/currentroute"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/currentRouteETA": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "currentRouteETA"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@T@NSTimeInterval",
+      "text" : "TimeInterval"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/currentRouteETA",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "currentRouteETA",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/currentrouteeta"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/currentRouteErrorMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "currentRouteErrorMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/currentRouteErrorMessage",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "currentRouteErrorMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/currentrouteerrormessage"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/executeSearch()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "executeSearch"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/executeSearch()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "executeSearch()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/executesearch()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/filteredBuildings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "filteredBuildings"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels0A0V",
+      "text" : "Building"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/filteredBuildings",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "filteredBuildings",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/filteredbuildings"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/focusBuildingOnMap()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "focusBuildingOnMap"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/focusBuildingOnMap()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "focusBuildingOnMap()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/focusbuildingonmap()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/getDirectionToSelectedBuilding()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getDirectionToSelectedBuilding"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/getDirectionToSelectedBuilding()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "getDirectionToSelectedBuilding()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/getdirectiontoselectedbuilding()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/getUserLocation()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getUserLocation"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8LocationAAV",
+      "text" : "Location"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/getUserLocation()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "getUserLocation()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/getuserlocation()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/handleHeadingUpdate(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "handleHeadingUpdate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)CLHeading",
+      "text" : "CLHeading"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/handleHeadingUpdate(_:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "handleHeadingUpdate(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/handleheadingupdate(_:)"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/handleLocationUpdate(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "handleLocationUpdate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8LocationAAV",
+      "text" : "Location"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/handleLocationUpdate(_:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "handleLocationUpdate(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/handlelocationupdate(_:)"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/isLoading": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isLoading"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/isLoading",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "isLoading",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/isloading"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/isLoadingCurrentRoute": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isLoadingCurrentRoute"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/isLoadingCurrentRoute",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "isLoadingCurrentRoute",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/isloadingcurrentroute"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/isLoadingLookAround": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isLoadingLookAround"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/isLoadingLookAround",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "isLoadingLookAround",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/isloadinglookaround"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/isLoadingSelectedRoom": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isLoadingSelectedRoom"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/isLoadingSelectedRoom",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "isLoadingSelectedRoom",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/isloadingselectedroom"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/isSelectedBuilding(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isSelectedBuilding"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/isSelectedBuilding(_:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "isSelectedBuilding(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/isselectedbuilding(_:)"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/loadBuildings()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "loadBuildings"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/loadBuildings()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "loadBuildings()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/loadbuildings()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/loadLookAroundScene(coordinate:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "loadLookAroundScene"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coordinate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@S@CLLocationCoordinate2D",
+      "text" : "CLLocationCoordinate2D"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/loadLookAroundScene(coordinate:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "loadLookAroundScene(coordinate:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/loadlookaroundscene(coordinate:)"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/lookAroundScene": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lookAroundScene"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)MKLookAroundScene",
+      "text" : "MKLookAroundScene"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/lookAroundScene",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "lookAroundScene",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/lookaroundscene"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/mapCameraBounds": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mapCameraBounds"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15_MapKit_SwiftUI0A12CameraBoundsV",
+      "text" : "MapCameraBounds"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/mapCameraBounds",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "mapCameraBounds",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/mapcamerabounds"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/mapHeading": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mapHeading"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/mapHeading",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "mapHeading",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/mapheading"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/onClearBuildingSelection()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onClearBuildingSelection"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/onClearBuildingSelection()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "onClearBuildingSelection()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/onclearbuildingselection()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/onGetDirection()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onGetDirection"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/onGetDirection()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "onGetDirection()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/ongetdirection()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/onSelectBuilding(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onSelectBuilding"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/onSelectBuilding(_:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "onSelectBuilding(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/onselectbuilding(_:)"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/performSearch()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "performSearch"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/performSearch()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "performSearch()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/performsearch()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/position": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "position"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15_MapKit_SwiftUI0A14CameraPositionV",
+      "text" : "MapCameraPosition"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/position",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "position",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/position"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/requestLocationPermission()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "requestLocationPermission"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/requestLocationPermission()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "requestLocationPermission()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/requestlocationpermission()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/searchText": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchText"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/searchText",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "searchText",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/searchtext"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/selectBuilding(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "selectBuilding"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/selectBuilding(_:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "selectBuilding(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/selectbuilding(_:)"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/selectedBuildingAvailabilityColour": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "selectedBuildingAvailabilityColour"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI5ColorV",
+      "text" : "Color"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/selectedBuildingAvailabilityColour",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "selectedBuildingAvailabilityColour",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/selectedbuildingavailabilitycolour"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/selectedBuildingAvailableRooms": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "selectedBuildingAvailableRooms"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/selectedBuildingAvailableRooms",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "selectedBuildingAvailableRooms",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/selectedbuildingavailablerooms"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/selectedBuildingID": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "selectedBuildingID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/selectedBuildingID",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "selectedBuildingID",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/selectedbuildingid"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/selectedBuildingName": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "selectedBuildingName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/selectedBuildingName",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "selectedBuildingName",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/selectedbuildingname"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/selectedRooms": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "selectedRooms"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/selectedRooms",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "selectedRooms",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/selectedrooms"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/setupHeadingUpdates()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setupHeadingUpdates"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/setupHeadingUpdates()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "setupHeadingUpdates()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/setupheadingupdates()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/setupLocationUpdates()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setupLocationUpdates"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/setupLocationUpdates()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "setupLocationUpdates()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/setuplocationupdates()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/unselectBuilding()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unselectBuilding"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/unselectBuilding()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "unselectBuilding()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/unselectbuilding()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/updateMapHeading(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "updateMapHeading"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/updateMapHeading(_:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "updateMapHeading(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/updatemapheading(_:)"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel/userHeading": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "userHeading"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)CLHeading",
+      "text" : "CLHeading"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel\/userHeading",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "userHeading",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel\/userheading"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/PreviewMapViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewMapViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/PreviewMapViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewMapViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewMapViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/previewmapviewmodel"
+}
+}
+}

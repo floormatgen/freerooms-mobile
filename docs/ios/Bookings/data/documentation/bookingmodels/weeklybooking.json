@@ -1,0 +1,908 @@
+{
+  "abstract" : [
+    {
+      "text" : "A booking prepared for display in the cross-room weekly discovery feed.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:13BookingModels06WeeklyA0V",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "WeeklyBooking"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingModels"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "WeeklyBooking"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "WeeklyBooking"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "WeeklyBooking"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/bookings.BookingModels\/SQ",
+        "doc:\/\/bookings.BookingModels\/SH",
+        "doc:\/\/bookings.BookingModels\/s12IdentifiableP",
+        "doc:\/\/bookings.BookingModels\/s8SendableP",
+        "doc:\/\/bookings.BookingModels\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/init(title:bookingType:roomID:roomName:buildingID:buildingName:start:end:usage:capacity:abbreviation:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/abbreviation",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/bookingType",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/buildingID",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/buildingName",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/capacity",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/end",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/id-swift.property",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/roomID",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/roomName",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/start",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/title",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/usage"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingmodels\/weeklybooking"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingModels/SH": {
+  "identifier" : "doc:\/\/bookings.BookingModels\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingModels/SQ": {
+  "identifier" : "doc:\/\/bookings.BookingModels\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingModels/documentation/BookingModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingModels",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking": {
+  "abstract" : [
+    {
+      "text" : "A booking prepared for display in the cross-room weekly discovery feed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBooking"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBooking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBooking",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/equatable-implementations"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/ID-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The backend identifies a booking by its room and interval rather than a standalone identifier.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ID"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ID"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBooking.ID",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/id-swift.struct"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/abbreviation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "abbreviation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/abbreviation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "abbreviation",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/abbreviation"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/bookingType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bookingType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/bookingType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "bookingType",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/bookingtype"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/buildingID": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildingID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/buildingID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "buildingID",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/buildingid"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/buildingName": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildingName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/buildingName",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "buildingName",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/buildingname"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/capacity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "capacity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/capacity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "capacity",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/capacity"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/end": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "end"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/end",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "end",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/end"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/id-swift.property": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13BookingModels06WeeklyA0V2IDV",
+      "text" : "ID"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/id-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/id-swift.property"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/init(title:bookingType:roomID:roomName:buildingID:buildingName:start:end:usage:capacity:abbreviation:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "title"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "bookingType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "roomID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "roomName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "buildingID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "buildingName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "start"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "end"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "usage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "capacity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "abbreviation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/init(title:bookingType:roomID:roomName:buildingID:buildingName:start:end:usage:capacity:abbreviation:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(title:bookingType:roomID:roomName:buildingID:buildingName:start:end:usage:capacity:abbreviation:)",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/init(title:bookingtype:roomid:roomname:buildingid:buildingname:start:end:usage:capacity:abbreviation:)"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/roomID": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "roomID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/roomID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "roomID",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/roomid"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/roomName": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "roomName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/roomName",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "roomName",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/roomname"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/start": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "start"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/start",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "start",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/start"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/title": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "title"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/title",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "title",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/title"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/usage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "usage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/usage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "usage",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/usage"
+},
+"doc://bookings.BookingModels/s12IdentifiableP": {
+  "identifier" : "doc:\/\/bookings.BookingModels\/s12IdentifiableP",
+  "title" : "Swift.Identifiable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingModels/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/bookings.BookingModels\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingModels/s8SendableP": {
+  "identifier" : "doc:\/\/bookings.BookingModels\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

@@ -1,0 +1,314 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors",
+        "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors\/BuildingInteractor"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors\/BuildingInteractor\/getBuildingsSortedAlphabetically(buildings:order:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:19BuildingInteractors0A10InteractorC32getBuildingsSortedAlphabetically9buildings5orderSay0A6Models0A0VGAJ_SbtF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "getBuildingsSortedAlphabetically"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "buildings"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14BuildingModels0A0V",
+        "text" : "Building"
+      },
+      {
+        "kind" : "text",
+        "text" : "], "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "order"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14BuildingModels0A0V",
+        "text" : "Building"
+      },
+      {
+        "kind" : "text",
+        "text" : "]"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingInteractors"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "getBuildingsSortedAlphabetically(buildings:order:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "getBuildingsSortedAlphabetically"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "buildings"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14BuildingModels0A0V",
+              "text" : "Building"
+            },
+            {
+              "kind" : "text",
+              "text" : "], "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "order"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14BuildingModels0A0V",
+              "text" : "Building"
+            },
+            {
+              "kind" : "text",
+              "text" : "]"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildinginteractors\/buildinginteractor\/getbuildingssortedalphabetically(buildings:order:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingInteractors/documentation/BuildingInteractors": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingInteractors",
+  "type" : "topic",
+  "url" : "\/documentation\/buildinginteractors"
+},
+"doc://buildings.BuildingInteractors/documentation/BuildingInteractors/BuildingInteractor": {
+  "abstract" : [
+    {
+      "text" : "Coordinates building-related operations including filtering, sorting, and room status integration.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Acts as the main interface between the presentation layer and building services.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingInteractor"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors\/BuildingInteractor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingInteractor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingInteractor",
+  "type" : "topic",
+  "url" : "\/documentation\/buildinginteractors\/buildinginteractor"
+},
+"doc://buildings.BuildingInteractors/documentation/BuildingInteractors/BuildingInteractor/getBuildingsSortedAlphabetically(buildings:order:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getBuildingsSortedAlphabetically"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "buildings"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels0A0V",
+      "text" : "Building"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "order"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels0A0V",
+      "text" : "Building"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors\/BuildingInteractor\/getBuildingsSortedAlphabetically(buildings:order:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getBuildingsSortedAlphabetically(buildings:order:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildinginteractors\/buildinginteractor\/getbuildingssortedalphabetically(buildings:order:)"
+}
+}
+}

@@ -1,0 +1,382 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "BuildingViewModels",
+    "modules" : [
+      {
+        "name" : "BuildingViewModels"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "BuildingViewModels"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveBuildingViewModel",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveMapViewModel",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/PreviewBuildingViewModel",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/PreviewMapViewModel"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "anchor" : "Protocols",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingDetailsViewState",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/SheetPosition"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "anchor" : "Extended-Modules",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingModels",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapKit",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/Swift"
+      ],
+      "title" : "Extended Modules"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingviewmodels"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingDetailsViewState": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingDetailsViewState"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingDetailsViewState",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingDetailsViewState"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingDetailsViewState",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingdetailsviewstate"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingmodels"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/LiveBuildingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveBuildingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveBuildingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveBuildingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveBuildingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/livebuildingviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/LiveMapViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveMapViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveMapViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveMapViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveMapViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/livemapviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "MapKit",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapkit"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/MapViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MapViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/MapViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MapViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MapViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/mapviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/PreviewBuildingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBuildingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/PreviewBuildingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBuildingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewBuildingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/previewbuildingviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/PreviewMapViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewMapViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/PreviewMapViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewMapViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewMapViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/previewmapviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/SheetPosition": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SheetPosition"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/SheetPosition",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SheetPosition"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SheetPosition",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/sheetposition"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/Swift": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/Swift",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Swift",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/swift"
+}
+}
+}

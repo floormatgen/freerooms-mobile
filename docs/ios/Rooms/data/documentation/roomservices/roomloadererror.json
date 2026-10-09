@@ -1,0 +1,377 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12RoomServices0A11LoaderErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "RoomLoaderError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomServices"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "RoomLoaderError"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "RoomLoaderError"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "RoomLoaderError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/SQ",
+        "doc:\/\/rooms.RoomServices\/s5ErrorP",
+        "doc:\/\/rooms.RoomServices\/SH",
+        "doc:\/\/rooms.RoomServices\/s8SendableP",
+        "doc:\/\/rooms.RoomServices\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/alreadySeeded",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/connectivity",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/fileNotFound",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/malformedJSON",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/noDataAvailable",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/persistenceError"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/Equatable-Implementations",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/Error-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomservices\/roomloadererror"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomServices/SH": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/SQ": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/documentation/RoomServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomServices",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloadererror"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoaderError/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloadererror\/equatable-implementations"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoaderError/Error-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/Error-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Error Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloadererror\/error-implementations"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoaderError/alreadySeeded": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "alreadySeeded"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/alreadySeeded",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomLoaderError.alreadySeeded",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloadererror\/alreadyseeded"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoaderError/connectivity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "connectivity"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/connectivity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomLoaderError.connectivity",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloadererror\/connectivity"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoaderError/fileNotFound": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fileNotFound"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/fileNotFound",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomLoaderError.fileNotFound",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloadererror\/filenotfound"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoaderError/malformedJSON": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "malformedJSON"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/malformedJSON",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomLoaderError.malformedJSON",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloadererror\/malformedjson"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoaderError/noDataAvailable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "noDataAvailable"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/noDataAvailable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomLoaderError.noDataAvailable",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloadererror\/nodataavailable"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoaderError/persistenceError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "persistenceError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError\/persistenceError",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomLoaderError.persistenceError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloadererror\/persistenceerror"
+},
+"doc://rooms.RoomServices/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/s5ErrorP": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/s8SendableP": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

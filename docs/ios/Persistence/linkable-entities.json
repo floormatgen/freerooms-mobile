@@ -1,0 +1,2147 @@
+[
+  {
+    "abstract" : [
+      {
+        "text" : "Saves a single item.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "save"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence15PersistentStoreP5ModelQa",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/persistentstore\/save(_:)-5s7hp",
+    "plainTextDeclaration" : "func save(_ item: Model) throws",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/save(_:)-5s7hp",
+    "title" : "save(_:)",
+    "usr" : "s:11Persistence15PersistentStoreP4saveyy5ModelQzKF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Initializes the SwiftData stack with model schema and configuration.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "modelContext"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:9SwiftData12ModelContextC",
+        "text" : "ModelContext"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.initializer",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/swiftdatastore\/init(modelcontext:)",
+    "plainTextDeclaration" : "init(modelContext: ModelContext) throws",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/init(modelContext:)",
+    "title" : "init(modelContext:)",
+    "usr" : "s:11Persistence14SwiftDataStoreC12modelContextACyxG0bC005ModelF0C_tKcfc"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Fetches size of persistent store.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "size"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Si",
+        "text" : "Int"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/persistentstore\/size()",
+    "plainTextDeclaration" : "func size() throws -> Int",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/size()",
+    "title" : "size()",
+    "usr" : "s:11Persistence15PersistentStoreP4sizeSiyKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "malformedJSON"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumerationCase",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/jsonloadererror\/malformedjson",
+    "plainTextDeclaration" : "case malformedJSON",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError\/malformedJSON",
+    "title" : "JSONLoaderError.malformedJSON",
+    "usr" : "s:11Persistence15JSONLoaderErrorO13malformedJSONyA2CmF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Deletes a single item.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "delete"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence15PersistentStoreP5ModelQa",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/persistentstore\/delete(_:)-4vhdh",
+    "plainTextDeclaration" : "func delete(_ item: Model) throws",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/delete(_:)-4vhdh",
+    "title" : "delete(_:)",
+    "usr" : "s:11Persistence15PersistentStoreP6deleteyy5ModelQzKF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Fetches a specific item by its unique identifier.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "fetch"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "id"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/swiftdatastore\/fetch(id:)",
+    "plainTextDeclaration" : "func fetch(id: String) throws -> Model?",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/fetch(id:)",
+    "title" : "fetch(id:)",
+    "usr" : "s:11Persistence14SwiftDataStoreC5fetch2idxSgSS_tKF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Deletes multiple items from the persistent store; changes are only committed to backing store if all items are successfully",
+        "type" : "text"
+      },
+      {
+        "text" : " ",
+        "type" : "text"
+      },
+      {
+        "text" : "deleted.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "delete"
+      },
+      {
+        "kind" : "text",
+        "text" : "(["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : "]) "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/swiftdatastore\/delete(_:)-7sqk2",
+    "plainTextDeclaration" : "func delete(_ items: [Model]) throws",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/delete(_:)-7sqk2",
+    "title" : "delete(_:)",
+    "usr" : "s:11Persistence14SwiftDataStoreC6deleteyySayxGKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "JSONLoader"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.protocol",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "JSONLoader"
+      }
+    ],
+    "path" : "\/documentation\/persistence\/jsonloader",
+    "plainTextDeclaration" : "protocol JSONLoader<T> : Sendable",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoader",
+    "title" : "JSONLoader",
+    "usr" : "s:11Persistence10JSONLoaderP"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "UserDefaultsKeys"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumeration",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "UserDefaultsKeys"
+      }
+    ],
+    "path" : "\/documentation\/persistence\/userdefaultskeys",
+    "plainTextDeclaration" : "nonisolated enum UserDefaultsKeys",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/UserDefaultsKeys",
+    "title" : "UserDefaultsKeys",
+    "usr" : "s:11Persistence16UserDefaultsKeysO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Result"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.typeAlias",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "Result"
+      }
+    ],
+    "path" : "\/documentation\/persistence\/livejsonloader\/result",
+    "plainTextDeclaration" : "typealias Result = Swift.Result<T, JSONLoaderError>",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveJSONLoader\/Result",
+    "title" : "LiveJSONLoader.Result",
+    "usr" : "s:11Persistence14LiveJSONLoaderV6Resulta"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "A concrete implementation of the PersistentStore protocol using SwiftData.",
+        "type" : "text"
+      },
+      {
+        "text" : " ",
+        "type" : "text"
+      },
+      {
+        "text" : "Manages the model container and handles all persistence operations.",
+        "type" : "text"
+      },
+      {
+        "text" : " ",
+        "type" : "text"
+      },
+      {
+        "text" : "Generic over a single model type that conforms to PersistentModel and IdentifiableModel.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SwiftDataStore"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.class",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "SwiftDataStore"
+      }
+    ],
+    "path" : "\/documentation\/persistence\/swiftdatastore",
+    "plainTextDeclaration" : "final class SwiftDataStore<Model> where Model : IdentifiableModel, Model : PersistentModel",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore",
+    "title" : "SwiftDataStore",
+    "usr" : "s:11Persistence14SwiftDataStoreC"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Deletes multiple items.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "delete"
+      },
+      {
+        "kind" : "text",
+        "text" : "(["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence15PersistentStoreP5ModelQa",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : "]) "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/persistentstore\/delete(_:)-65qh6",
+    "plainTextDeclaration" : "func delete(_ items: [Model]) throws",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/delete(_:)-65qh6",
+    "title" : "delete(_:)",
+    "usr" : "s:11Persistence15PersistentStoreP6deleteyySay5ModelQzGKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "load"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "from"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence14LiveJSONLoaderV6Resulta",
+        "text" : "Result"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/livejsonloader\/load(from:)",
+    "plainTextDeclaration" : "@concurrent func load(from fileName: String) async -> Result",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveJSONLoader\/load(from:)",
+    "title" : "load(from:)",
+    "usr" : "s:11Persistence14LiveJSONLoaderV4load4froms6ResultOyxAA0C5ErrorOGSS_tYaF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LiveJSONLoader"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.structure",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "LiveJSONLoader"
+      }
+    ],
+    "path" : "\/documentation\/persistence\/livejsonloader",
+    "plainTextDeclaration" : "struct LiveJSONLoader<T> where T : Decodable, T : Sendable",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveJSONLoader",
+    "title" : "LiveJSONLoader",
+    "usr" : "s:11Persistence14LiveJSONLoaderV"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.collectionGroup",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/jsonloadererror\/equatable-implementations",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError\/Equatable-Implementations",
+    "title" : "Equatable Implementations"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FileLoader"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.protocol",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "FileLoader"
+      }
+    ],
+    "path" : "\/documentation\/persistence\/fileloader",
+    "plainTextDeclaration" : "protocol FileLoader : Sendable",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoader",
+    "title" : "FileLoader",
+    "usr" : "s:11Persistence10FileLoaderP"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Saves multiple items.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "save"
+      },
+      {
+        "kind" : "text",
+        "text" : "(["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence15PersistentStoreP5ModelQa",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : "]) "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/persistentstore\/save(_:)-840p7",
+    "plainTextDeclaration" : "func save(_ items: [Model]) throws",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/save(_:)-840p7",
+    "title" : "save(_:)",
+    "usr" : "s:11Persistence15PersistentStoreP4saveyySay5ModelQzGKF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Saves a single item to the persistent store.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "save"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/swiftdatastore\/save(_:)-3o06k",
+    "plainTextDeclaration" : "func save(_ item: Model) throws",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/save(_:)-3o06k",
+    "title" : "save(_:)",
+    "usr" : "s:11Persistence14SwiftDataStoreC4saveyyxKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "fileNotFound"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumerationCase",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/fileloadererror\/filenotfound",
+    "plainTextDeclaration" : "case fileNotFound",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/fileNotFound",
+    "title" : "FileLoaderError.fileNotFound",
+    "usr" : "s:11Persistence15FileLoaderErrorO12fileNotFoundyA2CmF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "load"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "at"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation4DataV",
+        "text" : "Data"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/fileloader\/load(at:)",
+    "plainTextDeclaration" : "func load(at path: String) throws -> Data",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoader\/load(at:)",
+    "title" : "load(at:)",
+    "usr" : "s:11Persistence10FileLoaderP4load2at10Foundation4DataVSS_tKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "associatedtype"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : " : "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Se",
+        "text" : "Decodable"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s8SendableP",
+        "text" : "Sendable"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.associatedType",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/jsonloader\/t",
+    "plainTextDeclaration" : "associatedtype T : Decodable, Sendable",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoader\/T",
+    "title" : "T",
+    "usr" : "s:11Persistence10JSONLoaderP1TQa"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.module",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+    "title" : "Persistence",
+    "usr" : "Persistence"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FileLoaderError"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumeration",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "FileLoaderError"
+      }
+    ],
+    "path" : "\/documentation\/persistence\/fileloadererror",
+    "plainTextDeclaration" : "enum FileLoaderError",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError",
+    "title" : "FileLoaderError",
+    "usr" : "s:11Persistence15FileLoaderErrorO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "localizedDescription"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/jsonloadererror\/localizeddescription",
+    "plainTextDeclaration" : "var localizedDescription: String { get }",
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.10",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "9.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "2.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError\/localizedDescription",
+    "title" : "localizedDescription",
+    "usr" : "s:s5ErrorP10FoundationE20localizedDescriptionSSvp::SYNTHESIZED::s:11Persistence15JSONLoaderErrorO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "stringID"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/identifiablemodel\/stringid",
+    "plainTextDeclaration" : "var stringID: String { get }",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/IdentifiableModel\/stringID",
+    "title" : "stringID",
+    "usr" : "s:11Persistence17IdentifiableModelP8stringIDSSvp"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.collectionGroup",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/fileloadererror\/equatable-implementations",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/Equatable-Implementations",
+    "title" : "Equatable Implementations"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Fetches a single item by ID.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "fetch"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "id"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence15PersistentStoreP5ModelQa",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/persistentstore\/fetch(id:)",
+    "plainTextDeclaration" : "func fetch(id: String) throws -> Model?",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/fetch(id:)",
+    "title" : "fetch(id:)",
+    "usr" : "s:11Persistence15PersistentStoreP5fetch2id5ModelQzSgSS_tKF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Deletes all items.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "deleteAll"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/persistentstore\/deleteall()",
+    "plainTextDeclaration" : "func deleteAll() throws",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/deleteAll()",
+    "title" : "deleteAll()",
+    "usr" : "s:11Persistence15PersistentStoreP9deleteAllyyKF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Deletes a single item from the persistent store.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "delete"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/swiftdatastore\/delete(_:)-7xbnz",
+    "plainTextDeclaration" : "func delete(_ item: Model) throws",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/delete(_:)-7xbnz",
+    "title" : "delete(_:)",
+    "usr" : "s:11Persistence14SwiftDataStoreC6deleteyyxKF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Fetches all items of the model type.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "fetchAll"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : "]"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/swiftdatastore\/fetchall()",
+    "plainTextDeclaration" : "func fetchAll() throws -> [Model]",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/fetchAll()",
+    "title" : "fetchAll()",
+    "usr" : "s:11Persistence14SwiftDataStoreC8fetchAllSayxGyKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "using"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "any"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence10FileLoaderP",
+        "text" : "FileLoader"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.initializer",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/livejsonloader\/init(using:)",
+    "plainTextDeclaration" : "init(using fileLoader: any FileLoader = LiveFileLoader())",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveJSONLoader\/init(using:)",
+    "title" : "init(using:)",
+    "usr" : "s:11Persistence14LiveJSONLoaderV5usingACyxGAA10FileLoader_p_tcfc"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "A minimal protocol for models to be stored persistently.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "IdentifiableModel"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.protocol",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "IdentifiableModel"
+      }
+    ],
+    "path" : "\/documentation\/persistence\/identifiablemodel",
+    "plainTextDeclaration" : "nonisolated protocol IdentifiableModel",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/IdentifiableModel",
+    "title" : "IdentifiableModel",
+    "usr" : "s:11Persistence17IdentifiableModelP"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.collectionGroup",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/fileloadererror\/error-implementations",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/Error-Implementations",
+    "title" : "Error Implementations"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "!="
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.operator",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/fileloadererror\/!=(_:_:)",
+    "plainTextDeclaration" : "static func != (lhs: Self, rhs: Self) -> Bool",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/!=(_:_:)",
+    "title" : "!=(_:_:)",
+    "usr" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:11Persistence15FileLoaderErrorO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.collectionGroup",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/jsonloadererror\/error-implementations",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError\/Error-Implementations",
+    "title" : "Error Implementations"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "!="
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.operator",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/jsonloadererror\/!=(_:_:)",
+    "plainTextDeclaration" : "static func != (lhs: Self, rhs: Self) -> Bool",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError\/!=(_:_:)",
+    "title" : "!=(_:_:)",
+    "usr" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:11Persistence15JSONLoaderErrorO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "load"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "from"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s6ResultO",
+        "text" : "Result"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence10JSONLoaderP1TQa",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence15JSONLoaderErrorO",
+        "text" : "JSONLoaderError"
+      },
+      {
+        "kind" : "text",
+        "text" : ">"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/jsonloader\/load(from:)",
+    "plainTextDeclaration" : "@concurrent func load(from file: String) async -> Result<T, JSONLoaderError>",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoader\/load(from:)",
+    "title" : "load(from:)",
+    "usr" : "s:11Persistence10JSONLoaderP4load4froms6ResultOy1TQzAA0B5ErrorOGSS_tYaF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Fetches all items of a given type.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "fetchAll"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence15PersistentStoreP5ModelQa",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : "]"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/persistentstore\/fetchall()",
+    "plainTextDeclaration" : "func fetchAll() throws -> [Model]",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/fetchAll()",
+    "title" : "fetchAll()",
+    "usr" : "s:11Persistence15PersistentStoreP8fetchAllSay5ModelQzGyKF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Defines an interface for saving, retrieving, and deleting persistent data.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "PersistentStore"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.protocol",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "PersistentStore"
+      }
+    ],
+    "path" : "\/documentation\/persistence\/persistentstore",
+    "plainTextDeclaration" : "protocol PersistentStore<Model>",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore",
+    "title" : "PersistentStore",
+    "usr" : "s:11Persistence15PersistentStoreP"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "localizedDescription"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/fileloadererror\/localizeddescription",
+    "plainTextDeclaration" : "var localizedDescription: String { get }",
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.10",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "9.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "2.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError\/localizedDescription",
+    "title" : "localizedDescription",
+    "usr" : "s:s5ErrorP10FoundationE20localizedDescriptionSSvp::SYNTHESIZED::s:11Persistence15FileLoaderErrorO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "JSONLoaderError"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumeration",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "JSONLoaderError"
+      }
+    ],
+    "path" : "\/documentation\/persistence\/jsonloadererror",
+    "plainTextDeclaration" : "enum JSONLoaderError",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError",
+    "title" : "JSONLoaderError",
+    "usr" : "s:11Persistence15JSONLoaderErrorO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "load"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "at"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation4DataV",
+        "text" : "Data"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/livefileloader\/load(at:)",
+    "plainTextDeclaration" : "func load(at path: String) throws -> Data",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveFileLoader\/load(at:)",
+    "title" : "load(at:)",
+    "usr" : "s:11Persistence14LiveFileLoaderV4load2at10Foundation4DataVSS_tKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "hasSavedRoomsData"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.typeProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/userdefaultskeys\/hassavedroomsdata",
+    "plainTextDeclaration" : "static let hasSavedRoomsData: String",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/UserDefaultsKeys\/hasSavedRoomsData",
+    "title" : "hasSavedRoomsData",
+    "usr" : "s:11Persistence16UserDefaultsKeysO17hasSavedRoomsDataSSvpZ"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Fetches the amount of entries in the persistent store",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "size"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Si",
+        "text" : "Int"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/swiftdatastore\/size()",
+    "plainTextDeclaration" : "func size() throws -> Int",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/size()",
+    "title" : "size()",
+    "usr" : "s:11Persistence14SwiftDataStoreC4sizeSiyKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "deleteAll"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/swiftdatastore\/deleteall()",
+    "plainTextDeclaration" : "func deleteAll() throws",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/deleteAll()",
+    "title" : "deleteAll()",
+    "usr" : "s:11Persistence14SwiftDataStoreC9deleteAllyyKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "associatedtype"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Model"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.associatedType",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/persistentstore\/model",
+    "plainTextDeclaration" : "associatedtype Model",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore\/Model",
+    "title" : "Model",
+    "usr" : "s:11Persistence15PersistentStoreP5ModelQa"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.initializer",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/livefileloader\/init()",
+    "plainTextDeclaration" : "init()",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveFileLoader\/init()",
+    "title" : "init()",
+    "usr" : "s:11Persistence14LiveFileLoaderVACycfc"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Saves multiple items to the persistent store; changes are only committed to backing store if all items successfully save.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "save"
+      },
+      {
+        "kind" : "text",
+        "text" : "(["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+        "text" : "Model"
+      },
+      {
+        "kind" : "text",
+        "text" : "]) "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/swiftdatastore\/save(_:)-4zj7z",
+    "plainTextDeclaration" : "func save(_ items: [Model]) throws",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/save(_:)-4zj7z",
+    "title" : "save(_:)",
+    "usr" : "s:11Persistence14SwiftDataStoreC4saveyySayxGKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LiveFileLoader"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.structure",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "LiveFileLoader"
+      }
+    ],
+    "path" : "\/documentation\/persistence\/livefileloader",
+    "plainTextDeclaration" : "struct LiveFileLoader",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveFileLoader",
+    "title" : "LiveFileLoader",
+    "usr" : "s:11Persistence14LiveFileLoaderV"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "fileNotFound"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumerationCase",
+    "language" : "swift",
+    "path" : "\/documentation\/persistence\/jsonloadererror\/filenotfound",
+    "plainTextDeclaration" : "case fileNotFound",
+    "referenceURL" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError\/fileNotFound",
+    "title" : "JSONLoaderError.fileNotFound",
+    "usr" : "s:11Persistence15JSONLoaderErrorO12fileNotFoundyA2CmF"
+  }
+]

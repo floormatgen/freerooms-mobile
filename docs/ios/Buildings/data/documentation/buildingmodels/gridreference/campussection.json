@@ -1,0 +1,189 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels",
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/GridReference"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/GridReference\/campusSection"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14BuildingModels13GridReferenceV13campusSection8Location06CampusF0Ovp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "campusSection"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:8Location13CampusSectionO",
+        "text" : "CampusSection"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingModels"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "campusSection"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "campusSection"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:8Location13CampusSectionO",
+              "text" : "CampusSection"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingmodels\/gridreference\/campussection"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingModels/documentation/BuildingModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/GridReference": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GridReference"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/GridReference",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GridReference"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GridReference",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/gridreference"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/GridReference/campusSection": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "campusSection"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8Location13CampusSectionO",
+      "text" : "CampusSection"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/GridReference\/campusSection",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "campusSection",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/gridreference\/campussection"
+}
+}
+}

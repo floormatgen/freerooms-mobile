@@ -1,0 +1,150 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/PreviewBookingService"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/PreviewBookingService\/init()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15BookingServices07PreviewA7ServiceCACycfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingServices"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingservices\/previewbookingservice\/init()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingServices/documentation/BookingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/PreviewBookingService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBookingService"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/PreviewBookingService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBookingService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewBookingService",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/previewbookingservice"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/PreviewBookingService/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/PreviewBookingService\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/previewbookingservice\/init()"
+}
+}
+}

@@ -1,0 +1,593 @@
+{
+  "abstract" : [
+    {
+      "text" : "Represents an on-disk buildings cache",
+      "type" : "text"
+    }
+  ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use FileBackedCodable instead",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:16BuildingServices20OnDiskBuildingsCacheC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "actor"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OnDiskBuildingsCache"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingServices"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OnDiskBuildingsCache"
+      }
+    ],
+    "platforms" : [
+
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "OnDiskBuildingsCache"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "actor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OnDiskBuildingsCache"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "This object assumes that it is the only cache for the file at the url,",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "do not create multiple instances of this object for the same url.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Warning",
+          "style" : "warning",
+          "type" : "aside"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingsCache",
+        "doc:\/\/buildings.BuildingServices\/s8CopyableP",
+        "doc:\/\/buildings.BuildingServices\/s9EscapableP",
+        "doc:\/\/buildings.BuildingServices\/s8SendableP",
+        "doc:\/\/buildings.BuildingServices\/s16SendableMetatypeP",
+        "doc:\/\/buildings.BuildingServices\/ScA"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/init(url:decoder:encoder:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/decoder",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/encoder",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/url"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Type-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/shared"
+      ],
+      "title" : "Type Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/Actor-Implementations",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/BuildingsCache-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingservices\/ondiskbuildingscache"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingServices/ScA": {
+  "identifier" : "doc:\/\/buildings.BuildingServices\/ScA",
+  "title" : "_Concurrency.Actor",
+  "type" : "unresolvable"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/BuildingsCache": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingsCache"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingsCache",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingsCache"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingsCache",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/buildingscache"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache": {
+  "abstract" : [
+    {
+      "text" : "Represents an on-disk buildings cache",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "actor"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OnDiskBuildingsCache"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OnDiskBuildingsCache"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OnDiskBuildingsCache",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/Actor-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/Actor-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Actor Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/actor-implementations"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/BuildingsCache-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/BuildingsCache-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "BuildingsCache Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/buildingscache-implementations"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/decoder": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
+      "text" : "JSONDecoder"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/decoder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "decoder",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/decoder"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/encoder": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+      "text" : "JSONEncoder"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/encoder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encoder",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/encoder"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/init(url:decoder:encoder:)": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "url"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
+      "text" : "JSONDecoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "encoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+      "text" : "JSONEncoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/init(url:decoder:encoder:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(url:decoder:encoder:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/init(url:decoder:encoder:)"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/shared": {
+  "abstract" : [
+    {
+      "text" : "The shared buildings cache",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shared"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16BuildingServices20OnDiskBuildingsCacheC",
+      "text" : "OnDiskBuildingsCache"
+    },
+    {
+      "kind" : "text",
+      "text" : ", any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5ErrorP",
+      "text" : "Error"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/shared",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shared",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/shared"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache/url": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "url"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache\/url",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "url",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache\/url"
+},
+"doc://buildings.BuildingServices/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/buildings.BuildingServices\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://buildings.BuildingServices/s8CopyableP": {
+  "identifier" : "doc:\/\/buildings.BuildingServices\/s8CopyableP",
+  "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://buildings.BuildingServices/s8SendableP": {
+  "identifier" : "doc:\/\/buildings.BuildingServices\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+},
+"doc://buildings.BuildingServices/s9EscapableP": {
+  "identifier" : "doc:\/\/buildings.BuildingServices\/s9EscapableP",
+  "title" : "Swift.Escapable",
+  "type" : "unresolvable"
+}
+}
+}

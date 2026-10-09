@@ -1,0 +1,360 @@
+{
+  "abstract" : [
+    {
+      "text" : "Executes the generated weekly GraphQL operation and maps it into app-owned models.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveGraphQLWeeklyBookingLoader"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15BookingServices017LiveGraphQLWeeklyA6LoaderC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LiveGraphQLWeeklyBookingLoader"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingServices"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LiveGraphQLWeeklyBookingLoader"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "LiveGraphQLWeeklyBookingLoader"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LiveGraphQLWeeklyBookingLoader"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/s8SendableP",
+        "doc:\/\/bookings.BookingServices\/s16SendableMetatypeP",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoader"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveGraphQLWeeklyBookingLoader\/init(client:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveGraphQLWeeklyBookingLoader\/fetch(in:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingservices\/livegraphqlweeklybookingloader"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingServices/documentation/BookingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/LiveGraphQLWeeklyBookingLoader": {
+  "abstract" : [
+    {
+      "text" : "Executes the generated weekly GraphQL operation and maps it into app-owned models.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveGraphQLWeeklyBookingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveGraphQLWeeklyBookingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveGraphQLWeeklyBookingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveGraphQLWeeklyBookingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/livegraphqlweeklybookingloader"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/LiveGraphQLWeeklyBookingLoader/fetch(in:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetch"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation12DateIntervalV",
+      "text" : "DateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13BookingModels06WeeklyA0V",
+      "text" : "WeeklyBooking"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15BookingServices06WeeklyA11LoaderErrorO",
+      "text" : "WeeklyBookingLoaderError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveGraphQLWeeklyBookingLoader\/fetch(in:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetch(in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/livegraphqlweeklybookingloader\/fetch(in:)"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/LiveGraphQLWeeklyBookingLoader/init(client:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "client"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Apollo0A6ClientC",
+      "text" : "ApolloClient"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveGraphQLWeeklyBookingLoader\/init(client:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(client:)",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/livegraphqlweeklybookingloader\/init(client:)"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/WeeklyBookingLoader": {
+  "abstract" : [
+    {
+      "text" : "Loads bookings that overlap a supplied calendar interval.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBookingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBookingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/weeklybookingloader"
+},
+"doc://bookings.BookingServices/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/bookings.BookingServices\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingServices/s8SendableP": {
+  "identifier" : "doc:\/\/bookings.BookingServices\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

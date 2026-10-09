@@ -1,0 +1,699 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/location.Location\/documentation\/Location"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@Location@objc(cs)LiveLocationService",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LiveLocationService"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Location"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LiveLocationService"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "LiveLocationService"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LiveLocationService"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/location.Location\/objc(cs)NSObject"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/location.Location\/documentation\/Location\/LocationManagerDelegate",
+        "doc:\/\/location.Location\/documentation\/Location\/LocationService",
+        "doc:\/\/location.Location\/objc(pl)NSObject",
+        "doc:\/\/location.Location\/s7CVarArgP",
+        "doc:\/\/location.Location\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/location.Location\/s23CustomStringConvertibleP",
+        "doc:\/\/location.Location\/SQ",
+        "doc:\/\/location.Location\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/init(locationManager:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/onHeadingUpdate",
+        "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/onLocationUpdate"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/getCurrentLocation()",
+        "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/locationManager(_:didUpdateHeading:)",
+        "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/locationManager(_:didUpdateLocations:)",
+        "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/locationManagerDidChangeAuthorization(_:)",
+        "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/requestLocationPermissions()"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/location\/livelocationservice"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://location.Location/SH": {
+  "identifier" : "doc:\/\/location.Location\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://location.Location/SQ": {
+  "identifier" : "doc:\/\/location.Location\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://location.Location/documentation/Location": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Location",
+  "type" : "topic",
+  "url" : "\/documentation\/location"
+},
+"doc://location.Location/documentation/Location/LiveLocationService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveLocationService"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveLocationService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveLocationService",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/livelocationservice"
+},
+"doc://location.Location/documentation/Location/LiveLocationService/getCurrentLocation()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getCurrentLocation"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8LocationAAV",
+      "text" : "Location"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/getCurrentLocation()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getCurrentLocation()",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/livelocationservice\/getcurrentlocation()"
+},
+"doc://location.Location/documentation/Location/LiveLocationService/init(locationManager:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "locationManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8Location0A7ManagerP",
+      "text" : "LocationManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/init(locationManager:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(locationManager:)",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/livelocationservice\/init(locationmanager:)"
+},
+"doc://location.Location/documentation/Location/LiveLocationService/locationManager(_:didUpdateHeading:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "locationManager"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8Location0A7ManagerP",
+      "text" : "LocationManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didUpdateHeading"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)CLHeading",
+      "text" : "CLHeading"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/locationManager(_:didUpdateHeading:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "locationManager(_:didUpdateHeading:)",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/livelocationservice\/locationmanager(_:didupdateheading:)"
+},
+"doc://location.Location/documentation/Location/LiveLocationService/locationManager(_:didUpdateLocations:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "locationManager"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8Location0A7ManagerP",
+      "text" : "LocationManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didUpdateLocations"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)CLLocation",
+      "text" : "CLLocation"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/locationManager(_:didUpdateLocations:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "locationManager(_:didUpdateLocations:)",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/livelocationservice\/locationmanager(_:didupdatelocations:)"
+},
+"doc://location.Location/documentation/Location/LiveLocationService/locationManagerDidChangeAuthorization(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "locationManagerDidChangeAuthorization"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8Location0A7ManagerP",
+      "text" : "LocationManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/locationManagerDidChangeAuthorization(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "locationManagerDidChangeAuthorization(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/livelocationservice\/locationmanagerdidchangeauthorization(_:)"
+},
+"doc://location.Location/documentation/Location/LiveLocationService/onHeadingUpdate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onHeadingUpdate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)CLHeading",
+      "text" : "CLHeading"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")?"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/onHeadingUpdate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "onHeadingUpdate",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/livelocationservice\/onheadingupdate"
+},
+"doc://location.Location/documentation/Location/LiveLocationService/onLocationUpdate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onLocationUpdate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8LocationAAV",
+      "text" : "Location"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")?"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/onLocationUpdate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "onLocationUpdate",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/livelocationservice\/onlocationupdate"
+},
+"doc://location.Location/documentation/Location/LiveLocationService/requestLocationPermissions()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "requestLocationPermissions"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LiveLocationService\/requestLocationPermissions()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "requestLocationPermissions()",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/livelocationservice\/requestlocationpermissions()"
+},
+"doc://location.Location/documentation/Location/LocationManagerDelegate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationManagerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LocationManagerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationManagerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationManagerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/locationmanagerdelegate"
+},
+"doc://location.Location/documentation/Location/LocationService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationService"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/LocationService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationService",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/locationservice"
+},
+"doc://location.Location/objc(cs)NSObject": {
+  "identifier" : "doc:\/\/location.Location\/objc(cs)NSObject",
+  "title" : "ObjectiveC.NSObject",
+  "type" : "unresolvable"
+},
+"doc://location.Location/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/location.Location\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://location.Location/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/location.Location\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://location.Location/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/location.Location\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://location.Location/s7CVarArgP": {
+  "identifier" : "doc:\/\/location.Location\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+}
+}
+}

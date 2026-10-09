@@ -1,0 +1,163 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels",
+        "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels\/PreviewRoomViewModel"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels\/PreviewRoomViewModel\/init()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14RoomViewModels07PreviewaB5ModelCACycfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomViewModels"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomviewmodels\/previewroomviewmodel\/init()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomViewModels/documentation/RoomViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviewmodels"
+},
+"doc://rooms.RoomViewModels/documentation/RoomViewModels/PreviewRoomViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewRoomViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels\/PreviewRoomViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewRoomViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewRoomViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviewmodels\/previewroomviewmodel"
+},
+"doc://rooms.RoomViewModels/documentation/RoomViewModels/PreviewRoomViewModel/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViewModels\/documentation\/RoomViewModels\/PreviewRoomViewModel\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviewmodels\/previewroomviewmodel\/init()"
+}
+}
+}

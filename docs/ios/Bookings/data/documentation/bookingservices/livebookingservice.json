@@ -1,0 +1,314 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveBookingService"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15BookingServices04LiveA7ServiceC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LiveBookingService"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingServices"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LiveBookingService"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "LiveBookingService"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LiveBookingService"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/BookingService"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveBookingService\/init(loader:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveBookingService\/getWeeklyBookings(in:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingservices\/livebookingservice"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingServices/documentation/BookingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/BookingService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingService"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/BookingService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingService",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/bookingservice"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/LiveBookingService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveBookingService"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveBookingService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveBookingService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveBookingService",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/livebookingservice"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/LiveBookingService/getWeeklyBookings(in:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getWeeklyBookings"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation12DateIntervalV",
+      "text" : "DateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15BookingServices23GetWeeklyBookingsResulta",
+      "text" : "GetWeeklyBookingsResult"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveBookingService\/getWeeklyBookings(in:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getWeeklyBookings(in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/livebookingservice\/getweeklybookings(in:)"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/LiveBookingService/init(loader:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "loader"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15BookingServices06WeeklyA6LoaderP",
+      "text" : "WeeklyBookingLoader"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveBookingService\/init(loader:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(loader:)",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/livebookingservice\/init(loader:)"
+}
+}
+}

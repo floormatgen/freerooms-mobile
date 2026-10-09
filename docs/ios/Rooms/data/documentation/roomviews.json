@@ -1,0 +1,236 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "RoomViews",
+    "modules" : [
+      {
+        "name" : "RoomViews"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "RoomViews"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomDetailsSheetView",
+        "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomDetailsView",
+        "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomsListView",
+        "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomsTabView"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomImage"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomviews"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomViews/documentation/RoomViews": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomViews",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviews"
+},
+"doc://rooms.RoomViews/documentation/RoomViews/RoomDetailsSheetView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomDetailsSheetView"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomDetailsSheetView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomDetailsSheetView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomDetailsSheetView",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviews\/roomdetailssheetview"
+},
+"doc://rooms.RoomViews/documentation/RoomViews/RoomDetailsView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomDetailsView"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomDetailsView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomDetailsView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomDetailsView",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviews\/roomdetailsview"
+},
+"doc://rooms.RoomViews/documentation/RoomViews/RoomImage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomImage"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomImage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomImage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomImage",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviews\/roomimage"
+},
+"doc://rooms.RoomViews/documentation/RoomViews/RoomsListView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomsListView"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomsListView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomsListView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomsListView",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviews\/roomslistview"
+},
+"doc://rooms.RoomViews/documentation/RoomViews/RoomsTabView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomsTabView"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomViews\/documentation\/RoomViews\/RoomsTabView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomsTabView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomsTabView",
+  "type" : "topic",
+  "url" : "\/documentation\/roomviews\/roomstabview"
+}
+}
+}

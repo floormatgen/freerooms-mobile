@@ -1,0 +1,225 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors",
+        "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteractor"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteractor\/init(service:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18BookingInteractors0A10InteractorC7serviceAC0A8Services0A7Service_p_tcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "service"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "any"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:15BookingServices0A7ServiceP",
+        "text" : "BookingService"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingInteractors"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(service:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "service"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "any"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15BookingServices0A7ServiceP",
+              "text" : "BookingService"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookinginteractors\/bookinginteractor\/init(service:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingInteractors/documentation/BookingInteractors": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingInteractors",
+  "type" : "topic",
+  "url" : "\/documentation\/bookinginteractors"
+},
+"doc://bookings.BookingInteractors/documentation/BookingInteractors/BookingInteractor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingInteractor"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteractor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingInteractor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingInteractor",
+  "type" : "topic",
+  "url" : "\/documentation\/bookinginteractors\/bookinginteractor"
+},
+"doc://bookings.BookingInteractors/documentation/BookingInteractors/BookingInteractor/init(service:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "service"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15BookingServices0A7ServiceP",
+      "text" : "BookingService"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteractor\/init(service:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(service:)",
+  "type" : "topic",
+  "url" : "\/documentation\/bookinginteractors\/bookinginteractor\/init(service:)"
+}
+}
+}

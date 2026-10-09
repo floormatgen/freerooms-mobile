@@ -1,0 +1,367 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12RoomServices05FetchA5ErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FetchRoomError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomServices"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "FetchRoomError"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "FetchRoomError"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "FetchRoomError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/SQ",
+        "doc:\/\/rooms.RoomServices\/s5ErrorP",
+        "doc:\/\/rooms.RoomServices\/SH",
+        "doc:\/\/rooms.RoomServices\/s8SendableP",
+        "doc:\/\/rooms.RoomServices\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/connectivity",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/invalidBuildingId",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/invalidRoomID",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/invalidURL"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/clientMessage"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/Equatable-Implementations",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/Error-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomservices\/fetchroomerror"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomServices/SH": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/SQ": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/documentation/RoomServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomServices",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FetchRoomError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FetchRoomError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FetchRoomError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FetchRoomError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/fetchroomerror"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FetchRoomError/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/fetchroomerror\/equatable-implementations"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FetchRoomError/Error-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/Error-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Error Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/fetchroomerror\/error-implementations"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FetchRoomError/clientMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clientMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/clientMessage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clientMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/fetchroomerror\/clientmessage"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FetchRoomError/connectivity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "connectivity"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/connectivity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FetchRoomError.connectivity",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/fetchroomerror\/connectivity"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FetchRoomError/invalidBuildingId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidBuildingId"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/invalidBuildingId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FetchRoomError.invalidBuildingId",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/fetchroomerror\/invalidbuildingid"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FetchRoomError/invalidRoomID": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidRoomID"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/invalidRoomID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FetchRoomError.invalidRoomID",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/fetchroomerror\/invalidroomid"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FetchRoomError/invalidURL": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidURL"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError\/invalidURL",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FetchRoomError.invalidURL",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/fetchroomerror\/invalidurl"
+},
+"doc://rooms.RoomServices/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/s5ErrorP": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomServices/s8SendableP": {
+  "identifier" : "doc:\/\/rooms.RoomServices\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

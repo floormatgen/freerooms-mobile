@@ -1,0 +1,197 @@
+[
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.structure",
+      "isSymbol" : true,
+      "name" : "Structure"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 1
+        }
+      ],
+      "discriminant" : "structure"
+    },
+    "referencePath" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "FreeroomsIntentsPackage"
+  },
+  {
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.collectionGroup",
+      "isSymbol" : false,
+      "name" : "CollectionGroup"
+    },
+    "referencePath" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage\/AppIntentsPackage-Implementations",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "AppIntentsPackage Implementations"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.module",
+      "isSymbol" : true,
+      "name" : "Module"
+    },
+    "referencePath" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "FreeroomsIntents"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumeration",
+      "isSymbol" : true,
+      "name" : "Enumeration"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+
+      ],
+      "discriminant" : "enumeration"
+    },
+    "referencePath" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/TabIntents",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "TabIntents"
+  },
+  {
+    "availability" : [
+      {
+        "domain" : "macOS",
+        "introduced" : {
+          "major" : 14,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "watchOS",
+        "introduced" : {
+          "major" : 10,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "tvOS",
+        "introduced" : {
+          "major" : 17,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "macCatalyst",
+        "introduced" : {
+          "major" : 17,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iPadOS",
+        "introduced" : {
+          "major" : 17,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iOS",
+        "introduced" : {
+          "major" : 17,
+          "minor" : 0,
+          "patch" : 0
+        }
+      }
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.typeProperty",
+      "isSymbol" : true,
+      "name" : "Type Property"
+    },
+    "referencePath" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage\/includedPackages",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "includedPackages"
+  }
+]

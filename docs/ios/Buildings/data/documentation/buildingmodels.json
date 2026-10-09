@@ -1,0 +1,278 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "BuildingModels",
+    "modules" : [
+      {
+        "name" : "BuildingModels"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "BuildingModels"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/Building",
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/GridReference",
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/RemoteBuildingRatingResponse"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/CampusBuildings"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus",
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/BuildingFilterOptions"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingmodels"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingModels/documentation/BuildingModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/AvailabilityStatus": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AvailabilityStatus"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AvailabilityStatus"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AvailabilityStatus",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/availabilitystatus"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/Building": {
+  "abstract" : [
+    {
+      "text" : "A building on campus with location information and room availability data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Building"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/Building",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Building"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Building",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/building"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/BuildingFilterOptions": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingFilterOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/BuildingFilterOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingFilterOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingFilterOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/buildingfilteroptions"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/CampusBuildings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CampusBuildings"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/CampusBuildings",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CampusBuildings"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CampusBuildings",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/campusbuildings"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/GridReference": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GridReference"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/GridReference",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GridReference"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GridReference",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/gridreference"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/RemoteBuildingRatingResponse": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteBuildingRatingResponse"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/RemoteBuildingRatingResponse",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteBuildingRatingResponse"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteBuildingRatingResponse",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/remotebuildingratingresponse"
+}
+}
+}

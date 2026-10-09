@@ -1,0 +1,192 @@
+[
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FreeroomsIntentsPackage"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.structure",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "FreeroomsIntentsPackage"
+      }
+    ],
+    "path" : "\/documentation\/freeroomsintents\/freeroomsintentspackage",
+    "plainTextDeclaration" : "struct FreeroomsIntentsPackage",
+    "referenceURL" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage",
+    "title" : "FreeroomsIntentsPackage",
+    "usr" : "s:16FreeroomsIntents0aB7PackageV"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.collectionGroup",
+    "language" : "swift",
+    "path" : "\/documentation\/freeroomsintents\/freeroomsintentspackage\/appintentspackage-implementations",
+    "referenceURL" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage\/AppIntentsPackage-Implementations",
+    "title" : "AppIntentsPackage Implementations"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.module",
+    "language" : "swift",
+    "path" : "\/documentation\/freeroomsintents",
+    "referenceURL" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents",
+    "title" : "FreeroomsIntents",
+    "usr" : "FreeroomsIntents"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "A ",
+        "type" : "text"
+      },
+      {
+        "code" : "namespace",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " for the open tab intents",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TabIntents"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumeration",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "TabIntents"
+      }
+    ],
+    "path" : "\/documentation\/freeroomsintents\/tabintents",
+    "plainTextDeclaration" : "enum TabIntents",
+    "referenceURL" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/TabIntents",
+    "title" : "TabIntents",
+    "usr" : "s:16FreeroomsIntents03TabB0O"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "includedPackages"
+      },
+      {
+        "kind" : "text",
+        "text" : ": [any "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10AppIntents0aB7PackageP",
+        "text" : "AppIntentsPackage"
+      },
+      {
+        "kind" : "text",
+        "text" : ".Type]"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.typeProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/freeroomsintents\/freeroomsintentspackage\/includedpackages",
+    "plainTextDeclaration" : "static var includedPackages: [any AppIntentsPackage.Type] { get }",
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "referenceURL" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage\/includedPackages",
+    "title" : "includedPackages",
+    "usr" : "s:10AppIntents0aB7PackagePAAE16includedPackagesSayAaB_pXpGvpZ::SYNTHESIZED::s:16FreeroomsIntents0aB7PackageV"
+  }
+]

@@ -1,0 +1,333 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors",
+        "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors\/BuildingInteractor"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors\/BuildingInteractor\/getBuildingsFilteredByCampusSection(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:19BuildingInteractors0A10InteractorC35getBuildingsFilteredByCampusSectionys6ResultOySay0A6Models0A0VG0A8Services05FetchE5ErrorOG8Location0hI0OYaF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "getBuildingsFilteredByCampusSection"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:8Location13CampusSectionO",
+        "text" : "CampusSection"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s6ResultO",
+        "text" : "Result"
+      },
+      {
+        "kind" : "text",
+        "text" : "<["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14BuildingModels0A0V",
+        "text" : "Building"
+      },
+      {
+        "kind" : "text",
+        "text" : "], "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:16BuildingServices19FetchBuildingsErrorO",
+        "text" : "FetchBuildingsError"
+      },
+      {
+        "kind" : "text",
+        "text" : ">"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingInteractors"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "getBuildingsFilteredByCampusSection(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "getBuildingsFilteredByCampusSection"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "campusSection"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:8Location13CampusSectionO",
+              "text" : "CampusSection"
+            },
+            {
+              "kind" : "text",
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "async"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s6ResultO",
+              "text" : "Result"
+            },
+            {
+              "kind" : "text",
+              "text" : "<["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14BuildingModels0A0V",
+              "text" : "Building"
+            },
+            {
+              "kind" : "text",
+              "text" : "], "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:16BuildingServices19FetchBuildingsErrorO",
+              "text" : "FetchBuildingsError"
+            },
+            {
+              "kind" : "text",
+              "text" : ">"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildinginteractors\/buildinginteractor\/getbuildingsfilteredbycampussection(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingInteractors/documentation/BuildingInteractors": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingInteractors",
+  "type" : "topic",
+  "url" : "\/documentation\/buildinginteractors"
+},
+"doc://buildings.BuildingInteractors/documentation/BuildingInteractors/BuildingInteractor": {
+  "abstract" : [
+    {
+      "text" : "Coordinates building-related operations including filtering, sorting, and room status integration.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Acts as the main interface between the presentation layer and building services.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingInteractor"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors\/BuildingInteractor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingInteractor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingInteractor",
+  "type" : "topic",
+  "url" : "\/documentation\/buildinginteractors\/buildinginteractor"
+},
+"doc://buildings.BuildingInteractors/documentation/BuildingInteractors/BuildingInteractor/getBuildingsFilteredByCampusSection(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getBuildingsFilteredByCampusSection"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8Location13CampusSectionO",
+      "text" : "CampusSection"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels0A0V",
+      "text" : "Building"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16BuildingServices19FetchBuildingsErrorO",
+      "text" : "FetchBuildingsError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingInteractors\/documentation\/BuildingInteractors\/BuildingInteractor\/getBuildingsFilteredByCampusSection(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getBuildingsFilteredByCampusSection(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildinginteractors\/buildinginteractor\/getbuildingsfilteredbycampussection(_:)"
+}
+}
+}

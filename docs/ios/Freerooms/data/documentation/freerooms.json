@@ -1,0 +1,215 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "Freerooms",
+    "modules" : [
+      {
+        "name" : "Freerooms"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Application",
+    "symbolKind" : "module",
+    "title" : "Freerooms"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/ContentView",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/FreeroomsApp"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Extended-Modules",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/BookingViewModels",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/BuildingViewModels",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/RoomViewModels",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/SwiftUICore",
+        "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/UIKit"
+      ],
+      "title" : "Extended Modules"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freerooms"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://app.devsoc.Freerooms/documentation/Freerooms": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Freerooms",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/BookingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/BookingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/bookingviewmodels"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/BuildingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/BuildingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/buildingviewmodels"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/ContentView": {
+  "abstract" : [
+    {
+      "text" : "No logic, only UI",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/ContentView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentView",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/contentview"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/DeveloperToolsSupport": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/DeveloperToolsSupport",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DeveloperToolsSupport",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/developertoolssupport"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/FreeroomsApp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsApp"
+    }
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/FreeroomsApp",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsApp"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FreeroomsApp",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/freeroomsapp"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/RoomViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/RoomViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/roomviewmodels"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/SwiftUICore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/SwiftUICore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SwiftUICore",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/swiftuicore"
+},
+"doc://app.devsoc.Freerooms/documentation/Freerooms/UIKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/app.devsoc.Freerooms\/documentation\/Freerooms\/UIKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "UIKit",
+  "type" : "topic",
+  "url" : "\/documentation\/freerooms\/uikit"
+}
+}
+}

@@ -1,0 +1,165 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/connectivity"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15BookingServices24FetchWeeklyBookingsErrorO12connectivityyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "connectivity"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingServices"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "FetchWeeklyBookingsError.connectivity"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "connectivity"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingservices\/fetchweeklybookingserror\/connectivity"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingServices/documentation/BookingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/FetchWeeklyBookingsError": {
+  "abstract" : [
+    {
+      "text" : "Feature-level failures that can be presented or recovered from by the Bookings UI.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FetchWeeklyBookingsError"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FetchWeeklyBookingsError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FetchWeeklyBookingsError",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/fetchweeklybookingserror"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/FetchWeeklyBookingsError/connectivity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "connectivity"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/connectivity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FetchWeeklyBookingsError.connectivity",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/fetchweeklybookingserror\/connectivity"
+}
+}
+}

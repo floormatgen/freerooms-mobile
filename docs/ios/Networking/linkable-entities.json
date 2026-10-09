@@ -1,0 +1,3135 @@
+[
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "?("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "rawValue"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Si",
+        "text" : "Int"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.initializer",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/statuscode\/init(rawvalue:)",
+    "plainTextDeclaration" : "init?(rawValue: Int)",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/init(rawValue:)",
+    "title" : "init(rawValue:)",
+    "usr" : "s:10Networking10StatusCodeO8rawValueACSgSi_tcfc"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "withSerialExecutor"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
+        "text" : ">((any "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Scf",
+        "text" : "SerialExecutor"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "T"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/withserialexecutor(_:)-1g4m2",
+    "plainTextDeclaration" : "nonisolated func withSerialExecutor<T, E>(_ operation: (any SerialExecutor) throws(E) -> T) throws(E) -> T where E : Error, T : ~Copyable",
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.15",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "6.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/withSerialExecutor(_:)-1g4m2",
+    "title" : "withSerialExecutor(_:)",
+    "usr" : "s:ScA12_ConcurrencyE18withSerialExecutoryqd__qd__Scf_pqd_0_YKXEqd_0_YKs5ErrorRd_0_Ri_d__r0_lF::SYNTHESIZED::s:10Networking17FileBackedCodableC"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "localizedDescription"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/httpclienterror\/localizeddescription",
+    "plainTextDeclaration" : "var localizedDescription: String { get }",
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.10",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "9.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "2.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/localizedDescription",
+    "title" : "localizedDescription",
+    "usr" : "s:s5ErrorP10FoundationE20localizedDescriptionSSvp::SYNTHESIZED::s:10Networking15HTTPClientErrorO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "NetworkCodableLoader"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.class",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "NetworkCodableLoader"
+      }
+    ],
+    "path" : "\/documentation\/networking\/networkcodableloader",
+    "plainTextDeclaration" : "final class NetworkCodableLoader<T> where T : Decodable, T : Encodable, T : Sendable",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader",
+    "title" : "NetworkCodableLoader",
+    "usr" : "s:10Networking20NetworkCodableLoaderC"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "A type that manages access to a file storing ",
+        "type" : "text"
+      },
+      {
+        "code" : "Codable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " data",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "actor"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FileBackedCodable"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.class",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "FileBackedCodable"
+      }
+    ],
+    "path" : "\/documentation\/networking\/filebackedcodable",
+    "plainTextDeclaration" : "final actor FileBackedCodable<T> where T : Decodable, T : Encodable, T : Sendable",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable",
+    "title" : "FileBackedCodable",
+    "usr" : "s:10Networking17FileBackedCodableC"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "invalidHTTPResponse"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumerationCase",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/httpclienterror\/invalidhttpresponse",
+    "plainTextDeclaration" : "case invalidHTTPResponse",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/invalidHTTPResponse",
+    "title" : "HTTPClientError.invalidHTTPResponse",
+    "usr" : "s:10Networking15HTTPClientErrorO19invalidHTTPResponseyA2CmF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "The name of the object, to be used to differentiate instances",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "name"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s12StaticStringV",
+        "text" : "StaticString"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/name",
+    "plainTextDeclaration" : "let name: StaticString",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/name",
+    "title" : "name",
+    "usr" : "s:10Networking17FileBackedCodableC4names12StaticStringVvp"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "assumeIsolated"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ">(("
+      },
+      {
+        "kind" : "keyword",
+        "text" : "isolated"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "file"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s12StaticStringV",
+        "text" : "StaticString"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "line"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Su",
+        "text" : "UInt"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "rethrows"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "T"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/assumeisolated(_:file:line:)",
+    "plainTextDeclaration" : "nonisolated func assumeIsolated<T>(_ operation: (isolated Self) throws -> T, file: StaticString = #fileID, line: UInt = #line) rethrows -> T where T : Sendable",
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.15",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "6.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/assumeIsolated(_:file:line:)",
+    "title" : "assumeIsolated(_:file:line:)",
+    "usr" : "s:ScA12_ConcurrencyE14assumeIsolated_4file4lineqd__qd__xYiKXE_s12StaticStringVSutKs8SendableRd__lF::SYNTHESIZED::s:10Networking17FileBackedCodableC"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "The ",
+        "type" : "text"
+      },
+      {
+        "code" : "NotificationCenter",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " observed for lifecycle events",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "notificationCenter"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)NSNotificationCenter",
+        "text" : "NotificationCenter"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/notificationcenter",
+    "plainTextDeclaration" : "let notificationCenter: NotificationCenter",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/notificationCenter",
+    "title" : "notificationCenter",
+    "usr" : "s:10Networking17FileBackedCodableC18notificationCenterSo014NSNotificationF0Cvp"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "get"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "from"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Networking16HTTPClientResulta",
+        "text" : "HTTPClientResult"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/urlsessionhttpclient\/get(from:)",
+    "plainTextDeclaration" : "func get(from url: URL) async -> HTTPClientResult",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/URLSessionHTTPClient\/get(from:)",
+    "title" : "get(from:)",
+    "usr" : "s:10Networking20URLSessionHTTPClientV3get4froms6ResultOy10Foundation4DataV_So17NSHTTPURLResponseCts5Error_pGAH3URLV_tYaF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "hash"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "into"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "inout"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s6HasherV",
+        "text" : "Hasher"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/statuscode\/hash(into:)",
+    "plainTextDeclaration" : "func hash(into hasher: inout Hasher)",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/hash(into:)",
+    "title" : "hash(into:)",
+    "usr" : "s:SYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF::SYNTHESIZED::s:10Networking10StatusCodeO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "encoder"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+        "text" : "JSONEncoder"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/encoder",
+    "plainTextDeclaration" : "let encoder: JSONEncoder",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/encoder",
+    "title" : "encoder",
+    "usr" : "s:10Networking17FileBackedCodableC7encoder10Foundation11JSONEncoderCvp"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "client"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "any"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Networking10HTTPClientP",
+        "text" : "HTTPClient"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "url"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.initializer",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/networkcodableloader\/init(client:url:)",
+    "plainTextDeclaration" : "init(client: any HTTPClient, url: URL)",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/init(client:url:)",
+    "title" : "init(client:url:)",
+    "usr" : "s:10Networking20NetworkCodableLoaderC6client3urlACyxGAA10HTTPClient_p_10Foundation3URLVtcfc"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Allows the current saved version of the file to be checked",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "cachedFileVersion"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)NSFileVersion",
+        "text" : "NSFileVersion"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/cachedfileversion",
+    "plainTextDeclaration" : "var cachedFileVersion: NSFileVersion? { get }",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/cachedFileVersion",
+    "title" : "cachedFileVersion",
+    "usr" : "s:10Networking17FileBackedCodableC06cachedB7VersionSo06NSFileF0CSgvp"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "associatedtype"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Generic"
+      },
+      {
+        "kind" : "text",
+        "text" : " : "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Se",
+        "text" : "Decodable"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SE",
+        "text" : "Encodable"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.associatedType",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/codableloader\/generic",
+    "plainTextDeclaration" : "associatedtype Generic : Decodable, Encodable",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/CodableLoader\/Generic",
+    "title" : "Generic",
+    "usr" : "s:10Networking13CodableLoaderP7GenericQa"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "data"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "from"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> ("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation4DataV",
+        "text" : "Data"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)NSURLResponse",
+        "text" : "URLResponse"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/httpsession\/data(from:)",
+    "plainTextDeclaration" : "func data(from url: URL) async throws -> (Data, URLResponse)",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPSession\/data(from:)",
+    "title" : "data(from:)",
+    "usr" : "s:10Networking11HTTPSessionP4data4from10Foundation4DataV_So13NSURLResponseCtAF3URLV_tYaKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.collectionGroup",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/networkcodableloader\/error\/error-implementations",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error\/Error-Implementations",
+    "title" : "Error Implementations"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.collectionGroup",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/httpclienterror\/error-implementations",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/Error-Implementations",
+    "title" : "Error Implementations"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "!="
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.operator",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/statuscode\/!=(_:_:)",
+    "plainTextDeclaration" : "static func != (lhs: Self, rhs: Self) -> Bool",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/!=(_:_:)",
+    "title" : "!=(_:_:)",
+    "usr" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:10Networking10StatusCodeO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "fetch"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Networking20NetworkCodableLoaderC6Resulta",
+        "text" : "Result"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/networkcodableloader\/fetch()",
+    "plainTextDeclaration" : "func fetch() async -> Result",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/fetch()",
+    "title" : "fetch()",
+    "usr" : "s:10Networking20NetworkCodableLoaderC5fetchs6ResultOyxs5Error_pGyYaF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.collectionGroup",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/httpclienterror\/equatable-implementations",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/Equatable-Implementations",
+    "title" : "Equatable Implementations"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "A ",
+        "type" : "text"
+      },
+      {
+        "code" : "namespace",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " for DevSoc",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "DevSoc"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumeration",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "DevSoc"
+      }
+    ],
+    "path" : "\/documentation\/networking\/devsoc",
+    "plainTextDeclaration" : "nonisolated enum DevSoc",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/DevSoc",
+    "title" : "DevSoc",
+    "usr" : "s:10Networking6DevSocO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "fetch"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> Swift"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s6ResultO",
+        "text" : "Result"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Networking13CodableLoaderP7GenericQa",
+        "text" : "Generic"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "any"
+      },
+      {
+        "kind" : "text",
+        "text" : " Swift"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s5ErrorP",
+        "text" : "Error"
+      },
+      {
+        "kind" : "text",
+        "text" : ">"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/codableloader\/fetch()",
+    "plainTextDeclaration" : "func fetch() async -> Swift.Result<Generic, any Swift.Error>",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/CodableLoader\/fetch()",
+    "title" : "fetch()",
+    "usr" : "s:10Networking13CodableLoaderP5fetchs6ResultOy7GenericQzs5Error_pGyYaF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Get the current value",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "getValue"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Networking17FileBackedCodableC1Txmfp",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/getvalue()",
+    "plainTextDeclaration" : "func getValue() async throws -> T?",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/getValue()",
+    "title" : "getValue()",
+    "usr" : "s:10Networking17FileBackedCodableC8getValuexSgyYaKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Result"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.typeAlias",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "Result"
+      }
+    ],
+    "path" : "\/documentation\/networking\/networkcodableloader\/result",
+    "plainTextDeclaration" : "typealias Result = Swift.Result<T, any Swift.Error>",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Result",
+    "title" : "NetworkCodableLoader.Result",
+    "usr" : "s:10Networking20NetworkCodableLoaderC6Resulta"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.collectionGroup",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/statuscode\/equatable-implementations",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/Equatable-Implementations",
+    "title" : "Equatable Implementations"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Get the ",
+        "type" : "text"
+      },
+      {
+        "code" : "URL",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " of the on-disk cache",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "onDiskCacheLocation"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.typeProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/devsoc\/ondiskcachelocation",
+    "plainTextDeclaration" : "static var onDiskCacheLocation: URL { get throws }",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/DevSoc\/onDiskCacheLocation",
+    "title" : "onDiskCacheLocation",
+    "usr" : "s:10Networking6DevSocO19onDiskCacheLocation10Foundation3URLVvpZ"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "localizedDescription"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/networkcodableloader\/error\/localizeddescription",
+    "plainTextDeclaration" : "var localizedDescription: String { get }",
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.10",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "9.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "2.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error\/localizedDescription",
+    "title" : "localizedDescription",
+    "usr" : "s:s5ErrorP10FoundationE20localizedDescriptionSSvp::SYNTHESIZED::s:10Networking20NetworkCodableLoaderC5ErrorO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.collectionGroup",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/actor-implementations",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/Actor-Implementations",
+    "title" : "Actor Implementations"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "!="
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.operator",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/networkcodableloader\/error\/!=(_:_:)",
+    "plainTextDeclaration" : "static func != (lhs: Self, rhs: Self) -> Bool",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error\/!=(_:_:)",
+    "title" : "!=(_:_:)",
+    "usr" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:10Networking20NetworkCodableLoaderC5ErrorO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "withSerialExecutor"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
+        "text" : ">("
+      },
+      {
+        "kind" : "keyword",
+        "text" : "nonisolated(nonsending)"
+      },
+      {
+        "kind" : "text",
+        "text" : " (any "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Scf",
+        "text" : "SerialExecutor"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "E"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "T"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/withserialexecutor(_:)-aw6r",
+    "plainTextDeclaration" : "nonisolated func withSerialExecutor<T, E>(_ operation: nonisolated(nonsending) (any SerialExecutor) async throws(E) -> T) async throws(E) -> T where E : Error, T : ~Copyable",
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.15",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "6.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/withSerialExecutor(_:)-aw6r",
+    "title" : "withSerialExecutor(_:)",
+    "usr" : "s:ScA12_ConcurrencyE18withSerialExecutoryqd__qd__Scf_pYaqd_0_YKYCXEYaqd_0_YKs5ErrorRd_0_Ri_d__r0_lF::SYNTHESIZED::s:10Networking17FileBackedCodableC"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "invalidData"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumerationCase",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/networkcodableloader\/error\/invaliddata",
+    "plainTextDeclaration" : "case invalidData",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error\/invalidData",
+    "title" : "NetworkCodableLoader.Error.invalidData",
+    "usr" : "s:10Networking20NetworkCodableLoaderC5ErrorO11invalidDatayAEyx_GAGmSeRzSERzs8SendableRzlF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.collectionGroup",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/networkcodableloader\/error\/equatable-implementations",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error\/Equatable-Implementations",
+    "title" : "Equatable Implementations"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "The ",
+        "type" : "text"
+      },
+      {
+        "inlineContent" : [
+          {
+            "text" : "production",
+            "type" : "text"
+          }
+        ],
+        "type" : "strong"
+      },
+      {
+        "text" : " GraphQL endpoint",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "defaultLiveUrl"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.typeProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/devsoc\/defaultliveurl",
+    "plainTextDeclaration" : "static let defaultLiveUrl: URL",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/DevSoc\/defaultLiveUrl",
+    "title" : "defaultLiveUrl",
+    "usr" : "s:10Networking6DevSocO14defaultLiveUrl10Foundation3URLVvpZ"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "preconditionIsolated"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "attribute",
+        "text" : "@autoclosure "
+      },
+      {
+        "kind" : "text",
+        "text" : "() -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "file"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s12StaticStringV",
+        "text" : "StaticString"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "line"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Su",
+        "text" : "UInt"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/preconditionisolated(_:file:line:)",
+    "plainTextDeclaration" : "@backDeployed(before: macOS 14.0, iOS 17.0, watchOS 10.0, tvOS 17.0) nonisolated func preconditionIsolated(_ message: @autoclosure () -> String = String(), file: StaticString = #fileID, line: UInt = #line)",
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.15",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "6.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/preconditionIsolated(_:file:line:)",
+    "title" : "preconditionIsolated(_:file:line:)",
+    "usr" : "s:ScA12_ConcurrencyE20preconditionIsolated_4file4lineySSyXK_s12StaticStringVSutF::SYNTHESIZED::s:10Networking17FileBackedCodableC"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "currentFileURL"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/currentfileurl",
+    "plainTextDeclaration" : "var currentFileURL: URL { get }",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/currentFileURL",
+    "title" : "currentFileURL",
+    "usr" : "s:10Networking17FileBackedCodableC07currentB3URL10Foundation0F0Vvp"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Error"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumeration",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "Error"
+      }
+    ],
+    "path" : "\/documentation\/networking\/networkcodableloader\/error",
+    "plainTextDeclaration" : "enum Error",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error",
+    "title" : "NetworkCodableLoader.Error",
+    "usr" : "s:10Networking20NetworkCodableLoaderC5ErrorO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "!="
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.operator",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/httpclienterror\/!=(_:_:)",
+    "plainTextDeclaration" : "static func != (lhs: Self, rhs: Self) -> Bool",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/!=(_:_:)",
+    "title" : "!=(_:_:)",
+    "usr" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:10Networking15HTTPClientErrorO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HTTPClientResult"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.typeAlias",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "HTTPClientResult"
+      }
+    ],
+    "path" : "\/documentation\/networking\/httpclientresult",
+    "plainTextDeclaration" : "typealias HTTPClientResult = Swift.Result<(Data, HTTPURLResponse), any Error>",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientResult",
+    "title" : "HTTPClientResult",
+    "usr" : "s:10Networking16HTTPClientResulta"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Creates a new object managing a file",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "fileURL"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "name"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s12StaticStringV",
+        "text" : "StaticString"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "encoder"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+        "text" : "JSONEncoder"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "decoder"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
+        "text" : "JSONDecoder"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "notificationCenter"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)NSNotificationCenter",
+        "text" : "NotificationCenter"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "fileManager"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)NSFileManager",
+        "text" : "FileManager"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.initializer",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/init(fileurl:name:encoder:decoder:notificationcenter:filemanager:)",
+    "plainTextDeclaration" : "init(fileURL: URL, name: StaticString, encoder: JSONEncoder = JSONEncoder(), decoder: JSONDecoder = JSONDecoder(), notificationCenter: NotificationCenter = .default, fileManager: FileManager = .default)",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/init(fileURL:name:encoder:decoder:notificationCenter:fileManager:)",
+    "title" : "init(fileURL:name:encoder:decoder:notificationCenter:fileManager:)",
+    "usr" : "s:10Networking17FileBackedCodableC7fileURL4name7encoder7decoder18notificationCenter0E7ManagerACyxG10Foundation0F0V_s12StaticStringVAK11JSONEncoderCAK11JSONDecoderCSo014NSNotificationK0CSo06NSFileL0Ctcfc"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HTTPClientError"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumeration",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "HTTPClientError"
+      }
+    ],
+    "path" : "\/documentation\/networking\/httpclienterror",
+    "plainTextDeclaration" : "enum HTTPClientError",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError",
+    "title" : "HTTPClientError",
+    "usr" : "s:10Networking15HTTPClientErrorO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ok"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumerationCase",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/statuscode\/ok",
+    "plainTextDeclaration" : "case ok",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/ok",
+    "title" : "StatusCode.ok",
+    "usr" : "s:10Networking10StatusCodeO2okyA2CmF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "CodableLoader"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.protocol",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "CodableLoader"
+      }
+    ],
+    "path" : "\/documentation\/networking\/codableloader",
+    "plainTextDeclaration" : "protocol CodableLoader",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/CodableLoader",
+    "title" : "CodableLoader",
+    "usr" : "s:10Networking13CodableLoaderP"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "networkFailure"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumerationCase",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/httpclienterror\/networkfailure",
+    "plainTextDeclaration" : "case networkFailure",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/networkFailure",
+    "title" : "HTTPClientError.networkFailure",
+    "usr" : "s:10Networking15HTTPClientErrorO14networkFailureyA2CmF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "decoder"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
+        "text" : "JSONDecoder"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/decoder",
+    "plainTextDeclaration" : "let decoder: JSONDecoder",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/decoder",
+    "title" : "decoder",
+    "usr" : "s:10Networking17FileBackedCodableC7decoder10Foundation11JSONDecoderCvp"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.collectionGroup",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/statuscode\/rawrepresentable-implementations",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/RawRepresentable-Implementations",
+    "title" : "RawRepresentable Implementations"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "setValue"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Networking17FileBackedCodableC1Txmfp",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : "?) "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/setvalue(_:)",
+    "plainTextDeclaration" : "func setValue(_ newValue: T?) async throws",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/setValue(_:)",
+    "title" : "setValue(_:)",
+    "usr" : "s:10Networking17FileBackedCodableC8setValueyyxSgYaKF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "get"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "from"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Networking16HTTPClientResulta",
+        "text" : "HTTPClientResult"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/httpclient\/get(from:)",
+    "plainTextDeclaration" : "func get(from url: URL) async -> HTTPClientResult",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClient\/get(from:)",
+    "title" : "get(from:)",
+    "usr" : "s:10Networking10HTTPClientP3get4froms6ResultOy10Foundation4DataV_So17NSHTTPURLResponseCts5Error_pGAH3URLV_tYaF"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HTTPSession"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.protocol",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "HTTPSession"
+      }
+    ],
+    "path" : "\/documentation\/networking\/httpsession",
+    "plainTextDeclaration" : "protocol HTTPSession : Sendable",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPSession",
+    "title" : "HTTPSession",
+    "usr" : "s:10Networking11HTTPSessionP"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "URLSessionHTTPClient"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.structure",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "URLSessionHTTPClient"
+      }
+    ],
+    "path" : "\/documentation\/networking\/urlsessionhttpclient",
+    "plainTextDeclaration" : "struct URLSessionHTTPClient",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/URLSessionHTTPClient",
+    "title" : "URLSessionHTTPClient",
+    "usr" : "s:10Networking20URLSessionHTTPClientV"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Attempts to create the cache at the provided location",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "createOnDiskCache"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "at"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Apollo15NormalizedCacheP",
+        "text" : "NormalizedCache"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.typeMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/devsoc\/createondiskcache(at:)",
+    "plainTextDeclaration" : "static func createOnDiskCache(at url: URL) throws -> some NormalizedCache",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/DevSoc\/createOnDiskCache(at:)",
+    "title" : "createOnDiskCache(at:)",
+    "usr" : "s:10Networking6DevSocO17createOnDiskCache2atQr10Foundation3URLV_tKFZ"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HTTPClient"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.protocol",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "HTTPClient"
+      }
+    ],
+    "path" : "\/documentation\/networking\/httpclient",
+    "plainTextDeclaration" : "protocol HTTPClient : Sendable",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClient",
+    "title" : "HTTPClient",
+    "usr" : "s:10Networking10HTTPClientP"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "connectivity"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumerationCase",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/networkcodableloader\/error\/connectivity",
+    "plainTextDeclaration" : "case connectivity",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error\/connectivity",
+    "title" : "NetworkCodableLoader.Error.connectivity",
+    "usr" : "s:10Networking20NetworkCodableLoaderC5ErrorO12connectivityyAEyx_GAGmSeRzSERzs8SendableRzlF"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "Creates a live DevSoc ",
+        "type" : "text"
+      },
+      {
+        "code" : "ApolloClient",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " for GraphQL requests.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "createLiveApolloClient"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "for"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "using"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Apollo0A5StoreC",
+        "text" : "ApolloStore"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "urlSession"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "any"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Apollo0A10URLSessionP",
+        "text" : "ApolloURLSession"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Apollo0A6ClientC",
+        "text" : "ApolloClient"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.typeMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/devsoc\/createliveapolloclient(for:using:urlsession:)",
+    "plainTextDeclaration" : "static func createLiveApolloClient(for url: URL = DevSoc.defaultLiveUrl, using store: ApolloStore, urlSession: any ApolloURLSession = URLSession.shared) -> ApolloClient",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/DevSoc\/createLiveApolloClient(for:using:urlSession:)",
+    "title" : "createLiveApolloClient(for:using:urlSession:)",
+    "usr" : "s:10Networking6DevSocO22createLiveApolloClient3for5using10urlSession0F00fG0C10Foundation3URLV_AH0F5StoreCAH0F10URLSession_ptFZ"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.module",
+    "language" : "swift",
+    "path" : "\/documentation\/networking",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking",
+    "title" : "Networking",
+    "usr" : "Networking"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "hashValue"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Si",
+        "text" : "Int"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/statuscode\/hashvalue",
+    "plainTextDeclaration" : "var hashValue: Int { get }",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/hashValue",
+    "title" : "hashValue",
+    "usr" : "s:SYsSHRzSH8RawValueSYRpzrlE04hashB0Sivp::SYNTHESIZED::s:10Networking10StatusCodeO"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "session"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "any"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Networking11HTTPSessionP",
+        "text" : "HTTPSession"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.initializer",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/urlsessionhttpclient\/init(session:)",
+    "plainTextDeclaration" : "init(session: any HTTPSession)",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/URLSessionHTTPClient\/init(session:)",
+    "title" : "init(session:)",
+    "usr" : "s:10Networking20URLSessionHTTPClientV7sessionAcA11HTTPSession_p_tcfc"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "unownedExecutor"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sce",
+        "text" : "UnownedSerialExecutor"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceProperty",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/unownedexecutor",
+    "plainTextDeclaration" : "nonisolated var unownedExecutor: UnownedSerialExecutor { get }",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/unownedExecutor",
+    "title" : "unownedExecutor",
+    "usr" : "s:10Networking17FileBackedCodableC15unownedExecutorScevp"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "assertIsolated"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "attribute",
+        "text" : "@autoclosure "
+      },
+      {
+        "kind" : "text",
+        "text" : "() -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "file"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s12StaticStringV",
+        "text" : "StaticString"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "line"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Su",
+        "text" : "UInt"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.instanceMethod",
+    "language" : "swift",
+    "path" : "\/documentation\/networking\/filebackedcodable\/assertisolated(_:file:line:)",
+    "plainTextDeclaration" : "@backDeployed(before: macOS 14.0, iOS 17.0, watchOS 10.0, tvOS 17.0) nonisolated func assertIsolated(_ message: @autoclosure () -> String = String(), file: StaticString = #fileID, line: UInt = #line)",
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.15",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "6.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/assertIsolated(_:file:line:)",
+    "title" : "assertIsolated(_:file:line:)",
+    "usr" : "s:ScA12_ConcurrencyE14assertIsolated_4file4lineySSyXK_s12StaticStringVSutF::SYNTHESIZED::s:10Networking17FileBackedCodableC"
+  },
+  {
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "StatusCode"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.enumeration",
+    "language" : "swift",
+    "navigatorFragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "StatusCode"
+      }
+    ],
+    "path" : "\/documentation\/networking\/statuscode",
+    "plainTextDeclaration" : "enum StatusCode",
+    "referenceURL" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode",
+    "title" : "StatusCode",
+    "usr" : "s:10Networking10StatusCodeO"
+  }
+]

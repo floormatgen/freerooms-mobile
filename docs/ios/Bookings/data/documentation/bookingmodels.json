@@ -1,0 +1,104 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "BookingModels",
+    "modules" : [
+      {
+        "name" : "BookingModels"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "BookingModels"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking"
+      ],
+      "title" : "Structures"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingmodels"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingModels/documentation/BookingModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingModels",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking": {
+  "abstract" : [
+    {
+      "text" : "A booking prepared for display in the cross-room weekly discovery feed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBooking"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBooking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBooking",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking"
+}
+}
+}

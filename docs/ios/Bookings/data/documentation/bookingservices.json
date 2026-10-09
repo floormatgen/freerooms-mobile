@@ -1,0 +1,358 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "BookingServices",
+    "modules" : [
+      {
+        "name" : "BookingServices"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "BookingServices"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveBookingService",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveGraphQLWeeklyBookingLoader",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/PreviewBookingService"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "anchor" : "Protocols",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/BookingService",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoader"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/GetWeeklyBookingsResult"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingservices"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingServices/documentation/BookingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/BookingService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingService"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/BookingService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingService",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/bookingservice"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/FetchWeeklyBookingsError": {
+  "abstract" : [
+    {
+      "text" : "Feature-level failures that can be presented or recovered from by the Bookings UI.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FetchWeeklyBookingsError"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FetchWeeklyBookingsError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FetchWeeklyBookingsError",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/fetchweeklybookingserror"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/GetWeeklyBookingsResult": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GetWeeklyBookingsResult"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/GetWeeklyBookingsResult",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GetWeeklyBookingsResult"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GetWeeklyBookingsResult",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/getweeklybookingsresult"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/LiveBookingService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveBookingService"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveBookingService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveBookingService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveBookingService",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/livebookingservice"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/LiveGraphQLWeeklyBookingLoader": {
+  "abstract" : [
+    {
+      "text" : "Executes the generated weekly GraphQL operation and maps it into app-owned models.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveGraphQLWeeklyBookingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/LiveGraphQLWeeklyBookingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveGraphQLWeeklyBookingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveGraphQLWeeklyBookingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/livegraphqlweeklybookingloader"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/PreviewBookingService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBookingService"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/PreviewBookingService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBookingService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewBookingService",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/previewbookingservice"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/WeeklyBookingLoader": {
+  "abstract" : [
+    {
+      "text" : "Loads bookings that overlap a supplied calendar interval.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBookingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBookingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/weeklybookingloader"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/WeeklyBookingLoaderError": {
+  "abstract" : [
+    {
+      "text" : "Failures produced at the GraphQL transport and response boundary.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBookingLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBookingLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/weeklybookingloadererror"
+}
+}
+}

@@ -1,0 +1,791 @@
+{
+  "abstract" : [
+    {
+      "text" : "A shared image cache that stores downsampled thumbnails in an ",
+      "type" : "text"
+    },
+    {
+      "code" : "NSCache",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageCache"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:8CommonUI10ImageCacheC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ImageCache"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CommonUI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ImageCache"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "ImageCache"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ImageCache"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "Why-this-exists",
+          "level" : 2,
+          "text" : "Why this exists",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "code" : "UIImage(named:)",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " loads the full-resolution image and caches it in a",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "system cache that doesn’t release easily. A 2000x1500 photo decompresses",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "into ~12 MB of bitmap memory. With ~270 bundled photos, scrolling through",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "lists can balloon memory quickly.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "code" : "ImageCache",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " solves this by:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Downsampling to the display size via ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "preparingThumbnail(of:)",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " (~480 KB at ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : ".medium",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ")",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Storing the small thumbnail in an ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "NSCache",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " with configurable limits",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "orderedList"
+        },
+        {
+          "anchor" : "Architecture",
+          "level" : 2,
+          "text" : "Architecture",
+          "type" : "heading"
+        },
+        {
+          "code" : [
+            "View layer (CachedImage)",
+            "    |",
+            "    +-- body: sync lookup via image(named:in:size:)",
+            "              -> cache hit: instant return from NSCache",
+            "              -> cache miss: UIImage(named:) + preparingThumbnail(of:)",
+            "                 -> store in NSCache with byte cost",
+            "                 -> return thumbnail"
+          ],
+          "syntax" : null,
+          "type" : "codeListing"
+        },
+        {
+          "anchor" : "Cache-key-format",
+          "level" : 2,
+          "text" : "Cache key format",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Keys are ",
+              "type" : "text"
+            },
+            {
+              "code" : "\"<imageName>-<pixelSize>\"",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " (e.g. ",
+              "type" : "text"
+            },
+            {
+              "code" : "\"K-J17-201-400\"",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : "), so the same",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "image at different sizes gets separate cache entries without collisions.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "Memory-budget",
+          "level" : 2,
+          "text" : "Memory budget",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Default limits via ",
+              "type" : "text"
+            },
+            {
+              "code" : "CacheConfig.default",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ": 50 items \/ 50 MB.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "Approximate per-thumbnail costs (uncompressed bitmap: width × height × 4 bytes\/pixel,",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "independent of source format — JPEG, HEIC, etc. decompress to the same bitmap size):",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : ".small",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " (200px):  ~120 KB",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : ".medium",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " (400px): ~480 KB",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : ".large",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " (1000px): ~3 MB",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "50 MB holds ~100 medium thumbnails — enough to scroll through the full",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "buildings list AND a building’s room list without evictions. ",
+              "type" : "text"
+            },
+            {
+              "code" : "NSCache",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "also purges automatically under system memory pressure.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/s8SendableP",
+        "doc:\/\/commonui.CommonUI\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageCache\/clearCache()",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageCache\/getImage(named:in:size:)",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageCache\/image(named:in:size:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "anchor" : "Type-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageCache\/shared"
+      ],
+      "title" : "Type Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/commonui\/imagecache"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://commonui.CommonUI/documentation/CommonUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CommonUI",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/ImageCache": {
+  "abstract" : [
+    {
+      "text" : "A shared image cache that stores downsampled thumbnails in an ",
+      "type" : "text"
+    },
+    {
+      "code" : "NSCache",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ImageCache"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageCache",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ImageCache"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ImageCache",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/imagecache"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/ImageCache/clearCache()": {
+  "abstract" : [
+    {
+      "text" : "Removes all cached thumbnails.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearCache"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageCache\/clearCache()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearCache()",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/imagecache\/clearcache()"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/ImageCache/getImage(named:in:size:)": {
+  "abstract" : [
+    {
+      "text" : "Gets an image matcing the provided size",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getImage"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "named"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSBundle",
+      "text" : "Bundle"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "size"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8CommonUI9ImageSizeO",
+      "text" : "ImageSize"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIImage",
+      "text" : "UIImage"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageCache\/getImage(named:in:size:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getImage(named:in:size:)",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/imagecache\/getimage(named:in:size:)"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/ImageCache/image(named:in:size:)": {
+  "abstract" : [
+    {
+      "text" : "Loads an image from the asset catalog, downsamples it, and caches the result.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "image"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "named"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSBundle",
+      "text" : "Bundle"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "size"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8CommonUI9ImageSizeO",
+      "text" : "ImageSize"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIImage",
+      "text" : "UIImage"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageCache\/image(named:in:size:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "image(named:in:size:)",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/imagecache\/image(named:in:size:)"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/ImageCache/shared": {
+  "abstract" : [
+    {
+      "text" : "Shared singleton using ",
+      "type" : "text"
+    },
+    {
+      "code" : "CacheConfig.default",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " limits (50 items \/ 50 MB).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shared"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8CommonUI10ImageCacheC",
+      "text" : "ImageCache"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageCache\/shared",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shared",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/imagecache\/shared"
+},
+"doc://commonui.CommonUI/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/s8SendableP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

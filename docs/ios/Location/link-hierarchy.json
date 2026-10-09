@@ -1,0 +1,141 @@
+{
+  "bundleID" : "location.LocationInteractors",
+  "nonSymbolPaths" : {
+    "0" : "\/tutorials\/LocationInteractors",
+    "4" : "\/tutorials"
+  },
+  "pathHierarchy" : {
+    "articlesContainer" : 7,
+    "modules" : [
+      7
+    ],
+    "nodes" : [
+      {
+        "name" : "LocationInteractors"
+      },
+      {
+        "name" : "requestLocationPermission()",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:19LocationInteractors0A10InteractorC07requestA10PermissionSbyKF"
+        }
+      },
+      {
+        "name" : "init(locationService:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:19LocationInteractors0A10InteractorC15locationServiceAC0A00aE0_p_tcfc"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "9dcxi",
+            "kind" : "method",
+            "nodeID" : 6,
+            "parameterTypes" : [
+
+            ],
+            "returnTypes" : [
+              "Location"
+            ]
+          },
+          {
+            "hash" : "67uqp",
+            "kind" : "method",
+            "nodeID" : 5,
+            "parameterTypes" : [
+              "(Location)->Void"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "zp3",
+            "kind" : "method",
+            "nodeID" : 8,
+            "parameterTypes" : [
+              "(CLHeading)->Void"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "gv72",
+            "kind" : "init",
+            "nodeID" : 2,
+            "parameterTypes" : [
+              "LocationService"
+            ],
+            "returnTypes" : [
+              ""
+            ]
+          },
+          {
+            "hash" : "7zrjb",
+            "kind" : "method",
+            "nodeID" : 1,
+            "parameterTypes" : [
+
+            ],
+            "returnTypes" : [
+              "Bool"
+            ]
+          }
+        ],
+        "name" : "LocationInteractor",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:19LocationInteractors0A10InteractorC"
+        }
+      },
+      {
+        "name" : "tutorials"
+      },
+      {
+        "name" : "setLocationUpdateCallback(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:19LocationInteractors0A10InteractorC03setA14UpdateCallbackyyy0A0AEVcF"
+        }
+      },
+      {
+        "name" : "getUserLocation()",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:19LocationInteractors0A10InteractorC07getUserA00A0AEVyKF"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "40d1e",
+            "kind" : "class",
+            "nodeID" : 3
+          }
+        ],
+        "name" : "LocationInteractors",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "LocationInteractors"
+        }
+      },
+      {
+        "name" : "setHeadingUpdateCallback(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:19LocationInteractors0A10InteractorC24setHeadingUpdateCallbackyyySo9CLHeadingCcF"
+        }
+      }
+    ],
+    "tutorialContainer" : 0,
+    "tutorialOverviewContainer" : 4
+  },
+  "version" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}

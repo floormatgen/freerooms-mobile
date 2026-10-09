@@ -1,0 +1,632 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "BuildingServices",
+    "modules" : [
+      {
+        "name" : "BuildingServices"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "BuildingServices"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveBuildingService",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveGraphQLBuildingLoader",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveNavigationService",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/PreviewBuildingService",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/PreviewNavigationService"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "anchor" : "Protocols",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingLoader",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingRatingLoader",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingService",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingsCache",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/NavigationService"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/RemoteBuildingRatingLoader"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/GetBuildingsResult"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingLoaderError",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingRatingLoaderError",
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/FetchBuildingsError"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "anchor" : "Extended-Modules",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/Networking"
+      ],
+      "title" : "Extended Modules"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingservices"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingServices/documentation/BuildingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/BuildingLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/buildingloader"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/BuildingLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/buildingloadererror"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/BuildingRatingLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingRatingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingRatingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingRatingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingRatingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/buildingratingloader"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/BuildingRatingLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingRatingLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingRatingLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingRatingLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingRatingLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/buildingratingloadererror"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/BuildingService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingService"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingService",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/buildingservice"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/BuildingsCache": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingsCache"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/BuildingsCache",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingsCache"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingsCache",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/buildingscache"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/FetchBuildingsError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FetchBuildingsError"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/FetchBuildingsError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FetchBuildingsError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FetchBuildingsError",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/fetchbuildingserror"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/GetBuildingsResult": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GetBuildingsResult"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/GetBuildingsResult",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GetBuildingsResult"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GetBuildingsResult",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/getbuildingsresult"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/LiveBuildingService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveBuildingService"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveBuildingService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveBuildingService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveBuildingService",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/livebuildingservice"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/LiveGraphQLBuildingLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "actor"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveGraphQLBuildingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveGraphQLBuildingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveGraphQLBuildingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveGraphQLBuildingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/livegraphqlbuildingloader"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/LiveNavigationService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveNavigationService"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/LiveNavigationService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveNavigationService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveNavigationService",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/livenavigationservice"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/NavigationService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NavigationService"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/NavigationService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NavigationService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NavigationService",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/navigationservice"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/Networking": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/Networking",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Networking",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/networking"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/OnDiskBuildingsCache": {
+  "abstract" : [
+    {
+      "text" : "Represents an on-disk buildings cache",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "actor"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OnDiskBuildingsCache"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/OnDiskBuildingsCache",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OnDiskBuildingsCache"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OnDiskBuildingsCache",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/ondiskbuildingscache"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/PreviewBuildingService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBuildingService"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/PreviewBuildingService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBuildingService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewBuildingService",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/previewbuildingservice"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/PreviewNavigationService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewNavigationService"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/PreviewNavigationService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewNavigationService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewNavigationService",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/previewnavigationservice"
+},
+"doc://buildings.BuildingServices/documentation/BuildingServices/RemoteBuildingRatingLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteBuildingRatingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingServices\/documentation\/BuildingServices\/RemoteBuildingRatingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteBuildingRatingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteBuildingRatingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingservices\/remotebuildingratingloader"
+}
+}
+}

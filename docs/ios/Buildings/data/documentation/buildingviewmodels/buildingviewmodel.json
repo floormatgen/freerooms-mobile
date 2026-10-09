@@ -1,0 +1,744 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18BuildingViewModels0aB5ModelP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "BuildingViewModel"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingViewModels"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "BuildingViewModel"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "BuildingViewModel"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "BuildingViewModel"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveBuildingViewModel",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/PreviewBuildingViewModel"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/allBuildings",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/buildings",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/buildingsInAscendingOrder",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/displayedBuildings",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/filteredBuildings",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/hasLoaded",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/isLoading",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/loadBuildingErrorMessage",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/placeHolderBuildings",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/searchText"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/getBuildingsInOrder()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/loadBuildings()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/onAppear()",
+        "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/reloadBuildings()"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingviewmodels\/buildingviewmodel"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingViewModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BuildingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BuildingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BuildingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/allBuildings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "allBuildings"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels0A0V",
+      "text" : "Building"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/allBuildings",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "allBuildings",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/allbuildings"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/buildings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildings"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels15CampusBuildingsa",
+      "text" : "CampusBuildings"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/buildings",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "buildings",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/buildings"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/buildingsInAscendingOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildingsInAscendingOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/buildingsInAscendingOrder",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "buildingsInAscendingOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/buildingsinascendingorder"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/displayedBuildings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "displayedBuildings"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels15CampusBuildingsa",
+      "text" : "CampusBuildings"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/displayedBuildings",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "displayedBuildings",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/displayedbuildings"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/filteredBuildings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "filteredBuildings"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels15CampusBuildingsa",
+      "text" : "CampusBuildings"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/filteredBuildings",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "filteredBuildings",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/filteredbuildings"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/getBuildingsInOrder()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getBuildingsInOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/getBuildingsInOrder()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "getBuildingsInOrder()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/getbuildingsinorder()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/hasLoaded": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasLoaded"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/hasLoaded",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "hasLoaded",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/hasloaded"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/isLoading": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isLoading"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/isLoading",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "isLoading",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/isloading"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/loadBuildingErrorMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "loadBuildingErrorMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels10AlertErrorV",
+      "text" : "AlertError"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/loadBuildingErrorMessage",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "loadBuildingErrorMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/loadbuildingerrormessage"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/loadBuildings()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "loadBuildings"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/loadBuildings()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "loadBuildings()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/loadbuildings()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/onAppear()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onAppear"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/onAppear()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "onAppear()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/onappear()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/placeHolderBuildings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "placeHolderBuildings"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14BuildingModels15CampusBuildingsa",
+      "text" : "CampusBuildings"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/placeHolderBuildings",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "placeHolderBuildings",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/placeholderbuildings"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/reloadBuildings()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "reloadBuildings"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/reloadBuildings()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "reloadBuildings()",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/reloadbuildings()"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/BuildingViewModel/searchText": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchText"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/BuildingViewModel\/searchText",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "searchText",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/buildingviewmodel\/searchtext"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/LiveBuildingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveBuildingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/LiveBuildingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveBuildingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveBuildingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/livebuildingviewmodel"
+},
+"doc://buildings.BuildingViewModels/documentation/BuildingViewModels/PreviewBuildingViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBuildingViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingViewModels\/documentation\/BuildingViewModels\/PreviewBuildingViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewBuildingViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewBuildingViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingviewmodels\/previewbuildingviewmodel"
+}
+}
+}

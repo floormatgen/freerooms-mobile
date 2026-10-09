@@ -1,0 +1,360 @@
+{
+  "abstract" : [
+    {
+      "text" : "Failures produced at the GraphQL transport and response boundary.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15BookingServices06WeeklyA11LoaderErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "WeeklyBookingLoaderError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingServices"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "WeeklyBookingLoaderError"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "WeeklyBookingLoaderError"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "WeeklyBookingLoaderError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/SQ",
+        "doc:\/\/bookings.BookingServices\/s5ErrorP",
+        "doc:\/\/bookings.BookingServices\/SH",
+        "doc:\/\/bookings.BookingServices\/s8SendableP",
+        "doc:\/\/bookings.BookingServices\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/cancelled",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/connectivity",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/invalidDateFormat",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/invalidDateRange",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/invalidResponse"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/Equatable-Implementations",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/Error-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingservices\/weeklybookingloadererror"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingServices/SH": {
+  "identifier" : "doc:\/\/bookings.BookingServices\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingServices/SQ": {
+  "identifier" : "doc:\/\/bookings.BookingServices\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingServices/documentation/BookingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/WeeklyBookingLoaderError": {
+  "abstract" : [
+    {
+      "text" : "Failures produced at the GraphQL transport and response boundary.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBookingLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBookingLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBookingLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/weeklybookingloadererror"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/WeeklyBookingLoaderError/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/weeklybookingloadererror\/equatable-implementations"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/WeeklyBookingLoaderError/Error-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/Error-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Error Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/weeklybookingloadererror\/error-implementations"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/WeeklyBookingLoaderError/cancelled": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cancelled"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/cancelled",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeeklyBookingLoaderError.cancelled",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/weeklybookingloadererror\/cancelled"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/WeeklyBookingLoaderError/connectivity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "connectivity"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/connectivity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeeklyBookingLoaderError.connectivity",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/weeklybookingloadererror\/connectivity"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/WeeklyBookingLoaderError/invalidDateFormat": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidDateFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/invalidDateFormat",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeeklyBookingLoaderError.invalidDateFormat",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/weeklybookingloadererror\/invaliddateformat"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/WeeklyBookingLoaderError/invalidDateRange": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidDateRange"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/invalidDateRange",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeeklyBookingLoaderError.invalidDateRange",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/weeklybookingloadererror\/invaliddaterange"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/WeeklyBookingLoaderError/invalidResponse": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidResponse"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/WeeklyBookingLoaderError\/invalidResponse",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeeklyBookingLoaderError.invalidResponse",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/weeklybookingloadererror\/invalidresponse"
+},
+"doc://bookings.BookingServices/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/bookings.BookingServices\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingServices/s5ErrorP": {
+  "identifier" : "doc:\/\/bookings.BookingServices\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingServices/s8SendableP": {
+  "identifier" : "doc:\/\/bookings.BookingServices\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

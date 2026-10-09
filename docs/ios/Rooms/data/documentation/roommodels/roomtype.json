@@ -1,0 +1,561 @@
+{
+  "abstract" : [
+    {
+      "text" : "Represents different types of rooms with their display names and usage codes",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10RoomModels0A4TypeO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "RoomType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomModels"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "RoomType"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "RoomType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "RoomType"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/s12CaseIterableP",
+        "doc:\/\/rooms.RoomModels\/SQ",
+        "doc:\/\/rooms.RoomModels\/SH",
+        "doc:\/\/rooms.RoomModels\/s12IdentifiableP",
+        "doc:\/\/rooms.RoomModels\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/auditorium",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/computerLab",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/laboratory",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/lectureHall",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/libraryStudyRoom",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/meetingRoom",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/studio",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/tutorialRoom"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/displayName",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/id"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/Equatable-Implementations",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roommodels\/roomtype"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomModels/SH": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomModels/SQ": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomModels/SY": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomModels/documentation/RoomModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomModels",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType": {
+  "abstract" : [
+    {
+      "text" : "Represents different types of rooms with their display names and usage codes",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomType"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomType",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/equatable-implementations"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/rawrepresentable-implementations"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/auditorium": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "auditorium"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/auditorium",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomType.auditorium",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/auditorium"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/computerLab": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "computerLab"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/computerLab",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomType.computerLab",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/computerlab"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/displayName": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "displayName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/displayName",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "displayName",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/displayname"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/id": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/id",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/id"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/init(rawvalue:)"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/laboratory": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "laboratory"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/laboratory",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomType.laboratory",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/laboratory"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/lectureHall": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lectureHall"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/lectureHall",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomType.lectureHall",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/lecturehall"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/libraryStudyRoom": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "libraryStudyRoom"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/libraryStudyRoom",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomType.libraryStudyRoom",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/librarystudyroom"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/meetingRoom": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "meetingRoom"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/meetingRoom",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomType.meetingRoom",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/meetingroom"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/studio": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "studio"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/studio",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomType.studio",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/studio"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/RoomType/tutorialRoom": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tutorialRoom"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/RoomType\/tutorialRoom",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RoomType.tutorialRoom",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/roomtype\/tutorialroom"
+},
+"doc://rooms.RoomModels/s12CaseIterableP": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomModels/s12IdentifiableP": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/s12IdentifiableP",
+  "title" : "Swift.Identifiable",
+  "type" : "unresolvable"
+}
+}
+}

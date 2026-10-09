@@ -1,0 +1,402 @@
+{
+  "abstract" : [
+    {
+      "text" : "Feature-level failures that can be presented or recovered from by the Bookings UI.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15BookingServices24FetchWeeklyBookingsErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FetchWeeklyBookingsError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingServices"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "FetchWeeklyBookingsError"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "FetchWeeklyBookingsError"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "FetchWeeklyBookingsError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/SQ",
+        "doc:\/\/bookings.BookingServices\/s5ErrorP",
+        "doc:\/\/bookings.BookingServices\/SH",
+        "doc:\/\/bookings.BookingServices\/s8SendableP",
+        "doc:\/\/bookings.BookingServices\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/cancelled",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/connectivity",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/invalidDateFormat",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/invalidDateRange",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/invalidResponse"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/clientMessage"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/Equatable-Implementations",
+        "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/Error-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingservices\/fetchweeklybookingserror"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingServices/SH": {
+  "identifier" : "doc:\/\/bookings.BookingServices\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingServices/SQ": {
+  "identifier" : "doc:\/\/bookings.BookingServices\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingServices/documentation/BookingServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingServices",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/FetchWeeklyBookingsError": {
+  "abstract" : [
+    {
+      "text" : "Feature-level failures that can be presented or recovered from by the Bookings UI.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FetchWeeklyBookingsError"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FetchWeeklyBookingsError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FetchWeeklyBookingsError",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/fetchweeklybookingserror"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/FetchWeeklyBookingsError/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/fetchweeklybookingserror\/equatable-implementations"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/FetchWeeklyBookingsError/Error-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/Error-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Error Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/fetchweeklybookingserror\/error-implementations"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/FetchWeeklyBookingsError/cancelled": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cancelled"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/cancelled",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FetchWeeklyBookingsError.cancelled",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/fetchweeklybookingserror\/cancelled"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/FetchWeeklyBookingsError/clientMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clientMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/clientMessage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clientMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/fetchweeklybookingserror\/clientmessage"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/FetchWeeklyBookingsError/connectivity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "connectivity"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/connectivity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FetchWeeklyBookingsError.connectivity",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/fetchweeklybookingserror\/connectivity"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/FetchWeeklyBookingsError/invalidDateFormat": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidDateFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/invalidDateFormat",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FetchWeeklyBookingsError.invalidDateFormat",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/fetchweeklybookingserror\/invaliddateformat"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/FetchWeeklyBookingsError/invalidDateRange": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidDateRange"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/invalidDateRange",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FetchWeeklyBookingsError.invalidDateRange",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/fetchweeklybookingserror\/invaliddaterange"
+},
+"doc://bookings.BookingServices/documentation/BookingServices/FetchWeeklyBookingsError/invalidResponse": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidResponse"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingServices\/documentation\/BookingServices\/FetchWeeklyBookingsError\/invalidResponse",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FetchWeeklyBookingsError.invalidResponse",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingservices\/fetchweeklybookingserror\/invalidresponse"
+},
+"doc://bookings.BookingServices/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/bookings.BookingServices\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingServices/s5ErrorP": {
+  "identifier" : "doc:\/\/bookings.BookingServices\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingServices/s8SendableP": {
+  "identifier" : "doc:\/\/bookings.BookingServices\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

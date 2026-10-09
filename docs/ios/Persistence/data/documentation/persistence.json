@@ -1,0 +1,435 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/persistence.Persistence\/documentation\/Persistence"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "Persistence",
+    "modules" : [
+      {
+        "name" : "Persistence"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "Persistence"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "anchor" : "Protocols",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoader",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/IdentifiableModel",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoader",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveFileLoader",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveJSONLoader"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/UserDefaultsKeys"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/persistence"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://persistence.Persistence/documentation/Persistence": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Persistence",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence"
+},
+"doc://persistence.Persistence/documentation/Persistence/FileLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FileLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FileLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FileLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/fileloader"
+},
+"doc://persistence.Persistence/documentation/Persistence/FileLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FileLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/FileLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FileLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FileLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/fileloadererror"
+},
+"doc://persistence.Persistence/documentation/Persistence/IdentifiableModel": {
+  "abstract" : [
+    {
+      "text" : "A minimal protocol for models to be stored persistently.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "IdentifiableModel"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/IdentifiableModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "IdentifiableModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "IdentifiableModel",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/identifiablemodel"
+},
+"doc://persistence.Persistence/documentation/Persistence/JSONLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JSONLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JSONLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JSONLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/jsonloader"
+},
+"doc://persistence.Persistence/documentation/Persistence/JSONLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JSONLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/JSONLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JSONLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JSONLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/jsonloadererror"
+},
+"doc://persistence.Persistence/documentation/Persistence/LiveFileLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveFileLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveFileLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveFileLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveFileLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/livefileloader"
+},
+"doc://persistence.Persistence/documentation/Persistence/LiveJSONLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveJSONLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/LiveJSONLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveJSONLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveJSONLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/livejsonloader"
+},
+"doc://persistence.Persistence/documentation/Persistence/PersistentStore": {
+  "abstract" : [
+    {
+      "text" : "Defines an interface for saving, retrieving, and deleting persistent data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PersistentStore"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PersistentStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PersistentStore",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/persistentstore"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore": {
+  "abstract" : [
+    {
+      "text" : "A concrete implementation of the PersistentStore protocol using SwiftData.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Manages the model container and handles all persistence operations.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Generic over a single model type that conforms to PersistentModel and IdentifiableModel.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataStore"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SwiftDataStore",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore"
+},
+"doc://persistence.Persistence/documentation/Persistence/UserDefaultsKeys": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UserDefaultsKeys"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/UserDefaultsKeys",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UserDefaultsKeys"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UserDefaultsKeys",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/userdefaultskeys"
+}
+}
+}

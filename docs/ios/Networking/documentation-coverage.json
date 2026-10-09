@@ -1,0 +1,2225 @@
+[
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.class",
+      "isSymbol" : true,
+      "name" : "Class"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 4
+        },
+        "typeAlias",
+        {
+          "documented" : 0,
+          "total" : 1
+        },
+        "method",
+        {
+          "documented" : 0,
+          "total" : 1
+        }
+      ],
+      "discriminant" : "class"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "NetworkCodableLoader"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.initializer",
+      "isSymbol" : true,
+      "name" : "Initializer"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/init(rawValue:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "init(rawValue:)"
+  },
+  {
+    "availability" : [
+      {
+        "domain" : "macOS",
+        "introduced" : {
+          "major" : 10,
+          "minor" : 15,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "watchOS",
+        "introduced" : {
+          "major" : 6,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "tvOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "macCatalyst",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iPadOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      }
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/withSerialExecutor(_:)-1g4m2",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "withSerialExecutor(_:)"
+  },
+  {
+    "availability" : [
+      {
+        "domain" : "macOS",
+        "introduced" : {
+          "major" : 10,
+          "minor" : 10,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "watchOS",
+        "introduced" : {
+          "major" : 2,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "tvOS",
+        "introduced" : {
+          "major" : 9,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "macCatalyst",
+        "introduced" : {
+          "major" : 8,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iPadOS",
+        "introduced" : {
+          "major" : 8,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iOS",
+        "introduced" : {
+          "major" : 8,
+          "minor" : 0,
+          "patch" : 0
+        }
+      }
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/localizedDescription",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "localizedDescription"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.class",
+      "isSymbol" : true,
+      "name" : "Class"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 11
+        },
+        "method",
+        {
+          "documented" : 0,
+          "total" : 2
+        },
+        "property",
+        {
+          "documented" : 0,
+          "total" : 7
+        }
+      ],
+      "discriminant" : "class"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "FileBackedCodable"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumerationCase",
+      "isSymbol" : true,
+      "name" : "Enumeration Case"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/invalidHTTPResponse",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "HTTPClientError.invalidHTTPResponse"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/name",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "name"
+  },
+  {
+    "availability" : [
+      {
+        "domain" : "macOS",
+        "introduced" : {
+          "major" : 10,
+          "minor" : 15,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "watchOS",
+        "introduced" : {
+          "major" : 6,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "tvOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "macCatalyst",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iPadOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      }
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 3
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/assumeIsolated(_:file:line:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "assumeIsolated(_:file:line:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/notificationCenter",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "notificationCenter"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/encoder",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "encoder"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/URLSessionHTTPClient\/get(from:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "get(from:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/hash(into:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "hash(into:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/cachedFileVersion",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "cachedFileVersion"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.initializer",
+      "isSymbol" : true,
+      "name" : "Initializer"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 2
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/init(client:url:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "init(client:url:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.associatedType",
+      "isSymbol" : true,
+      "name" : "Associated Type"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/CodableLoader\/Generic",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Generic"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPSession\/data(from:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "data(from:)"
+  },
+  {
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.collectionGroup",
+      "isSymbol" : false,
+      "name" : "CollectionGroup"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error\/Error-Implementations",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Error Implementations"
+  },
+  {
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.collectionGroup",
+      "isSymbol" : false,
+      "name" : "CollectionGroup"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/Error-Implementations",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Error Implementations"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.operator",
+      "isSymbol" : true,
+      "name" : "Operator"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 2
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/!=(_:_:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "!=(_:_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 0
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/fetch()",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "fetch()"
+  },
+  {
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.collectionGroup",
+      "isSymbol" : false,
+      "name" : "CollectionGroup"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/Equatable-Implementations",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Equatable Implementations"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumeration",
+      "isSymbol" : true,
+      "name" : "Enumeration"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 4
+        }
+      ],
+      "discriminant" : "enumeration"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/DevSoc",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "DevSoc"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 0
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/CodableLoader\/fetch()",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "fetch()"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 0
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/getValue()",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "getValue()"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.typeAlias",
+      "isSymbol" : true,
+      "name" : "Type Alias"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Result",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "NetworkCodableLoader.Result"
+  },
+  {
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.collectionGroup",
+      "isSymbol" : false,
+      "name" : "CollectionGroup"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/Equatable-Implementations",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Equatable Implementations"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.typeProperty",
+      "isSymbol" : true,
+      "name" : "Type Property"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/DevSoc\/onDiskCacheLocation",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "onDiskCacheLocation"
+  },
+  {
+    "availability" : [
+      {
+        "domain" : "macOS",
+        "introduced" : {
+          "major" : 10,
+          "minor" : 10,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "watchOS",
+        "introduced" : {
+          "major" : 2,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "tvOS",
+        "introduced" : {
+          "major" : 9,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "macCatalyst",
+        "introduced" : {
+          "major" : 8,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iPadOS",
+        "introduced" : {
+          "major" : 8,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iOS",
+        "introduced" : {
+          "major" : 8,
+          "minor" : 0,
+          "patch" : 0
+        }
+      }
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error\/localizedDescription",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "localizedDescription"
+  },
+  {
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.collectionGroup",
+      "isSymbol" : false,
+      "name" : "CollectionGroup"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/Actor-Implementations",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Actor Implementations"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.operator",
+      "isSymbol" : true,
+      "name" : "Operator"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 2
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error\/!=(_:_:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "!=(_:_:)"
+  },
+  {
+    "availability" : [
+      {
+        "domain" : "macOS",
+        "introduced" : {
+          "major" : 10,
+          "minor" : 15,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "watchOS",
+        "introduced" : {
+          "major" : 6,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "tvOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "macCatalyst",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iPadOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      }
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/withSerialExecutor(_:)-aw6r",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "withSerialExecutor(_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumerationCase",
+      "isSymbol" : true,
+      "name" : "Enumeration Case"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error\/invalidData",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "NetworkCodableLoader.Error.invalidData"
+  },
+  {
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.collectionGroup",
+      "isSymbol" : false,
+      "name" : "CollectionGroup"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error\/Equatable-Implementations",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Equatable Implementations"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : true,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.typeProperty",
+      "isSymbol" : true,
+      "name" : "Type Property"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/DevSoc\/defaultLiveUrl",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "defaultLiveUrl"
+  },
+  {
+    "availability" : [
+      {
+        "domain" : "macOS",
+        "introduced" : {
+          "major" : 10,
+          "minor" : 15,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "watchOS",
+        "introduced" : {
+          "major" : 6,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "tvOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "macCatalyst",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iPadOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      }
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 3
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/preconditionIsolated(_:file:line:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "preconditionIsolated(_:file:line:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/currentFileURL",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "currentFileURL"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumeration",
+      "isSymbol" : true,
+      "name" : "Enumeration"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "enumCase",
+        {
+          "documented" : 0,
+          "total" : 2
+        },
+        "all",
+        {
+          "documented" : 0,
+          "total" : 4
+        }
+      ],
+      "discriminant" : "enumeration"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "NetworkCodableLoader.Error"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.operator",
+      "isSymbol" : true,
+      "name" : "Operator"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 2
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/!=(_:_:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "!=(_:_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.typeAlias",
+      "isSymbol" : true,
+      "name" : "Type Alias"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientResult",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "HTTPClientResult"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.initializer",
+      "isSymbol" : true,
+      "name" : "Initializer"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 6,
+        "total" : 6
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/init(fileURL:name:encoder:decoder:notificationCenter:fileManager:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "init(fileURL:name:encoder:decoder:notificationCenter:fileManager:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumeration",
+      "isSymbol" : true,
+      "name" : "Enumeration"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "enumCase",
+        {
+          "documented" : 0,
+          "total" : 2
+        },
+        "all",
+        {
+          "documented" : 0,
+          "total" : 4
+        }
+      ],
+      "discriminant" : "enumeration"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "HTTPClientError"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumerationCase",
+      "isSymbol" : true,
+      "name" : "Enumeration Case"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/ok",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "StatusCode.ok"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.protocol",
+      "isSymbol" : true,
+      "name" : "Protocol"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "method",
+        {
+          "documented" : 0,
+          "total" : 1
+        },
+        "all",
+        {
+          "documented" : 0,
+          "total" : 2
+        }
+      ],
+      "discriminant" : "protocol"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/CodableLoader",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "CodableLoader"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumerationCase",
+      "isSymbol" : true,
+      "name" : "Enumeration Case"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClientError\/networkFailure",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "HTTPClientError.networkFailure"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/decoder",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "decoder"
+  },
+  {
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.collectionGroup",
+      "isSymbol" : false,
+      "name" : "CollectionGroup"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/RawRepresentable-Implementations",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "RawRepresentable Implementations"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/setValue(_:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "setValue(_:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClient\/get(from:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "get(from:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.protocol",
+      "isSymbol" : true,
+      "name" : "Protocol"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 1
+        },
+        "method",
+        {
+          "documented" : 0,
+          "total" : 1
+        }
+      ],
+      "discriminant" : "protocol"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPSession",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "HTTPSession"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.structure",
+      "isSymbol" : true,
+      "name" : "Structure"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 2
+        },
+        "method",
+        {
+          "documented" : 0,
+          "total" : 1
+        }
+      ],
+      "discriminant" : "structure"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/URLSessionHTTPClient",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "URLSessionHTTPClient"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.typeMethod",
+      "isSymbol" : true,
+      "name" : "Type Method"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/DevSoc\/createOnDiskCache(at:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "createOnDiskCache(at:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.protocol",
+      "isSymbol" : true,
+      "name" : "Protocol"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "method",
+        {
+          "documented" : 0,
+          "total" : 1
+        },
+        "all",
+        {
+          "documented" : 0,
+          "total" : 1
+        }
+      ],
+      "discriminant" : "protocol"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/HTTPClient",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "HTTPClient"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumerationCase",
+      "isSymbol" : true,
+      "name" : "Enumeration Case"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/NetworkCodableLoader\/Error\/connectivity",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "NetworkCodableLoader.Error.connectivity"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : true,
+    "hasCodeListing" : true,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.typeMethod",
+      "isSymbol" : true,
+      "name" : "Type Method"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/DevSoc\/createLiveApolloClient(for:using:urlSession:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "createLiveApolloClient(for:using:urlSession:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.module",
+      "isSymbol" : true,
+      "name" : "Module"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "Networking"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode\/hashValue",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "hashValue"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.initializer",
+      "isSymbol" : true,
+      "name" : "Initializer"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 1
+      },
+      "discriminant" : "operator"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/URLSessionHTTPClient\/init(session:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "init(session:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : false,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceProperty",
+      "isSymbol" : true,
+      "name" : "Instance Property"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/unownedExecutor",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "unownedExecutor"
+  },
+  {
+    "availability" : [
+      {
+        "domain" : "macOS",
+        "introduced" : {
+          "major" : 10,
+          "minor" : 15,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "watchOS",
+        "introduced" : {
+          "major" : 6,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "tvOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "macCatalyst",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iPadOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      },
+      {
+        "domain" : "iOS",
+        "introduced" : {
+          "major" : 13,
+          "minor" : 0,
+          "patch" : 0
+        }
+      }
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.instanceMethod",
+      "isSymbol" : true,
+      "name" : "Instance Method"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : {
+        "documented" : 0,
+        "total" : 3
+      },
+      "discriminant" : "instanceMethod"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/FileBackedCodable\/assertIsolated(_:file:line:)",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "assertIsolated(_:file:line:)"
+  },
+  {
+    "availability" : [
+
+    ],
+    "availableSourceLanguages" : [
+      {
+        "id" : "swift",
+        "linkDisambiguationID" : "swift",
+        "name" : "Swift"
+      }
+    ],
+    "hasAbstract" : false,
+    "hasCodeListing" : false,
+    "isCurated" : true,
+    "kind" : {
+      "id" : "org.swift.docc.kind.enumeration",
+      "isSymbol" : true,
+      "name" : "Enumeration"
+    },
+    "kindSpecificData" : {
+      "associatedValue" : [
+        "all",
+        {
+          "documented" : 0,
+          "total" : 4
+        },
+        "enumCase",
+        {
+          "documented" : 0,
+          "total" : 1
+        }
+      ],
+      "discriminant" : "enumeration"
+    },
+    "referencePath" : "doc:\/\/networking.Networking\/documentation\/Networking\/StatusCode",
+    "sourceLanguage" : {
+      "id" : "swift",
+      "linkDisambiguationID" : "swift",
+      "name" : "Swift"
+    },
+    "title" : "StatusCode"
+  }
+]

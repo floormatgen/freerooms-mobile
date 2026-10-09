@@ -1,0 +1,146 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents",
+        "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage\/AppIntentsPackage-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "FreeroomsIntents"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "AppIntentsPackage Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Type-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage\/includedPackages"
+      ],
+      "title" : "Type Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/freeroomsintents\/freeroomsintentspackage\/appintentspackage-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://freeroomsintents.FreeroomsIntents/documentation/FreeroomsIntents": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FreeroomsIntents",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomsintents"
+},
+"doc://freeroomsintents.FreeroomsIntents/documentation/FreeroomsIntents/FreeroomsIntentsPackage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsIntentsPackage"
+    }
+  ],
+  "identifier" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsIntentsPackage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FreeroomsIntentsPackage",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomsintents\/freeroomsintentspackage"
+},
+"doc://freeroomsintents.FreeroomsIntents/documentation/FreeroomsIntents/FreeroomsIntentsPackage/includedPackages": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "includedPackages"
+    },
+    {
+      "kind" : "text",
+      "text" : ": [any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10AppIntents0aB7PackageP",
+      "text" : "AppIntentsPackage"
+    },
+    {
+      "kind" : "text",
+      "text" : ".Type]"
+    }
+  ],
+  "identifier" : "doc:\/\/freeroomsintents.FreeroomsIntents\/documentation\/FreeroomsIntents\/FreeroomsIntentsPackage\/includedPackages",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "includedPackages",
+  "type" : "topic",
+  "url" : "\/documentation\/freeroomsintents\/freeroomsintentspackage\/includedpackages"
+}
+}
+}

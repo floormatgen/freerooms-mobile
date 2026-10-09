@@ -1,0 +1,1028 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "CommonUI",
+    "modules" : [
+      {
+        "name" : "CommonUI"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "CommonUI"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageCache",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/TabController",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/Theme"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "anchor" : "Protocols",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/HasName",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/HasRating"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/AlertError",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/CacheConfig",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/CachedImage",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/CampusLocationFilterView",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/CapacityFilterView",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ClearButton",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/DateFilterView",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/DurationFilterView",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/GenericCardView",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/GenericCardViewItem",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/GenericItemDataRow",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/GenericListRowView",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/HeightPreferenceKey",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/RoomTypeFilterView",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/SelectButton",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/WidthPreferenceKey",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/XButton"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Functions",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/setFontOnToolbars(_:)"
+      ],
+      "title" : "Functions"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FilterSheetLayout",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/Icons",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageSize"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "anchor" : "Extended-Modules",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/RoomModels",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/Swift",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/SwiftUICore"
+      ],
+      "title" : "Extended Modules"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/commonui"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://commonui.CommonUI/documentation/CommonUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CommonUI",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/AlertError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AlertError"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/AlertError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AlertError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AlertError",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/alerterror"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/CacheConfig": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CacheConfig"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/CacheConfig",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CacheConfig"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CacheConfig",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/cacheconfig"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/CachedImage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CachedImage"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/CachedImage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CachedImage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CachedImage",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/cachedimage"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/CampusLocationFilterView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CampusLocationFilterView"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/CampusLocationFilterView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CampusLocationFilterView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CampusLocationFilterView",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/campuslocationfilterview"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/CapacityFilterView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CapacityFilterView"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/CapacityFilterView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CapacityFilterView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CapacityFilterView",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/capacityfilterview"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/ClearButton": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ClearButton"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ClearButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ClearButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ClearButton",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/clearbutton"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/DateFilterView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DateFilterView"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/DateFilterView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DateFilterView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DateFilterView",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/datefilterview"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/DurationFilterView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DurationFilterView"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/DurationFilterView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DurationFilterView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DurationFilterView",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/durationfilterview"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FilterSheetLayout": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FilterSheetLayout"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FilterSheetLayout",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FilterSheetLayout"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FilterSheetLayout",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/filtersheetlayout"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsTab"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsTab"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FreeroomsTab",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/GenericCardView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GenericCardView"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/GenericCardView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GenericCardView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GenericCardView",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/genericcardview"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/GenericCardViewItem": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GenericCardViewItem"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/GenericCardViewItem",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GenericCardViewItem"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GenericCardViewItem",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/genericcardviewitem"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/GenericItemDataRow": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GenericItemDataRow"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/GenericItemDataRow",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GenericItemDataRow"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GenericItemDataRow",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/genericitemdatarow"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/GenericListRowView": {
+  "abstract" : [
+    {
+      "text" : "Shared grouped-list row chrome with injectable image and content views.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GenericListRowView"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/GenericListRowView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GenericListRowView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GenericListRowView",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/genericlistrowview"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/HasName": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HasName"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/HasName",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HasName"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HasName",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/hasname"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/HasRating": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HasRating"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/HasRating",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HasRating"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HasRating",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/hasrating"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/HeightPreferenceKey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HeightPreferenceKey"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/HeightPreferenceKey",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HeightPreferenceKey"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HeightPreferenceKey",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/heightpreferencekey"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/Icons": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Icons"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/Icons",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Icons"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Icons",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/icons"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/ImageCache": {
+  "abstract" : [
+    {
+      "text" : "A shared image cache that stores downsampled thumbnails in an ",
+      "type" : "text"
+    },
+    {
+      "code" : "NSCache",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ImageCache"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageCache",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ImageCache"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ImageCache",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/imagecache"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/ImageSize": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ImageSize"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/ImageSize",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ImageSize"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ImageSize",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/imagesize"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/RoomModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/RoomModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomModels",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/roommodels"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/RoomTypeFilterView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomTypeFilterView"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/RoomTypeFilterView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomTypeFilterView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomTypeFilterView",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/roomtypefilterview"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/SelectButton": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SelectButton"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/SelectButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SelectButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SelectButton",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/selectbutton"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/Swift": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/Swift",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Swift",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/swift"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/SwiftUICore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/SwiftUICore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SwiftUICore",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/swiftuicore"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/TabController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TabController"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/TabController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TabController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TabController",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/tabcontroller"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/Theme": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Theme"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/Theme",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Theme"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Theme",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/theme"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/WidthPreferenceKey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WidthPreferenceKey"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/WidthPreferenceKey",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WidthPreferenceKey"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WidthPreferenceKey",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/widthpreferencekey"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/XButton": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "XButton"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/XButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "XButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "XButton",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/xbutton"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/setFontOnToolbars(_:)": {
+  "abstract" : [
+    {
+      "text" : "This cannot be called directly in preview, but you may call it in a view initialiser if it is required for correct preview",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setFontOnToolbars"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/setFontOnToolbars(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setFontOnToolbars(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/setfontontoolbars(_:)"
+}
+}
+}

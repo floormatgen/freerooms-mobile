@@ -1,0 +1,925 @@
+{
+  "bundleID" : "networking.Networking",
+  "nonSymbolPaths" : {
+    "28" : "\/documentation\/Networking\/StatusCode\/RawRepresentable-Implementations",
+    "30" : "\/documentation\/Networking\/NetworkCodableLoader\/Error\/Equatable-Implementations",
+    "40" : "\/tutorials",
+    "43" : "\/documentation\/Networking\/FileBackedCodable\/Actor-Implementations",
+    "49" : "\/documentation\/Networking\/HTTPClientError\/Equatable-Implementations",
+    "5" : "\/documentation\/Networking\/HTTPClientError\/Error-Implementations",
+    "50" : "\/tutorials\/Networking",
+    "55" : "\/documentation\/Networking\/NetworkCodableLoader\/Error\/Error-Implementations",
+    "57" : "\/documentation\/Networking\/StatusCode\/Equatable-Implementations"
+  },
+  "pathHierarchy" : {
+    "articlesContainer" : 35,
+    "modules" : [
+      35
+    ],
+    "nodes" : [
+      {
+        "name" : "init(fileURL:name:encoder:decoder:notificationCenter:fileManager:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking17FileBackedCodableC7fileURL4name7encoder7decoder18notificationCenter0E7ManagerACyxG10Foundation0F0V_s12StaticStringVAK11JSONEncoderCAK11JSONDecoderCSo014NSNotificationK0CSo06NSFileL0Ctcfc"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "1tcsx",
+            "kind" : "func.op",
+            "nodeID" : 63,
+            "parameterTypes" : [
+              "Self",
+              "Self"
+            ],
+            "returnTypes" : [
+              "Bool"
+            ]
+          },
+          {
+            "kind" : "taskGroup",
+            "nodeID" : 57
+          },
+          {
+            "hash" : "70vkv",
+            "kind" : "method",
+            "nodeID" : 31,
+            "parameterTypes" : [
+              "Hasher"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "83end",
+            "kind" : "property",
+            "nodeID" : 26
+          },
+          {
+            "kind" : "taskGroup",
+            "nodeID" : 28
+          },
+          {
+            "hash" : "1nouh",
+            "kind" : "init",
+            "nodeID" : 45,
+            "parameterTypes" : [
+              "Int"
+            ],
+            "returnTypes" : [
+              ""
+            ]
+          },
+          {
+            "hash" : "28ly3",
+            "kind" : "enum.case",
+            "nodeID" : 16
+          }
+        ],
+        "name" : "StatusCode",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking10StatusCodeO"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "localizedDescription",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:s5ErrorP10FoundationE20localizedDescriptionSSvp::SYNTHESIZED::s:10Networking15HTTPClientErrorO"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "3ci9x",
+            "kind" : "class.extension",
+            "nodeID" : 42
+          }
+        ],
+        "name" : "Foundation",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:m:s:e:c:objc(cs)NSURLSessions:10Networking11HTTPSessionP"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "9rmmg",
+            "kind" : "associatedtype",
+            "nodeID" : 39
+          },
+          {
+            "hash" : "7vnal",
+            "kind" : "method",
+            "nodeID" : 19,
+            "parameterTypes" : [
+
+            ],
+            "returnTypes" : [
+              "Result<Self.Generic,Error>"
+            ]
+          }
+        ],
+        "name" : "CodableLoader",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking13CodableLoaderP"
+        }
+      },
+      {
+        "name" : "Error-Implementations"
+      },
+      {
+        "name" : "get(from:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking20URLSessionHTTPClientV3get4froms6ResultOy10Foundation4DataV_So17NSHTTPURLResponseCts5Error_pGAH3URLV_tYaF"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "assumeIsolated(_:file:line:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:ScA12_ConcurrencyE14assumeIsolated_4file4lineqd__qd__xYiKXE_s12StaticStringVSutKs8SendableRd__lF::SYNTHESIZED::s:10Networking17FileBackedCodableC"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "1wyhm",
+            "kind" : "method",
+            "nodeID" : 54,
+            "parameterTypes" : [
+              "URL"
+            ],
+            "returnTypes" : [
+              "HTTPClientResult"
+            ]
+          }
+        ],
+        "name" : "HTTPClient",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking10HTTPClientP"
+        }
+      },
+      {
+        "name" : "invalidData",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking20NetworkCodableLoaderC5ErrorO11invalidDatayAEyx_GAGmSeRzSERzs8SendableRzlF"
+        }
+      },
+      {
+        "name" : "data(from:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking11HTTPSessionP4data4from10Foundation4DataV_So13NSURLResponseCtAF3URLV_tYaKF"
+        }
+      },
+      {
+        "name" : "invalidHTTPResponse",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking15HTTPClientErrorO19invalidHTTPResponseyA2CmF"
+        }
+      },
+      {
+        "name" : "cachedFileVersion",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking17FileBackedCodableC06cachedB7VersionSo06NSFileF0CSgvp"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "withSerialExecutor(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:ScA12_ConcurrencyE18withSerialExecutoryqd__qd__Scf_pqd_0_YKXEqd_0_YKs5ErrorRd_0_Ri_d__r0_lF::SYNTHESIZED::s:10Networking17FileBackedCodableC"
+        }
+      },
+      {
+        "name" : "getValue()",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking17FileBackedCodableC8getValuexSgyYaKF"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "!=(_:_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:10Networking15HTTPClientErrorO"
+        }
+      },
+      {
+        "name" : "ok",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking10StatusCodeO2okyA2CmF"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "!=(_:_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:10Networking20NetworkCodableLoaderC5ErrorO"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "1g4m2",
+            "kind" : "method",
+            "nodeID" : 13,
+            "parameterTypes" : [
+              "(SerialExecutor)(E)->T"
+            ],
+            "returnTypes" : [
+              "T"
+            ]
+          },
+          {
+            "hash" : "aw6r",
+            "kind" : "method",
+            "nodeID" : 36,
+            "parameterTypes" : [
+              "(SerialExecutor)(E)->T"
+            ],
+            "returnTypes" : [
+              "T"
+            ]
+          },
+          {
+            "hash" : "64h54",
+            "kind" : "property",
+            "nodeID" : 20
+          },
+          {
+            "hash" : "6ovnk",
+            "kind" : "method",
+            "nodeID" : 29,
+            "parameterTypes" : [
+              "()->String",
+              "StaticString",
+              "UInt"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "9nv7a",
+            "kind" : "method",
+            "nodeID" : 7,
+            "parameterTypes" : [
+              "(Self)->T",
+              "StaticString",
+              "UInt"
+            ],
+            "returnTypes" : [
+              "T"
+            ]
+          },
+          {
+            "hash" : "96354",
+            "kind" : "method",
+            "nodeID" : 14,
+            "parameterTypes" : [
+
+            ],
+            "returnTypes" : [
+              "T?"
+            ]
+          },
+          {
+            "kind" : "taskGroup",
+            "nodeID" : 43
+          },
+          {
+            "hash" : "d0ov",
+            "kind" : "property",
+            "nodeID" : 33
+          },
+          {
+            "hash" : "56lv7",
+            "kind" : "property",
+            "nodeID" : 12
+          },
+          {
+            "hash" : "2a6bx",
+            "kind" : "init",
+            "nodeID" : 0,
+            "parameterTypes" : [
+              "URL",
+              "StaticString",
+              "JSONEncoder",
+              "JSONDecoder",
+              "NotificationCenter",
+              "FileManager"
+            ],
+            "returnTypes" : [
+              ""
+            ]
+          },
+          {
+            "hash" : "2tl2b",
+            "kind" : "property",
+            "nodeID" : 32
+          },
+          {
+            "hash" : "9tcz3",
+            "kind" : "method",
+            "nodeID" : 47,
+            "parameterTypes" : [
+              "()->String",
+              "StaticString",
+              "UInt"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "1w5m8",
+            "kind" : "property",
+            "nodeID" : 21
+          },
+          {
+            "hash" : "22knl",
+            "kind" : "property",
+            "nodeID" : 60
+          },
+          {
+            "hash" : "5cfmt",
+            "kind" : "method",
+            "nodeID" : 46,
+            "parameterTypes" : [
+              "T?"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "51iin",
+            "kind" : "property",
+            "nodeID" : 58
+          }
+        ],
+        "name" : "FileBackedCodable",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking17FileBackedCodableC"
+        }
+      },
+      {
+        "name" : "fetch()",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking13CodableLoaderP5fetchs6ResultOy7GenericQzs5Error_pGyYaF"
+        }
+      },
+      {
+        "name" : "encoder",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking17FileBackedCodableC7encoder10Foundation11JSONEncoderCvp"
+        }
+      },
+      {
+        "name" : "notificationCenter",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking17FileBackedCodableC18notificationCenterSo014NSNotificationF0Cvp"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "26tii",
+            "kind" : "method",
+            "nodeID" : 10,
+            "parameterTypes" : [
+              "URL"
+            ],
+            "returnTypes" : [
+              "Data",
+              "URLResponse"
+            ]
+          }
+        ],
+        "name" : "HTTPSession",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking11HTTPSessionP"
+        }
+      },
+      {
+        "name" : "Result",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking20NetworkCodableLoaderC6Resulta"
+        }
+      },
+      {
+        "name" : "HTTPClientResult",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking16HTTPClientResulta"
+        }
+      },
+      {
+        "name" : "createLiveApolloClient(for:using:urlSession:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking6DevSocO22createLiveApolloClient3for5using10urlSession0F00fG0C10Foundation3URLV_AH0F5StoreCAH0F10URLSession_ptFZ"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "hashValue",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:SYsSHRzSH8RawValueSYRpzrlE04hashB0Sivp::SYNTHESIZED::s:10Networking10StatusCodeO"
+        }
+      },
+      {
+        "children" : [
+          {
+            "kind" : "taskGroup",
+            "nodeID" : 49
+          },
+          {
+            "hash" : "9ahvl",
+            "kind" : "func.op",
+            "nodeID" : 15,
+            "parameterTypes" : [
+              "Self",
+              "Self"
+            ],
+            "returnTypes" : [
+              "Bool"
+            ]
+          },
+          {
+            "hash" : "lbx0",
+            "kind" : "enum.case",
+            "nodeID" : 59
+          },
+          {
+            "hash" : "3hgtq",
+            "kind" : "enum.case",
+            "nodeID" : 11
+          },
+          {
+            "hash" : "9qw5b",
+            "kind" : "property",
+            "nodeID" : 2
+          },
+          {
+            "kind" : "taskGroup",
+            "nodeID" : 5
+          }
+        ],
+        "name" : "HTTPClientError",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking15HTTPClientErrorO"
+        }
+      },
+      {
+        "name" : "RawRepresentable-Implementations"
+      },
+      {
+        "disfavored" : 3,
+        "name" : "preconditionIsolated(_:file:line:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:ScA12_ConcurrencyE20preconditionIsolated_4file4lineySSyXK_s12StaticStringVSutF::SYNTHESIZED::s:10Networking17FileBackedCodableC"
+        }
+      },
+      {
+        "name" : "Equatable-Implementations"
+      },
+      {
+        "disfavored" : 3,
+        "name" : "hash(into:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:SYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF::SYNTHESIZED::s:10Networking10StatusCodeO"
+        }
+      },
+      {
+        "name" : "currentFileURL",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking17FileBackedCodableC07currentB3URL10Foundation0F0Vvp"
+        }
+      },
+      {
+        "name" : "unownedExecutor",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking17FileBackedCodableC15unownedExecutorScevp"
+        }
+      },
+      {
+        "name" : "connectivity",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking20NetworkCodableLoaderC5ErrorO12connectivityyAEyx_GAGmSeRzSERzs8SendableRzlF"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "73jaj",
+            "kind" : "protocol",
+            "nodeID" : 22
+          },
+          {
+            "hash" : "28zo3",
+            "kind" : "class",
+            "nodeID" : 18
+          },
+          {
+            "hash" : "8yijh",
+            "kind" : "protocol",
+            "nodeID" : 8
+          },
+          {
+            "hash" : "6kbl",
+            "kind" : "typealias",
+            "nodeID" : 24
+          },
+          {
+            "hash" : "82td4",
+            "kind" : "protocol",
+            "nodeID" : 4
+          },
+          {
+            "hash" : "656s9",
+            "kind" : "module.extension",
+            "nodeID" : 3
+          },
+          {
+            "hash" : "c7in",
+            "kind" : "class",
+            "nodeID" : 56
+          },
+          {
+            "hash" : "wvj3",
+            "kind" : "enum",
+            "nodeID" : 1
+          },
+          {
+            "hash" : "95sg2",
+            "kind" : "enum",
+            "nodeID" : 27
+          },
+          {
+            "hash" : "21udt",
+            "kind" : "struct",
+            "nodeID" : 41
+          },
+          {
+            "hash" : "2jvn2",
+            "kind" : "enum",
+            "nodeID" : 61
+          }
+        ],
+        "name" : "Networking",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "Networking"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "withSerialExecutor(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:ScA12_ConcurrencyE18withSerialExecutoryqd__qd__Scf_pYaqd_0_YKYCXEYaqd_0_YKs5ErrorRd_0_Ri_d__r0_lF::SYNTHESIZED::s:10Networking17FileBackedCodableC"
+        }
+      },
+      {
+        "name" : "init(session:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking20URLSessionHTTPClientV7sessionAcA11HTTPSession_p_tcfc"
+        }
+      },
+      {
+        "name" : "createOnDiskCache(at:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking6DevSocO17createOnDiskCache2atQr10Foundation3URLV_tKFZ"
+        }
+      },
+      {
+        "name" : "Generic",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking13CodableLoaderP7GenericQa"
+        }
+      },
+      {
+        "name" : "tutorials"
+      },
+      {
+        "children" : [
+          {
+            "hash" : "2ej90",
+            "kind" : "method",
+            "nodeID" : 6,
+            "parameterTypes" : [
+              "URL"
+            ],
+            "returnTypes" : [
+              "HTTPClientResult"
+            ]
+          },
+          {
+            "hash" : "unqs",
+            "kind" : "init",
+            "nodeID" : 37,
+            "parameterTypes" : [
+              "HTTPSession"
+            ],
+            "returnTypes" : [
+              ""
+            ]
+          }
+        ],
+        "name" : "URLSessionHTTPClient",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking20URLSessionHTTPClientV"
+        }
+      },
+      {
+        "name" : "URLSession",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:e:c:objc(cs)NSURLSessions:10Networking11HTTPSessionP"
+        }
+      },
+      {
+        "name" : "Actor-Implementations"
+      },
+      {
+        "name" : "onDiskCacheLocation",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking6DevSocO19onDiskCacheLocation10Foundation3URLVvpZ"
+        }
+      },
+      {
+        "name" : "init(rawValue:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking10StatusCodeO8rawValueACSgSi_tcfc"
+        }
+      },
+      {
+        "name" : "setValue(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking17FileBackedCodableC8setValueyyxSgYaKF"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "assertIsolated(_:file:line:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:ScA12_ConcurrencyE14assertIsolated_4file4lineySSyXK_s12StaticStringVSutF::SYNTHESIZED::s:10Networking17FileBackedCodableC"
+        }
+      },
+      {
+        "name" : "defaultLiveUrl",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking6DevSocO14defaultLiveUrl10Foundation3URLVvpZ"
+        }
+      },
+      {
+        "name" : "Equatable-Implementations"
+      },
+      {
+        "name" : "Networking"
+      },
+      {
+        "children" : [
+          {
+            "kind" : "taskGroup",
+            "nodeID" : 30
+          },
+          {
+            "hash" : "9663v",
+            "kind" : "property",
+            "nodeID" : 53
+          },
+          {
+            "kind" : "taskGroup",
+            "nodeID" : 55
+          },
+          {
+            "hash" : "uczw",
+            "kind" : "enum.case",
+            "nodeID" : 34
+          },
+          {
+            "hash" : "1ie5l",
+            "kind" : "func.op",
+            "nodeID" : 17,
+            "parameterTypes" : [
+              "Self",
+              "Self"
+            ],
+            "returnTypes" : [
+              "Bool"
+            ]
+          },
+          {
+            "hash" : "8u1gt",
+            "kind" : "enum.case",
+            "nodeID" : 9
+          }
+        ],
+        "name" : "Error",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking20NetworkCodableLoaderC5ErrorO"
+        }
+      },
+      {
+        "name" : "init(client:url:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking20NetworkCodableLoaderC6client3urlACyxGAA10HTTPClient_p_10Foundation3URLVtcfc"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "localizedDescription",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:s5ErrorP10FoundationE20localizedDescriptionSSvp::SYNTHESIZED::s:10Networking20NetworkCodableLoaderC5ErrorO"
+        }
+      },
+      {
+        "name" : "get(from:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking10HTTPClientP3get4froms6ResultOy10Foundation4DataV_So17NSHTTPURLResponseCts5Error_pGAH3URLV_tYaF"
+        }
+      },
+      {
+        "name" : "Error-Implementations"
+      },
+      {
+        "children" : [
+          {
+            "hash" : "6t8qt",
+            "kind" : "method",
+            "nodeID" : 62,
+            "parameterTypes" : [
+
+            ],
+            "returnTypes" : [
+              "NetworkCodableLoader<T>.Result"
+            ]
+          },
+          {
+            "hash" : "5vhj",
+            "kind" : "init",
+            "nodeID" : 52,
+            "parameterTypes" : [
+              "HTTPClient",
+              "URL"
+            ],
+            "returnTypes" : [
+              ""
+            ]
+          },
+          {
+            "hash" : "6g4tz",
+            "kind" : "enum",
+            "nodeID" : 51
+          },
+          {
+            "hash" : "8tf8m",
+            "kind" : "typealias",
+            "nodeID" : 23
+          }
+        ],
+        "name" : "NetworkCodableLoader",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking20NetworkCodableLoaderC"
+        }
+      },
+      {
+        "name" : "Equatable-Implementations"
+      },
+      {
+        "name" : "name",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking17FileBackedCodableC4names12StaticStringVvp"
+        }
+      },
+      {
+        "name" : "networkFailure",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking15HTTPClientErrorO14networkFailureyA2CmF"
+        }
+      },
+      {
+        "name" : "decoder",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking17FileBackedCodableC7decoder10Foundation11JSONDecoderCvp"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "7dmnl",
+            "kind" : "type.property",
+            "nodeID" : 48
+          },
+          {
+            "hash" : "1sqcd",
+            "kind" : "type.method",
+            "nodeID" : 25,
+            "parameterTypes" : [
+              "URL",
+              "ApolloStore",
+              "ApolloURLSession"
+            ],
+            "returnTypes" : [
+              "ApolloClient"
+            ]
+          },
+          {
+            "hash" : "20yd2",
+            "kind" : "type.property",
+            "nodeID" : 44
+          },
+          {
+            "hash" : "5ousy",
+            "kind" : "type.method",
+            "nodeID" : 38,
+            "parameterTypes" : [
+              "URL"
+            ],
+            "returnTypes" : [
+              "NormalizedCache"
+            ]
+          }
+        ],
+        "name" : "DevSoc",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking6DevSocO"
+        }
+      },
+      {
+        "name" : "fetch()",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:10Networking20NetworkCodableLoaderC5fetchs6ResultOyxs5Error_pGyYaF"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "!=(_:_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:10Networking10StatusCodeO"
+        }
+      }
+    ],
+    "tutorialContainer" : 50,
+    "tutorialOverviewContainer" : 40
+  },
+  "version" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}

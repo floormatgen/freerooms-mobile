@@ -1,0 +1,771 @@
+{
+  "abstract" : [
+    {
+      "text" : "A concrete implementation of the PersistentStore protocol using SwiftData.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Manages the model container and handles all persistence operations.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Generic over a single model type that conforms to PersistentModel and IdentifiableModel.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11Persistence14SwiftDataStoreC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SwiftDataStore"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Persistence"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "SwiftDataStore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "SwiftDataStore"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SwiftDataStore"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "Model"
+            },
+            {
+              "kind" : "text",
+              "text" : "> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Model"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/IdentifiableModel",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:11Persistence17IdentifiableModelP",
+              "text" : "IdentifiableModel"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Model"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:9SwiftData15PersistentModelP",
+              "text" : "PersistentModel"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/init(modelContext:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/delete(_:)-7sqk2",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/delete(_:)-7xbnz",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/deleteAll()",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/fetch(id:)",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/fetchAll()",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/save(_:)-3o06k",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/save(_:)-4zj7z",
+        "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/size()"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/persistence\/swiftdatastore"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://persistence.Persistence/documentation/Persistence": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Persistence",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence"
+},
+"doc://persistence.Persistence/documentation/Persistence/IdentifiableModel": {
+  "abstract" : [
+    {
+      "text" : "A minimal protocol for models to be stored persistently.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "IdentifiableModel"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/IdentifiableModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "IdentifiableModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "IdentifiableModel",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/identifiablemodel"
+},
+"doc://persistence.Persistence/documentation/Persistence/PersistentStore": {
+  "abstract" : [
+    {
+      "text" : "Defines an interface for saving, retrieving, and deleting persistent data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PersistentStore"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/PersistentStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PersistentStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PersistentStore",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/persistentstore"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore": {
+  "abstract" : [
+    {
+      "text" : "A concrete implementation of the PersistentStore protocol using SwiftData.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Manages the model container and handles all persistence operations.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Generic over a single model type that conforms to PersistentModel and IdentifiableModel.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataStore"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SwiftDataStore",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore/delete(_:)-7sqk2": {
+  "abstract" : [
+    {
+      "text" : "Deletes multiple items from the persistent store; changes are only committed to backing store if all items are successfully",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "deleted.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delete"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+      "text" : "Model"
+    },
+    {
+      "kind" : "text",
+      "text" : "]) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/delete(_:)-7sqk2",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delete(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore\/delete(_:)-7sqk2"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore/delete(_:)-7xbnz": {
+  "abstract" : [
+    {
+      "text" : "Deletes a single item from the persistent store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delete"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+      "text" : "Model"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/delete(_:)-7xbnz",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delete(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore\/delete(_:)-7xbnz"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore/deleteAll()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deleteAll"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/deleteAll()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deleteAll()",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore\/deleteall()"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore/fetch(id:)": {
+  "abstract" : [
+    {
+      "text" : "Fetches a specific item by its unique identifier.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetch"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+      "text" : "Model"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/fetch(id:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetch(id:)",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore\/fetch(id:)"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore/fetchAll()": {
+  "abstract" : [
+    {
+      "text" : "Fetches all items of the model type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchAll"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+      "text" : "Model"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/fetchAll()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchAll()",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore\/fetchall()"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore/init(modelContext:)": {
+  "abstract" : [
+    {
+      "text" : "Initializes the SwiftData stack with model schema and configuration.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "modelContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9SwiftData12ModelContextC",
+      "text" : "ModelContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/init(modelContext:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(modelContext:)",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore\/init(modelcontext:)"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore/save(_:)-3o06k": {
+  "abstract" : [
+    {
+      "text" : "Saves a single item to the persistent store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "save"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+      "text" : "Model"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/save(_:)-3o06k",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "save(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore\/save(_:)-3o06k"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore/save(_:)-4zj7z": {
+  "abstract" : [
+    {
+      "text" : "Saves multiple items to the persistent store; changes are only committed to backing store if all items successfully save.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "save"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11Persistence14SwiftDataStoreC5Modelxmfp",
+      "text" : "Model"
+    },
+    {
+      "kind" : "text",
+      "text" : "]) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/save(_:)-4zj7z",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "save(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore\/save(_:)-4zj7z"
+},
+"doc://persistence.Persistence/documentation/Persistence/SwiftDataStore/size()": {
+  "abstract" : [
+    {
+      "text" : "Fetches the amount of entries in the persistent store",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "size"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/persistence.Persistence\/documentation\/Persistence\/SwiftDataStore\/size()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "size()",
+  "type" : "topic",
+  "url" : "\/documentation\/persistence\/swiftdatastore\/size()"
+}
+}
+}

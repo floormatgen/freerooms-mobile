@@ -1,0 +1,1214 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15RoomInteractors0A10InteractorC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "RoomInteractor"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomInteractors"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "RoomInteractor"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "RoomInteractor"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "RoomInteractor"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/init(roomService:locationService:favouriteService:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/applyClientSideFilters(rooms:campusLocation:)",
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/filterRoomsByQueryString(_:by:)",
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getAllFavoriteRoomIds()",
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getFilteredRooms(options:)",
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomBookings(roomID:)",
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomRating(roomID:)",
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomsFilteredAlphabeticallyByBuildingId(buildingId:inAscendingOrder:)",
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomsFilteredByAllBuildingId()",
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomsFilteredByRoomType(usage:)",
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomsSortedAlphabetically(inAscendingOrder:)",
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomsSortedAlphabetically(rooms:inAscendingOrder:)",
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/isFavorite(roomID:)",
+        "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/toggleFavorite(roomID:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roominteractors\/roominteractor"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomInteractors/documentation/RoomInteractors": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomInteractors",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomInteractor"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomInteractor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomInteractor",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/applyClientSideFilters(rooms:campusLocation:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "applyClientSideFilters"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rooms"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "campusLocation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels14CampusLocationO",
+      "text" : "CampusLocation"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/applyClientSideFilters(rooms:campusLocation:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "applyClientSideFilters(rooms:campusLocation:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/applyclientsidefilters(rooms:campuslocation:)"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/filterRoomsByQueryString(_:by:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "filterRoomsByQueryString"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "by"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/filterRoomsByQueryString(_:by:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "filterRoomsByQueryString(_:by:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/filterroomsbyquerystring(_:by:)"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/getAllFavoriteRoomIds()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getAllFavoriteRoomIds"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V2IDa",
+      "text" : "ID"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getAllFavoriteRoomIds()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getAllFavoriteRoomIds()",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/getallfavoriteroomids()"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/getFilteredRooms(options:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getFilteredRooms"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "options"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels06FilterA7OptionsV",
+      "text" : "FilterRoomOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices05FetchA5ErrorO",
+      "text" : "FetchRoomError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getFilteredRooms(options:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getFilteredRooms(options:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/getfilteredrooms(options:)"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/getRoomBookings(roomID:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getRoomBookings"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "roomID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A7BookingV",
+      "text" : "RoomBooking"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices05FetchA5ErrorO",
+      "text" : "FetchRoomError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomBookings(roomID:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getRoomBookings(roomID:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/getroombookings(roomid:)"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/getRoomRating(roomID:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getRoomRating"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "roomID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A6RatingV",
+      "text" : "RoomRating"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices05FetchA5ErrorO",
+      "text" : "FetchRoomError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomRating(roomID:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getRoomRating(roomID:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/getroomrating(roomid:)"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/getRoomsFilteredAlphabeticallyByBuildingId(buildingId:inAscendingOrder:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getRoomsFilteredAlphabeticallyByBuildingId"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "buildingId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "inAscendingOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices05FetchA5ErrorO",
+      "text" : "FetchRoomError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomsFilteredAlphabeticallyByBuildingId(buildingId:inAscendingOrder:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getRoomsFilteredAlphabeticallyByBuildingId(buildingId:inAscendingOrder:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/getroomsfilteredalphabeticallybybuildingid(buildingid:inascendingorder:)"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/getRoomsFilteredByAllBuildingId()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getRoomsFilteredByAllBuildingId"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "]], "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices05FetchA5ErrorO",
+      "text" : "FetchRoomError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomsFilteredByAllBuildingId()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getRoomsFilteredByAllBuildingId()",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/getroomsfilteredbyallbuildingid()"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/getRoomsFilteredByRoomType(usage:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getRoomsFilteredByRoomType"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "usage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices05FetchA5ErrorO",
+      "text" : "FetchRoomError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomsFilteredByRoomType(usage:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getRoomsFilteredByRoomType(usage:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/getroomsfilteredbyroomtype(usage:)"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/getRoomsSortedAlphabetically(inAscendingOrder:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getRoomsSortedAlphabetically"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "inAscendingOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices05FetchA5ErrorO",
+      "text" : "FetchRoomError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomsSortedAlphabetically(inAscendingOrder:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getRoomsSortedAlphabetically(inAscendingOrder:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/getroomssortedalphabetically(inascendingorder:)"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/getRoomsSortedAlphabetically(rooms:inAscendingOrder:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getRoomsSortedAlphabetically"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rooms"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "inAscendingOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/getRoomsSortedAlphabetically(rooms:inAscendingOrder:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getRoomsSortedAlphabetically(rooms:inAscendingOrder:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/getroomssortedalphabetically(rooms:inascendingorder:)"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/init(roomService:locationService:favouriteService:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "roomService"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices0A7ServiceP",
+      "text" : "RoomService"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "locationService"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8Location0A7ServiceP",
+      "text" : "LocationService"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "favouriteService"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12RoomServices08FavoriteA7ServiceP",
+      "text" : "FavoriteRoomService"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/init(roomService:locationService:favouriteService:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(roomService:locationService:favouriteService:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/init(roomservice:locationservice:favouriteservice:)"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/isFavorite(roomID:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isFavorite"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "roomID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V2IDa",
+      "text" : "ID"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/isFavorite(roomID:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isFavorite(roomID:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/isfavorite(roomid:)"
+},
+"doc://rooms.RoomInteractors/documentation/RoomInteractors/RoomInteractor/toggleFavorite(roomID:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toggleFavorite"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "roomID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V",
+      "text" : "Room"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10RoomModels0A0V2IDa",
+      "text" : "ID"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomInteractors\/documentation\/RoomInteractors\/RoomInteractor\/toggleFavorite(roomID:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toggleFavorite(roomID:)",
+  "type" : "topic",
+  "url" : "\/documentation\/roominteractors\/roominteractor\/togglefavorite(roomid:)"
+}
+}
+}

@@ -1,0 +1,824 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10RoomModels19GraphQLRoomProtocolP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "GraphQLRoomProtocol"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RoomModels"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "GraphQLRoomProtocol"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "GraphQLRoomProtocol"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "GraphQLRoomProtocol"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/DevSocAPI\/AllRoomsQuery\/Data\/Room",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/DevSocAPI\/BuildingRoomsQuery\/Data\/Room"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/abbr",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/accessibility",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/audiovisual",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/buildingId",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/capacity",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/floor",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/id",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/infotechnology",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/lat",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/long",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/microphone",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/name",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/school",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/seating",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/service",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/usage",
+        "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/writingMedia"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roommodels\/graphqlroomprotocol"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomModels/documentation/RoomModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomModels",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/DevSocAPI/AllRoomsQuery/Data/Room": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/DevSocAPI\/AllRoomsQuery\/Data\/Room",
+  "title" : "AllRoomsQuery.Data.Room",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/DevSocAPI/BuildingRoomsQuery/Data/Room": {
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/DevSocAPI\/BuildingRoomsQuery\/Data\/Room",
+  "title" : "BuildingRoomsQuery.Data.Room",
+  "type" : "unresolvable"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLRoomProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLRoomProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GraphQLRoomProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/abbr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "abbr"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/abbr",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "abbr",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/abbr"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/accessibility": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accessibility"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/accessibility",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "accessibility",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/accessibility"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/audiovisual": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "audiovisual"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/audiovisual",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "audiovisual",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/audiovisual"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/buildingId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildingId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/buildingId",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "buildingId",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/buildingid"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/capacity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "capacity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/capacity",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "capacity",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/capacity"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/floor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "floor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/floor",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "floor",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/floor"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/id": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/id",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/id"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/infotechnology": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "infotechnology"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/infotechnology",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "infotechnology",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/infotechnology"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/lat": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lat"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/lat",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "lat",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/lat"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/long": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "long"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/long",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "long",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/long"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/microphone": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "microphone"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/microphone",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "microphone",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/microphone"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/name": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/name",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "name",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/name"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/school": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "school"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/school",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "school",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/school"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/seating": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "seating"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/seating",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "seating",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/seating"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/service": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "service"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/service",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "service",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/service"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/usage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "usage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/usage",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "usage",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/usage"
+},
+"doc://rooms.RoomModels/documentation/RoomModels/GraphQLRoomProtocol/writingMedia": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "writingMedia"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomModels\/documentation\/RoomModels\/GraphQLRoomProtocol\/writingMedia",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "writingMedia",
+  "type" : "topic",
+  "url" : "\/documentation\/roommodels\/graphqlroomprotocol\/writingmedia"
+}
+}
+}

@@ -1,0 +1,487 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:8CommonUI12FreeroomsTabO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FreeroomsTab"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CommonUI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "FreeroomsTab"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "FreeroomsTab"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "FreeroomsTab"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/10AppIntents0A4EnumP",
+        "doc:\/\/commonui.CommonUI\/10AppIntents0A5ValueP",
+        "doc:\/\/commonui.CommonUI\/10AppIntents24CaseDisplayRepresentableP",
+        "doc:\/\/commonui.CommonUI\/10AppIntents24PersistentlyIdentifiableP",
+        "doc:\/\/commonui.CommonUI\/10AppIntents26StaticDisplayRepresentableP",
+        "doc:\/\/commonui.CommonUI\/10AppIntents24TypeDisplayRepresentableP",
+        "doc:\/\/commonui.CommonUI\/10Foundation40CustomLocalizedStringResourceConvertibleP",
+        "doc:\/\/commonui.CommonUI\/s12CaseIterableP",
+        "doc:\/\/commonui.CommonUI\/s8CopyableP",
+        "doc:\/\/commonui.CommonUI\/SQ",
+        "doc:\/\/commonui.CommonUI\/s9EscapableP",
+        "doc:\/\/commonui.CommonUI\/SH",
+        "doc:\/\/commonui.CommonUI\/SY",
+        "doc:\/\/commonui.CommonUI\/s8SendableP",
+        "doc:\/\/commonui.CommonUI\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/bookings",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/buildings",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/map",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/rooms"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/AppEnum-Implementations",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/CaseDisplayRepresentable-Implementations",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/Equatable-Implementations",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/PersistentlyIdentifiable-Implementations",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/RawRepresentable-Implementations",
+        "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/TypeDisplayRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/commonui\/freeroomstab"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://commonui.CommonUI/10AppIntents0A4EnumP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/10AppIntents0A4EnumP",
+  "title" : "AppIntents.AppEnum",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/10AppIntents0A5ValueP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/10AppIntents0A5ValueP",
+  "title" : "AppIntents.AppValue",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/10AppIntents24CaseDisplayRepresentableP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/10AppIntents24CaseDisplayRepresentableP",
+  "title" : "AppIntents.CaseDisplayRepresentable",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/10AppIntents24PersistentlyIdentifiableP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/10AppIntents24PersistentlyIdentifiableP",
+  "title" : "AppIntents.PersistentlyIdentifiable",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/10AppIntents24TypeDisplayRepresentableP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/10AppIntents24TypeDisplayRepresentableP",
+  "title" : "AppIntents.TypeDisplayRepresentable",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/10AppIntents26StaticDisplayRepresentableP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/10AppIntents26StaticDisplayRepresentableP",
+  "title" : "AppIntents.StaticDisplayRepresentable",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/10Foundation40CustomLocalizedStringResourceConvertibleP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/10Foundation40CustomLocalizedStringResourceConvertibleP",
+  "title" : "Foundation.CustomLocalizedStringResourceConvertible",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/SH": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/SQ": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/SY": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/documentation/CommonUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CommonUI",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsTab"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FreeroomsTab"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FreeroomsTab",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab/AppEnum-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/AppEnum-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "AppEnum Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab\/appenum-implementations"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab/CaseDisplayRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/CaseDisplayRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "CaseDisplayRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab\/casedisplayrepresentable-implementations"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab\/equatable-implementations"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab/PersistentlyIdentifiable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/PersistentlyIdentifiable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "PersistentlyIdentifiable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab\/persistentlyidentifiable-implementations"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab\/rawrepresentable-implementations"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab/TypeDisplayRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/TypeDisplayRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "TypeDisplayRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab\/typedisplayrepresentable-implementations"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab/bookings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bookings"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/bookings",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FreeroomsTab.bookings",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab\/bookings"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab/buildings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildings"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/buildings",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FreeroomsTab.buildings",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab\/buildings"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab\/init(rawvalue:)"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab/map": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "map"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/map",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FreeroomsTab.map",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab\/map"
+},
+"doc://commonui.CommonUI/documentation/CommonUI/FreeroomsTab/rooms": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rooms"
+    }
+  ],
+  "identifier" : "doc:\/\/commonui.CommonUI\/documentation\/CommonUI\/FreeroomsTab\/rooms",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FreeroomsTab.rooms",
+  "type" : "topic",
+  "url" : "\/documentation\/commonui\/freeroomstab\/rooms"
+},
+"doc://commonui.CommonUI/s12CaseIterableP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/s8CopyableP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/s8CopyableP",
+  "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/s8SendableP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+},
+"doc://commonui.CommonUI/s9EscapableP": {
+  "identifier" : "doc:\/\/commonui.CommonUI\/s9EscapableP",
+  "title" : "Swift.Escapable",
+  "type" : "unresolvable"
+}
+}
+}

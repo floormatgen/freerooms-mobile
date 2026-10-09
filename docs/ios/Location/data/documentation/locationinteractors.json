@@ -1,0 +1,101 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "LocationInteractors",
+    "modules" : [
+      {
+        "name" : "LocationInteractors"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "LocationInteractors"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor"
+      ],
+      "title" : "Classes"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationinteractors"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://location.LocationInteractors/documentation/LocationInteractors": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationInteractors",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors"
+},
+"doc://location.LocationInteractors/documentation/LocationInteractors/LocationInteractor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationInteractor"
+    }
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationInteractor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationInteractor",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors\/locationinteractor"
+}
+}
+}

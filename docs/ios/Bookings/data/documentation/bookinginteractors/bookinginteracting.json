@@ -1,0 +1,354 @@
+{
+  "abstract" : [
+    {
+      "text" : "Defines the calendar and service policies needed by the weekly Bookings view model.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteracting"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18BookingInteractors0A11InteractingP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "BookingInteracting"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingInteractors"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "BookingInteracting"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "BookingInteracting"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "BookingInteracting"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteractor"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteracting\/getWeeklyBookings(in:)",
+        "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteracting\/weekInterval(containing:calendar:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookinginteractors\/bookinginteracting"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingInteractors/documentation/BookingInteractors": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingInteractors",
+  "type" : "topic",
+  "url" : "\/documentation\/bookinginteractors"
+},
+"doc://bookings.BookingInteractors/documentation/BookingInteractors/BookingInteracting": {
+  "abstract" : [
+    {
+      "text" : "Defines the calendar and service policies needed by the weekly Bookings view model.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingInteracting"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteracting",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingInteracting"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingInteracting",
+  "type" : "topic",
+  "url" : "\/documentation\/bookinginteractors\/bookinginteracting"
+},
+"doc://bookings.BookingInteractors/documentation/BookingInteractors/BookingInteracting/getWeeklyBookings(in:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getWeeklyBookings"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation12DateIntervalV",
+      "text" : "DateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15BookingServices23GetWeeklyBookingsResulta",
+      "text" : "GetWeeklyBookingsResult"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteracting\/getWeeklyBookings(in:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "getWeeklyBookings(in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/bookinginteractors\/bookinginteracting\/getweeklybookings(in:)"
+},
+"doc://bookings.BookingInteractors/documentation/BookingInteractors/BookingInteracting/weekInterval(containing:calendar:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "weekInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "containing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "calendar"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation8CalendarV",
+      "text" : "Calendar"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation12DateIntervalV",
+      "text" : "DateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15BookingServices24FetchWeeklyBookingsErrorO",
+      "text" : "FetchWeeklyBookingsError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteracting\/weekInterval(containing:calendar:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "weekInterval(containing:calendar:)",
+  "type" : "topic",
+  "url" : "\/documentation\/bookinginteractors\/bookinginteracting\/weekinterval(containing:calendar:)"
+},
+"doc://bookings.BookingInteractors/documentation/BookingInteractors/BookingInteractor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingInteractor"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingInteractors\/documentation\/BookingInteractors\/BookingInteractor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingInteractor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingInteractor",
+  "type" : "topic",
+  "url" : "\/documentation\/bookinginteractors\/bookinginteractor"
+}
+}
+}

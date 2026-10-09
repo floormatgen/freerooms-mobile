@@ -1,0 +1,384 @@
+{
+  "abstract" : [
+    {
+      "text" : "Represents the vertical campus section based on building numbers.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/location.Location\/documentation\/Location"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/location.Location\/documentation\/Location\/CampusSection"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:8Location13CampusSectionO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "CampusSection"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Location"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "CampusSection"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "CampusSection"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "CampusSection"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/location.Location\/SQ",
+        "doc:\/\/location.Location\/SH",
+        "doc:\/\/location.Location\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/lower",
+        "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/middle",
+        "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/upper"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/init(_:)",
+        "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/Equatable-Implementations",
+        "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/location\/campussection"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://location.Location/SH": {
+  "identifier" : "doc:\/\/location.Location\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://location.Location/SQ": {
+  "identifier" : "doc:\/\/location.Location\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://location.Location/SY": {
+  "identifier" : "doc:\/\/location.Location\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://location.Location/documentation/Location": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Location",
+  "type" : "topic",
+  "url" : "\/documentation\/location"
+},
+"doc://location.Location/documentation/Location/CampusSection": {
+  "abstract" : [
+    {
+      "text" : "Represents the vertical campus section based on building numbers.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CampusSection"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/CampusSection",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CampusSection"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CampusSection",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/campussection"
+},
+"doc://location.Location/documentation/Location/CampusSection/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/campussection\/equatable-implementations"
+},
+"doc://location.Location/documentation/Location/CampusSection/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/campussection\/rawrepresentable-implementations"
+},
+"doc://location.Location/documentation/Location/CampusSection/init(_:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a campus section based on building number ranges.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Ranges taken from https:\/\/maps-sydney.com\/maps-sydney-others\/unsw-map",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/init(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/campussection\/init(_:)"
+},
+"doc://location.Location/documentation/Location/CampusSection/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/campussection\/init(rawvalue:)"
+},
+"doc://location.Location/documentation/Location/CampusSection/lower": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lower"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/lower",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CampusSection.lower",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/campussection\/lower"
+},
+"doc://location.Location/documentation/Location/CampusSection/middle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "middle"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/middle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CampusSection.middle",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/campussection\/middle"
+},
+"doc://location.Location/documentation/Location/CampusSection/upper": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "upper"
+    }
+  ],
+  "identifier" : "doc:\/\/location.Location\/documentation\/Location\/CampusSection\/upper",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CampusSection.upper",
+  "type" : "topic",
+  "url" : "\/documentation\/location\/campussection\/upper"
+}
+}
+}

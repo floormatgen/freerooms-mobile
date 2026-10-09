@@ -1,0 +1,785 @@
+{
+  "bundleID" : "persistence.Persistence",
+  "nonSymbolPaths" : {
+    "17" : "\/documentation\/Persistence\/FileLoaderError\/Error-Implementations",
+    "20" : "\/documentation\/Persistence\/JSONLoaderError\/Error-Implementations",
+    "43" : "\/tutorials",
+    "50" : "\/documentation\/Persistence\/JSONLoaderError\/Equatable-Implementations",
+    "51" : "\/tutorials\/Persistence",
+    "6" : "\/documentation\/Persistence\/FileLoaderError\/Equatable-Implementations"
+  },
+  "pathHierarchy" : {
+    "articlesContainer" : 4,
+    "modules" : [
+      4
+    ],
+    "nodes" : [
+      {
+        "name" : "save(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14SwiftDataStoreC4saveyyxKF"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "localizedDescription",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:s5ErrorP10FoundationE20localizedDescriptionSSvp::SYNTHESIZED::s:11Persistence15FileLoaderErrorO"
+        }
+      },
+      {
+        "name" : "load(at:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence10FileLoaderP4load2at10Foundation4DataVSS_tKF"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "1wh8d",
+            "kind" : "type.property",
+            "nodeID" : 30
+          }
+        ],
+        "name" : "UserDefaultsKeys",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence16UserDefaultsKeysO"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "1wrm0",
+            "kind" : "enum",
+            "nodeID" : 3
+          },
+          {
+            "hash" : "1fk6j",
+            "kind" : "struct",
+            "nodeID" : 35
+          },
+          {
+            "hash" : "606ii",
+            "kind" : "class",
+            "nodeID" : 47
+          },
+          {
+            "hash" : "33fzd",
+            "kind" : "protocol",
+            "nodeID" : 42
+          },
+          {
+            "hash" : "4eg98",
+            "kind" : "enum",
+            "nodeID" : 23
+          },
+          {
+            "hash" : "8j3ep",
+            "kind" : "struct",
+            "nodeID" : 37
+          },
+          {
+            "hash" : "6qt2y",
+            "kind" : "protocol",
+            "nodeID" : 49
+          },
+          {
+            "hash" : "7p98y",
+            "kind" : "enum",
+            "nodeID" : 11
+          },
+          {
+            "hash" : "8q78y",
+            "kind" : "protocol",
+            "nodeID" : 44
+          },
+          {
+            "hash" : "6xm3o",
+            "kind" : "protocol",
+            "nodeID" : 26
+          }
+        ],
+        "name" : "Persistence",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "Persistence"
+        }
+      },
+      {
+        "name" : "fetch(id:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15PersistentStoreP5fetch2id5ModelQzSgSS_tKF"
+        }
+      },
+      {
+        "name" : "Equatable-Implementations"
+      },
+      {
+        "name" : "deleteAll()",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14SwiftDataStoreC9deleteAllyyKF"
+        }
+      },
+      {
+        "name" : "fileNotFound",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15FileLoaderErrorO12fileNotFoundyA2CmF"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "!=(_:_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:11Persistence15FileLoaderErrorO"
+        }
+      },
+      {
+        "name" : "Model",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15PersistentStoreP5ModelQa"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "6fkev",
+            "kind" : "property",
+            "nodeID" : 13
+          },
+          {
+            "kind" : "taskGroup",
+            "nodeID" : 50
+          },
+          {
+            "hash" : "63lfj",
+            "kind" : "func.op",
+            "nodeID" : 40,
+            "parameterTypes" : [
+              "Self",
+              "Self"
+            ],
+            "returnTypes" : [
+              "Bool"
+            ]
+          },
+          {
+            "hash" : "8vyfe",
+            "kind" : "enum.case",
+            "nodeID" : 31
+          },
+          {
+            "hash" : "8asqx",
+            "kind" : "enum.case",
+            "nodeID" : 36
+          },
+          {
+            "kind" : "taskGroup",
+            "nodeID" : 20
+          }
+        ],
+        "name" : "JSONLoaderError",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15JSONLoaderErrorO"
+        }
+      },
+      {
+        "name" : "Result",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14LiveJSONLoaderV6Resulta"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "localizedDescription",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:s5ErrorP10FoundationE20localizedDescriptionSSvp::SYNTHESIZED::s:11Persistence15JSONLoaderErrorO"
+        }
+      },
+      {
+        "name" : "init(modelContext:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14SwiftDataStoreC12modelContextACyxG0bC005ModelF0C_tKcfc"
+        }
+      },
+      {
+        "name" : "save(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15PersistentStoreP4saveyy5ModelQzKF"
+        }
+      },
+      {
+        "name" : "deleteAll()",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15PersistentStoreP9deleteAllyyKF"
+        }
+      },
+      {
+        "name" : "Error-Implementations"
+      },
+      {
+        "name" : "T",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence10JSONLoaderP1TQa"
+        }
+      },
+      {
+        "name" : "load(from:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence10JSONLoaderP4load4froms6ResultOy1TQzAA0B5ErrorOGSS_tYaF"
+        }
+      },
+      {
+        "name" : "Error-Implementations"
+      },
+      {
+        "name" : "load(at:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14LiveFileLoaderV4load2at10Foundation4DataVSS_tKF"
+        }
+      },
+      {
+        "name" : "load(from:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14LiveJSONLoaderV4load4froms6ResultOyxAA0C5ErrorOGSS_tYaF"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "5omi9",
+            "kind" : "enum.case",
+            "nodeID" : 8
+          },
+          {
+            "hash" : "6xg0r",
+            "kind" : "property",
+            "nodeID" : 1
+          },
+          {
+            "kind" : "taskGroup",
+            "nodeID" : 6
+          },
+          {
+            "hash" : "96qsb",
+            "kind" : "func.op",
+            "nodeID" : 9,
+            "parameterTypes" : [
+              "Self",
+              "Self"
+            ],
+            "returnTypes" : [
+              "Bool"
+            ]
+          },
+          {
+            "kind" : "taskGroup",
+            "nodeID" : 17
+          }
+        ],
+        "name" : "FileLoaderError",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15FileLoaderErrorO"
+        }
+      },
+      {
+        "name" : "delete(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14SwiftDataStoreC6deleteyySayxGKF"
+        }
+      },
+      {
+        "name" : "delete(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15PersistentStoreP6deleteyySay5ModelQzGKF"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "76mob",
+            "kind" : "method",
+            "nodeID" : 19,
+            "parameterTypes" : [
+              "String"
+            ],
+            "returnTypes" : [
+              "Result<Self.T,JSONLoaderError>"
+            ]
+          },
+          {
+            "hash" : "8pt9v",
+            "kind" : "associatedtype",
+            "nodeID" : 18
+          }
+        ],
+        "name" : "JSONLoader",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence10JSONLoaderP"
+        }
+      },
+      {
+        "name" : "init(using:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14LiveJSONLoaderV5usingACyxGAA10FileLoader_p_tcfc"
+        }
+      },
+      {
+        "name" : "save(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14SwiftDataStoreC4saveyySayxGKF"
+        }
+      },
+      {
+        "name" : "stringID",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence17IdentifiableModelP8stringIDSSvp"
+        }
+      },
+      {
+        "name" : "hasSavedRoomsData",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence16UserDefaultsKeysO17hasSavedRoomsDataSSvpZ"
+        }
+      },
+      {
+        "name" : "malformedJSON",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15JSONLoaderErrorO13malformedJSONyA2CmF"
+        }
+      },
+      {
+        "name" : "delete(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15PersistentStoreP6deleteyy5ModelQzKF"
+        }
+      },
+      {
+        "name" : "fetchAll()",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15PersistentStoreP8fetchAllSay5ModelQzGyKF"
+        }
+      },
+      {
+        "name" : "fetch(id:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14SwiftDataStoreC5fetch2idxSgSS_tKF"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "66hph",
+            "kind" : "init",
+            "nodeID" : 46,
+            "parameterTypes" : [
+
+            ],
+            "returnTypes" : [
+              ""
+            ]
+          },
+          {
+            "hash" : "87lcl",
+            "kind" : "method",
+            "nodeID" : 21,
+            "parameterTypes" : [
+              "String"
+            ],
+            "returnTypes" : [
+              "Data"
+            ]
+          }
+        ],
+        "name" : "LiveFileLoader",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14LiveFileLoaderV"
+        }
+      },
+      {
+        "name" : "fileNotFound",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15JSONLoaderErrorO12fileNotFoundyA2CmF"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "6k7df",
+            "kind" : "init",
+            "nodeID" : 27,
+            "parameterTypes" : [
+              "FileLoader"
+            ],
+            "returnTypes" : [
+              ""
+            ]
+          },
+          {
+            "hash" : "300ji",
+            "kind" : "typealias",
+            "nodeID" : 12
+          },
+          {
+            "hash" : "81u81",
+            "kind" : "method",
+            "nodeID" : 22,
+            "parameterTypes" : [
+              "String"
+            ],
+            "returnTypes" : [
+              "LiveJSONLoader<T>.Result"
+            ]
+          }
+        ],
+        "name" : "LiveJSONLoader",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14LiveJSONLoaderV"
+        }
+      },
+      {
+        "name" : "save(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15PersistentStoreP4saveyySay5ModelQzGKF"
+        }
+      },
+      {
+        "name" : "delete(_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14SwiftDataStoreC6deleteyyxKF"
+        }
+      },
+      {
+        "disfavored" : 3,
+        "name" : "!=(_:_:)",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:11Persistence15JSONLoaderErrorO"
+        }
+      },
+      {
+        "name" : "size()",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14SwiftDataStoreC4sizeSiyKF"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "76lpx",
+            "kind" : "method",
+            "nodeID" : 2,
+            "parameterTypes" : [
+              "String"
+            ],
+            "returnTypes" : [
+              "Data"
+            ]
+          }
+        ],
+        "name" : "FileLoader",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence10FileLoaderP"
+        }
+      },
+      {
+        "name" : "tutorials"
+      },
+      {
+        "children" : [
+          {
+            "hash" : "b863",
+            "kind" : "property",
+            "nodeID" : 29
+          }
+        ],
+        "name" : "IdentifiableModel",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence17IdentifiableModelP"
+        }
+      },
+      {
+        "name" : "size()",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15PersistentStoreP4sizeSiyKF"
+        }
+      },
+      {
+        "name" : "init()",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14LiveFileLoaderVACycfc"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "u6h0",
+            "kind" : "init",
+            "nodeID" : 14,
+            "parameterTypes" : [
+              "ModelContext"
+            ],
+            "returnTypes" : [
+              ""
+            ]
+          },
+          {
+            "hash" : "27qyo",
+            "kind" : "method",
+            "nodeID" : 7,
+            "parameterTypes" : [
+
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "7xbnz",
+            "kind" : "method",
+            "nodeID" : 39,
+            "parameterTypes" : [
+              "Model"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "7sqk2",
+            "kind" : "method",
+            "nodeID" : 24,
+            "parameterTypes" : [
+              "[Model]"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "3o06k",
+            "kind" : "method",
+            "nodeID" : 0,
+            "parameterTypes" : [
+              "Model"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "4zj7z",
+            "kind" : "method",
+            "nodeID" : 28,
+            "parameterTypes" : [
+              "[Model]"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "3m8ey",
+            "kind" : "method",
+            "nodeID" : 34,
+            "parameterTypes" : [
+              "String"
+            ],
+            "returnTypes" : [
+              "Model?"
+            ]
+          },
+          {
+            "hash" : "9i7dn",
+            "kind" : "method",
+            "nodeID" : 48,
+            "parameterTypes" : [
+
+            ],
+            "returnTypes" : [
+              "[Model]"
+            ]
+          },
+          {
+            "hash" : "2awja",
+            "kind" : "method",
+            "nodeID" : 41,
+            "parameterTypes" : [
+
+            ],
+            "returnTypes" : [
+              "Int"
+            ]
+          }
+        ],
+        "name" : "SwiftDataStore",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14SwiftDataStoreC"
+        }
+      },
+      {
+        "name" : "fetchAll()",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence14SwiftDataStoreC8fetchAllSayxGyKF"
+        }
+      },
+      {
+        "children" : [
+          {
+            "hash" : "itfb",
+            "kind" : "associatedtype",
+            "nodeID" : 10
+          },
+          {
+            "hash" : "qt44",
+            "kind" : "method",
+            "nodeID" : 5,
+            "parameterTypes" : [
+              "String"
+            ],
+            "returnTypes" : [
+              "Self.Model?"
+            ]
+          },
+          {
+            "hash" : "5s7hp",
+            "kind" : "method",
+            "nodeID" : 15,
+            "parameterTypes" : [
+              "Model"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "840p7",
+            "kind" : "method",
+            "nodeID" : 38,
+            "parameterTypes" : [
+              "[Model]"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "9h4gd",
+            "kind" : "method",
+            "nodeID" : 16,
+            "parameterTypes" : [
+
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "4vhdh",
+            "kind" : "method",
+            "nodeID" : 32,
+            "parameterTypes" : [
+              "Model"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "65qh6",
+            "kind" : "method",
+            "nodeID" : 25,
+            "parameterTypes" : [
+              "[Model]"
+            ],
+            "returnTypes" : [
+
+            ]
+          },
+          {
+            "hash" : "7215",
+            "kind" : "method",
+            "nodeID" : 45,
+            "parameterTypes" : [
+
+            ],
+            "returnTypes" : [
+              "Int"
+            ]
+          },
+          {
+            "hash" : "81vc2",
+            "kind" : "method",
+            "nodeID" : 33,
+            "parameterTypes" : [
+
+            ],
+            "returnTypes" : [
+              "[Self.Model]"
+            ]
+          }
+        ],
+        "name" : "PersistentStore",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:11Persistence15PersistentStoreP"
+        }
+      },
+      {
+        "name" : "Equatable-Implementations"
+      },
+      {
+        "name" : "Persistence"
+      }
+    ],
+    "tutorialContainer" : 51,
+    "tutorialOverviewContainer" : 43
+  },
+  "version" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}

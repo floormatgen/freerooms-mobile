@@ -1,0 +1,166 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingViews\/documentation\/BookingViews",
+        "doc:\/\/bookings.BookingViews\/documentation\/BookingViews\/BookingsTabView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingViews\/documentation\/BookingViews\/BookingsTabView\/init()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12BookingViews15BookingsTabViewVACycfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingViews"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingviews\/bookingstabview\/init()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingViews/documentation/BookingViews": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViews\/documentation\/BookingViews",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingViews",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviews"
+},
+"doc://bookings.BookingViews/documentation/BookingViews/BookingsTabView": {
+  "abstract" : [
+    {
+      "text" : "Root tab for discovering bookings that overlap the current device-calendar week.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingsTabView"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViews\/documentation\/BookingViews\/BookingsTabView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingsTabView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingsTabView",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviews\/bookingstabview"
+},
+"doc://bookings.BookingViews/documentation/BookingViews/BookingsTabView/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViews\/documentation\/BookingViews\/BookingsTabView\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviews\/bookingstabview\/init()"
+}
+}
+}

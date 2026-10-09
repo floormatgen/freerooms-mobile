@@ -1,0 +1,1128 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "RoomServices",
+    "modules" : [
+      {
+        "name" : "RoomServices"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "RoomServices"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveFilterRoomService",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveGraphQLRoomLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomService",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomStatusLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveSwiftDataRoomLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/PreviewFavoriteRoomService",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/PreviewRoomService",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/SwiftDataFavoriteRoomService"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "anchor" : "Protocols",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FavoriteRoomService",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomService",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/JSONRoomLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RemoteRoomBookingLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomBookingLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomService",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomStatusLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/SwiftDataRoomLoader"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveJSONRoomLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRemoteRoomBookingLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomBookingLoader",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomRatingLoader"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/GetRoomBookingsResult",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/GetRoomRatingResult",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/GetRoomResult"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomBookingLoaderError",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError",
+        "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomStatusLoaderError"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/roomservices"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://rooms.RoomServices/documentation/RoomServices": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RoomServices",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FavoriteRoomService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FavoriteRoomService"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FavoriteRoomService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FavoriteRoomService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FavoriteRoomService",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/favoriteroomservice"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FetchRoomError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FetchRoomError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FetchRoomError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FetchRoomError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FetchRoomError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/fetchroomerror"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FilterRoomService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FilterRoomService"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FilterRoomService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FilterRoomService",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/filterroomservice"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/FilterRoomServiceError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FilterRoomServiceError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/FilterRoomServiceError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FilterRoomServiceError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FilterRoomServiceError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/filterroomserviceerror"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/GetRoomBookingsResult": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GetRoomBookingsResult"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/GetRoomBookingsResult",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GetRoomBookingsResult"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GetRoomBookingsResult",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/getroombookingsresult"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/GetRoomRatingResult": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GetRoomRatingResult"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/GetRoomRatingResult",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GetRoomRatingResult"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GetRoomRatingResult",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/getroomratingresult"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/GetRoomResult": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GetRoomResult"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/GetRoomResult",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GetRoomResult"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GetRoomResult",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/getroomresult"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/JSONRoomLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JSONRoomLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/JSONRoomLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JSONRoomLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JSONRoomLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/jsonroomloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveFilterRoomService": {
+  "abstract" : [
+    {
+      "text" : "Provides the current filtered room",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveFilterRoomService"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveFilterRoomService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveFilterRoomService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveFilterRoomService",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/livefilterroomservice"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveGraphQLRoomLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "actor"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveGraphQLRoomLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveGraphQLRoomLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveGraphQLRoomLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveGraphQLRoomLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/livegraphqlroomloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveJSONRoomLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveJSONRoomLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveJSONRoomLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveJSONRoomLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveJSONRoomLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/livejsonroomloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveRemoteRoomBookingLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveRemoteRoomBookingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRemoteRoomBookingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveRemoteRoomBookingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveRemoteRoomBookingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveremoteroombookingloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveRoomBookingLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomBookingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomBookingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomBookingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveRoomBookingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveroombookingloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveRoomLoader": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveRoomLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveroomloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveRoomRatingLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomRatingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomRatingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomRatingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveRoomRatingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveroomratingloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveRoomService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomService"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveRoomService",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveroomservice"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveRoomStatusLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomStatusLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveRoomStatusLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveRoomStatusLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveRoomStatusLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveroomstatusloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/LiveSwiftDataRoomLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LiveSwiftDataRoomLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/LiveSwiftDataRoomLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LiveSwiftDataRoomLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LiveSwiftDataRoomLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/liveswiftdataroomloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/PreviewFavoriteRoomService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewFavoriteRoomService"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/PreviewFavoriteRoomService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewFavoriteRoomService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewFavoriteRoomService",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/previewfavoriteroomservice"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/PreviewRoomService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PreviewRoomService"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/PreviewRoomService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PreviewRoomService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PreviewRoomService",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/previewroomservice"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RemoteRoomBookingLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteRoomBookingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RemoteRoomBookingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteRoomBookingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteRoomBookingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/remoteroombookingloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomBookingLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomBookingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomBookingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomBookingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomBookingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roombookingloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomBookingLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomBookingLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomBookingLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomBookingLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomBookingLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roombookingloadererror"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomloadererror"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomRatingLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomRatingLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomRatingLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomRatingLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomratingloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomRatingLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomRatingLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomRatingLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomRatingLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomRatingLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomratingloadererror"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomService"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomService",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomservice"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomStatusLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomStatusLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomStatusLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomStatusLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomStatusLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomstatusloader"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/RoomStatusLoaderError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoomStatusLoaderError"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/RoomStatusLoaderError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoomStatusLoaderError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoomStatusLoaderError",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/roomstatusloadererror"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/SwiftDataFavoriteRoomService": {
+  "abstract" : [
+    {
+      "text" : "Provides the current favorites.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataFavoriteRoomService"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/SwiftDataFavoriteRoomService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataFavoriteRoomService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SwiftDataFavoriteRoomService",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/swiftdatafavoriteroomservice"
+},
+"doc://rooms.RoomServices/documentation/RoomServices/SwiftDataRoomLoader": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataRoomLoader"
+    }
+  ],
+  "identifier" : "doc:\/\/rooms.RoomServices\/documentation\/RoomServices\/SwiftDataRoomLoader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SwiftDataRoomLoader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SwiftDataRoomLoader",
+  "type" : "topic",
+  "url" : "\/documentation\/roomservices\/swiftdataroomloader"
+}
+}
+}

@@ -1,0 +1,402 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14BuildingModels18AvailabilityStatusO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "AvailabilityStatus"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BuildingModels"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "AvailabilityStatus"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "AvailabilityStatus"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "AvailabilityStatus"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingModels\/SQ",
+        "doc:\/\/buildings.BuildingModels\/SH",
+        "doc:\/\/buildings.BuildingModels\/SY",
+        "doc:\/\/buildings.BuildingModels\/s8SendableP",
+        "doc:\/\/buildings.BuildingModels\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/available",
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/crowded",
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/missing",
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/unavailable"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/init(_:)",
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/Equatable-Implementations",
+        "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/buildingmodels\/availabilitystatus"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://buildings.BuildingModels/SH": {
+  "identifier" : "doc:\/\/buildings.BuildingModels\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://buildings.BuildingModels/SQ": {
+  "identifier" : "doc:\/\/buildings.BuildingModels\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://buildings.BuildingModels/SY": {
+  "identifier" : "doc:\/\/buildings.BuildingModels\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BuildingModels",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/AvailabilityStatus": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AvailabilityStatus"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AvailabilityStatus"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AvailabilityStatus",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/availabilitystatus"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/AvailabilityStatus/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/availabilitystatus\/equatable-implementations"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/AvailabilityStatus/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/availabilitystatus\/rawrepresentable-implementations"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/AvailabilityStatus/available": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "available"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/available",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "AvailabilityStatus.available",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/availabilitystatus\/available"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/AvailabilityStatus/crowded": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "crowded"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/crowded",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "AvailabilityStatus.crowded",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/availabilitystatus\/crowded"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/AvailabilityStatus/init(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/init(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/availabilitystatus\/init(_:)"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/AvailabilityStatus/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/availabilitystatus\/init(rawvalue:)"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/AvailabilityStatus/missing": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "missing"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/missing",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "AvailabilityStatus.missing",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/availabilitystatus\/missing"
+},
+"doc://buildings.BuildingModels/documentation/BuildingModels/AvailabilityStatus/unavailable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unavailable"
+    }
+  ],
+  "identifier" : "doc:\/\/buildings.BuildingModels\/documentation\/BuildingModels\/AvailabilityStatus\/unavailable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "AvailabilityStatus.unavailable",
+  "type" : "topic",
+  "url" : "\/documentation\/buildingmodels\/availabilitystatus\/unavailable"
+},
+"doc://buildings.BuildingModels/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/buildings.BuildingModels\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://buildings.BuildingModels/s8SendableP": {
+  "identifier" : "doc:\/\/buildings.BuildingModels\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

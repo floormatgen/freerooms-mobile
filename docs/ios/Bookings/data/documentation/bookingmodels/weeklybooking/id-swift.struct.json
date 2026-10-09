@@ -1,0 +1,432 @@
+{
+  "abstract" : [
+    {
+      "text" : "The backend identifies a booking by its room and interval rather than a standalone identifier.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:13BookingModels06WeeklyA0V2IDV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ID"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingModels"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ID"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "WeeklyBooking.ID"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ID"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/bookings.BookingModels\/SQ",
+        "doc:\/\/bookings.BookingModels\/SH",
+        "doc:\/\/bookings.BookingModels\/s8SendableP",
+        "doc:\/\/bookings.BookingModels\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct\/init(roomID:start:end:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct\/end",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct\/roomID",
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct\/start"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingmodels\/weeklybooking\/id-swift.struct"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingModels/SH": {
+  "identifier" : "doc:\/\/bookings.BookingModels\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingModels/SQ": {
+  "identifier" : "doc:\/\/bookings.BookingModels\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingModels/documentation/BookingModels": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingModels",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking": {
+  "abstract" : [
+    {
+      "text" : "A booking prepared for display in the cross-room weekly discovery feed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBooking"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeeklyBooking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBooking",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/ID-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The backend identifies a booking by its room and interval rather than a standalone identifier.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ID"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ID"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeeklyBooking.ID",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/id-swift.struct"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/ID-swift.struct/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/id-swift.struct\/equatable-implementations"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/ID-swift.struct/end": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "end"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct\/end",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "end",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/id-swift.struct\/end"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/ID-swift.struct/init(roomID:start:end:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "roomID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "start"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "end"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct\/init(roomID:start:end:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(roomID:start:end:)",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/id-swift.struct\/init(roomid:start:end:)"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/ID-swift.struct/roomID": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "roomID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct\/roomID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "roomID",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/id-swift.struct\/roomid"
+},
+"doc://bookings.BookingModels/documentation/BookingModels/WeeklyBooking/ID-swift.struct/start": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "start"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingModels\/documentation\/BookingModels\/WeeklyBooking\/ID-swift.struct\/start",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "start",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingmodels\/weeklybooking\/id-swift.struct\/start"
+},
+"doc://bookings.BookingModels/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/bookings.BookingModels\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://bookings.BookingModels/s8SendableP": {
+  "identifier" : "doc:\/\/bookings.BookingModels\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

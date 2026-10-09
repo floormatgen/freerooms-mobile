@@ -1,0 +1,234 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.TitleContent",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/bookings.BookingViews\/documentation\/BookingViews",
+        "doc:\/\/bookings.BookingViews\/documentation\/BookingViews\/BookingsTabView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/bookings.BookingViews\/documentation\/BookingViews\/BookingsTabView\/TitleContent"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewP11BottomSheetE12TitleContenta::SYNTHESIZED::s:12BookingViews15BookingsTabViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TitleContent"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "BookingViews",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TitleContent"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "BookingsTabView.TitleContent"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TitleContent"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI15ModifiedContentV",
+              "text" : "ModifiedContent"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4TextV",
+              "text" : "Text"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "_EnvironmentKeyWritingModifier"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Si",
+              "text" : "Int"
+            },
+            {
+              "kind" : "text",
+              "text" : "?>>"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/bookingviews\/bookingstabview\/titlecontent"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://bookings.BookingViews/documentation/BookingViews": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViews\/documentation\/BookingViews",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "BookingViews",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviews"
+},
+"doc://bookings.BookingViews/documentation/BookingViews/BookingsTabView": {
+  "abstract" : [
+    {
+      "text" : "Root tab for discovering bookings that overlap the current device-calendar week.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BookingsTabView"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViews\/documentation\/BookingViews\/BookingsTabView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BookingsTabView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingsTabView",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviews\/bookingstabview"
+},
+"doc://bookings.BookingViews/documentation/BookingViews/BookingsTabView/TitleContent": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TitleContent"
+    }
+  ],
+  "identifier" : "doc:\/\/bookings.BookingViews\/documentation\/BookingViews\/BookingsTabView\/TitleContent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TitleContent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BookingsTabView.TitleContent",
+  "type" : "topic",
+  "url" : "\/documentation\/bookingviews\/bookingstabview\/titlecontent"
+}
+}
+}

@@ -1,0 +1,213 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors",
+        "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/requestLocationPermission()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:19LocationInteractors0A10InteractorC07requestA10PermissionSbyKF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "requestLocationPermission"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationInteractors"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "requestLocationPermission()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "requestLocationPermission"
+            },
+            {
+              "kind" : "text",
+              "text" : "() "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationinteractors\/locationinteractor\/requestlocationpermission()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://location.LocationInteractors/documentation/LocationInteractors": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationInteractors",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors"
+},
+"doc://location.LocationInteractors/documentation/LocationInteractors/LocationInteractor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationInteractor"
+    }
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationInteractor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationInteractor",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors\/locationinteractor"
+},
+"doc://location.LocationInteractors/documentation/LocationInteractors/LocationInteractor/requestLocationPermission()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "requestLocationPermission"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/location.LocationInteractors\/documentation\/LocationInteractors\/LocationInteractor\/requestLocationPermission()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "requestLocationPermission()",
+  "type" : "topic",
+  "url" : "\/documentation\/locationinteractors\/locationinteractor\/requestlocationpermission()"
+}
+}
+}
