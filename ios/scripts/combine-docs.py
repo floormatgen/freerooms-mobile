@@ -84,6 +84,34 @@ def scan_package_targets(package_name: str) -> list[str]:
     # Return list of descriptions
     return package_targets
 
+def scan_project_targets(project_name: str) -> list[str]:
+    """
+    Gets all the targets in a project
+    """
+
+    # Assume project is named the same as its containing directory
+    project_path = f"./{project_name}/{project_name}.xcodeproj"
+
+    # Get project information
+    project_info_result = subprocess.run(
+        [
+            "xcodebuild",
+            "-project", project_path,
+            "-list", "-json"
+        ],
+        capture_output=True,
+        text=True
+    )
+
+    # Parse project description
+    project_targets: list[str] = []
+    project_description = json.loads(project_info_result.stdout)
+    for target in project_description["project"]["targets"]:
+        # TODO: Is there a way to check if a target is a test target?
+        project_targets.append(target)
+
+    return project_targets
+
 def combine_docs(archive_paths: list[str], output_path: str) -> None:
     """
     Combines docs into a single archive
@@ -92,7 +120,8 @@ def combine_docs(archive_paths: list[str], output_path: str) -> None:
     path = Path(output_path)
 
     # Delete directory if it already exists
-    shutil.rmtree(path)
+    if path.is_dir():
+        shutil.rmtree(path)
 
     # Create destination if it doesn't exist
     path.mkdir(parents=True)
@@ -103,6 +132,28 @@ def combine_docs(archive_paths: list[str], output_path: str) -> None:
         archive_paths +
         ['--output-path', output_path]
     )
+
+def get_archive_paths(all_archive_paths: list[str], all_archive_target_names: list[str], target_names: list[str]) -> list[str]:
+    """
+    Gets the matching archive paths for the provided targets
+    """
+
+    # Get the documetation archive for each target
+    archive_paths: list[str] = []
+
+    for target in target_names:
+
+        # Get the index of the target
+        try:
+            target_index = all_archive_target_names.index(target)
+        except ValueError:
+            print(f"NOTE: Target '{target}' does not have a .doccarchive. Skipping...")
+            continue
+
+        # Add it to the list of traced targets
+        archive_paths.append(all_archive_paths[target_index])
+
+    return archive_paths
 
 def main() -> None:
     argument_parser = ArgumentParser()
@@ -140,23 +191,31 @@ def main() -> None:
         print(f"Targets for package '{package_name}':")
         print_list(targets)
 
-        # Get the documetation archive for each target
-        archive_paths: list[str] = []
-        for target in targets:
-
-            # Get the index of the target
-            try:
-                target_index = archive_target_names.index(target)
-            except ValueError:
-                print(f"WARNING: Target '{target}' does not have a .doccarchive")
-                continue
-
-            # Add it to the list of traced targets
-            archive_paths.append(found_archives[target_index])
+        # Get archive paths
+        archive_paths = get_archive_paths(found_archives, archive_target_names, targets)
 
         # Combine documentation
         package_output_path = f"{output_path}/{package_name}"
         print(f"Combining documentation for package...")
+        combine_docs(archive_paths, package_output_path)
+        print(f"Combined documentation at {package_output_path}")
+
+    # Handle all projects
+    for project_name in PROJECTS:
+        print()
+
+        # Scan for targets
+        print(f"Scanning targets for project '{project_name}'...")
+        targets = scan_project_targets(project_name)
+        print(f"Targets for project '{project_name}':")
+        print_list(targets)
+
+        # Get archive paths
+        archive_paths = get_archive_paths(found_archives, archive_target_names, targets)
+
+        # Combine documentation
+        package_output_path = f"{output_path}/{project_name}"
+        print(f"Combining documentation for project...")
         combine_docs(archive_paths, package_output_path)
         print(f"Combined documentation at {package_output_path}")
 
