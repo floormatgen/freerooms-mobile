@@ -28,6 +28,7 @@ export DOCC_JSON_PRETTYPRINT=YES
 # Call documentation compiler
 xcodebuild \
     -parallelizeTargets \
+    -skipMacroValidation \
     docbuild \
     $derived_data_flag \
     -workspace 'FreeroomsApple.xcworkspace' \
