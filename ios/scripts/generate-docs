@@ -1,0 +1,38 @@
+#! /bin/bash
+
+# Move to expected directory
+cd $(dirname $0)
+
+# Flags to be passed down to the underlying docc invocation
+docc_flags="    \
+    --transform-for-static-hosting \
+    --enable-experimental-external-link-support \
+    --experimental-documentation-coverage \
+    --enable-experimental-external-link-support \
+"
+
+# Use derived data
+# This is useful for caching performance
+if [ -n $1 ]; then
+    derived_data_flag="-derivedDataPath $1"
+else
+    echo "Must provided Derived Data path"
+    exit 1
+fi
+
+# Move to enclosing ios directory
+cd ..
+
+# Improve diffing for git
+export DOCC_JSON_PRETTYPRINT=YES
+
+# Call documentation compiler
+xcodebuild \
+    -parallelizeTargets \
+    docbuild \
+    $derived_data_flag \
+    -workspace 'FreeroomsApple.xcworkspace' \
+    -scheme 'Freerooms' \
+    -destination 'generic/platform=iOS' \
+    OTHER_DOCC_FLAGS="${docc_flags}"
+
