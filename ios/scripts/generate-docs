@@ -13,11 +13,10 @@ docc_flags="    \
 
 # Use derived data
 # This is useful for caching performance
-if [ -n $1 ]; then
+if [ -n "$1" ]; then
     derived_data_flag="-derivedDataPath $1"
 else
-    echo "Must provided Derived Data path"
-    exit 1
+    derived_data_flag="-derivedDataPath ./.build"
 fi
 
 # Move to enclosing ios directory

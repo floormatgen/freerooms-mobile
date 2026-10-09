@@ -38,7 +38,7 @@ jobs:
       - name: Generate documentation
         id: generate-documentation
         run: |
-          './scripts/generate-docs'
+          ./scripts/generate-docs ./.build
 
       - name: Save build cache
         id: save-build
