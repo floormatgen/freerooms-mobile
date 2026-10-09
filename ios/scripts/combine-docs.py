@@ -3,7 +3,9 @@
 from argparse import ArgumentParser
 from pathlib import Path
 import subprocess
+import shutil
 import json
+import re
 
 # List of Swift Packages
 SWIFT_PACKAGES: list[str] = [
@@ -23,6 +25,10 @@ PROJECTS: list[str] = [
     "Freerooms",
 ]
 
+def print_list(items: list[str]) -> None:
+    for item in items:
+        print(f"* {item}")
+
 def find_archives(derived_data_path: str) -> list[str]:
     """
     Find all documentation archives
@@ -31,10 +37,10 @@ def find_archives(derived_data_path: str) -> list[str]:
     """
     archive_find_result = subprocess.run(
         [
-        'find', 
-        derived_data_path, 
-        '-type', 'd', 
-        '-name', '*.doccarchive',
+            'find', 
+            derived_data_path, 
+            '-type', 'd', 
+            '-name', '*.doccarchive',
         ],
         capture_output=True,
         text=True
@@ -69,6 +75,7 @@ def scan_package_targets(package_name: str) -> list[str]:
         target_name = target_description["name"]
         target_type = target_description["type"]
 
+        # Ignore test targets
         if target_type == "test":
             continue
 
@@ -76,6 +83,26 @@ def scan_package_targets(package_name: str) -> list[str]:
 
     # Return list of descriptions
     return package_targets
+
+def combine_docs(archive_paths: list[str], output_path: str) -> None:
+    """
+    Combines docs into a single archive
+    """
+
+    path = Path(output_path)
+
+    # Delete directory if it already exists
+    shutil.rmtree(path)
+
+    # Create destination if it doesn't exist
+    path.mkdir(parents=True)
+
+    # Combine docs to destination
+    subprocess.run(
+        ['xcrun', 'docc', 'merge'] + 
+        archive_paths +
+        ['--output-path', output_path]
+    )
 
 def main() -> None:
     argument_parser = ArgumentParser()
@@ -93,16 +120,45 @@ def main() -> None:
     # Search for archives
     print(f"Scanning for documentation archives in '{derived_data_path}'...")
     found_archives = find_archives(derived_data_path)
-    print(f"Found {len(found_archives)} archive(s).")
+    print(f"Found {len(found_archives)} archive(s):")
+
+    # Extract target names from archive paths
+    archive_target_names: list[str] = []
+    for path in found_archives:
+        potential_match = re.match(r"^\.\/.+\/(\w+).doccarchive$", path)
+        assert potential_match is not None, f"Failed to extract target name from documentation path: {path}"
+        archive_target_names.append(potential_match.group(1))
+    print_list(archive_target_names)
 
     # Handle all packages
     for package_name in SWIFT_PACKAGES:
+        print()
+
+        # Scan for targets
         print(f"Scanning targets for package '{package_name}'...")
         targets = scan_package_targets(package_name)
         print(f"Targets for package '{package_name}':")
+        print_list(targets)
+
+        # Get the documetation archive for each target
+        archive_paths: list[str] = []
         for target in targets:
-            print(f"* {target}")
+
+            # Get the index of the target
+            try:
+                target_index = archive_target_names.index(target)
+            except ValueError:
+                print(f"WARNING: Target '{target}' does not have a .doccarchive")
+                continue
+
+            # Add it to the list of traced targets
+            archive_paths.append(found_archives[target_index])
+
+        # Combine documentation
+        package_output_path = f"{output_path}/{package_name}"
+        print(f"Combining documentation for package...")
+        combine_docs(archive_paths, package_output_path)
+        print(f"Combined documentation at {package_output_path}")
 
 if __name__ == "__main__":
     main()
-
